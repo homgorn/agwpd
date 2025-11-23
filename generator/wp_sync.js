@@ -74,11 +74,11 @@ function generateContent(item) {
 <!-- /wp:list -->
 
 <!-- wp:heading {"id":"howto"} -->
-<h2 id="howto">Как реализовать: \${item.howto.name}</h2>
+<h2 id="howto">Как реализовать: ${item.howto.name}</h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"ordered":true} -->
-<ol>\${howtoSteps}</ol>
+<ol>${howtoSteps}</ol>
 <!-- /wp:list -->
 
 <!-- wp:heading {"id":"faq"} -->
@@ -86,7 +86,7 @@ function generateContent(item) {
 <!-- /wp:heading -->
 
 <!-- wp:group -->
-\${faqItems}
+${faqItems}
 <!-- /wp:group -->
 
 <!-- wp:separator -->
@@ -97,15 +97,15 @@ function generateContent(item) {
 <h3>Похожие кейсы</h3>
 <!-- /wp:heading -->
 <!-- wp:list -->
-<ul>\${relatedWp}</ul>
+<ul>${relatedWp}</ul>
 <!-- /wp:list -->
 
 <p><em>Synced via Antigravity GitHub Action</em></p>
-    \`;
+    `;
 }
 
 async function sync() {
-    console.log(`Starting sync for ${ cases.length } cases to ${ WP_URL }...`);
+    console.log(`Starting sync for ${cases.length} cases to ${WP_URL}...`);
     let created = 0;
     let updated = 0;
     let errors = 0;
@@ -115,7 +115,7 @@ async function sync() {
             // 1. Check if post exists by slug
             // Slug: use item.id or sanitize title
             const slug = item.id;
-            const existing = await apiRequest(`/ posts ? slug = ${ slug }& status=any`);
+            const existing = await apiRequest(`/ posts ? slug = ${slug}& status=any`);
 
             const postContent = generateContent(item);
             const postData = {
@@ -128,21 +128,21 @@ async function sync() {
 
             if (existing && existing.length > 0) {
                 const id = existing[0].id;
-                console.log(`[UPDATE] ${ item.title } (ID: ${ id })`);
-                await apiRequest(`/ posts / ${ id } `, 'POST', postData);
+                console.log(`[UPDATE] ${item.title} (ID: ${id})`);
+                await apiRequest(`/ posts / ${id} `, 'POST', postData);
                 updated++;
             } else {
-                console.log(`[CREATE] ${ item.title } `);
+                console.log(`[CREATE] ${item.title} `);
                 await apiRequest(`/ posts`, 'POST', postData);
                 created++;
             }
         } catch (err) {
-            console.error(`[ERROR] Failed to sync ${ item.title }: `, err.message);
+            console.error(`[ERROR] Failed to sync ${item.title}: `, err.message);
             errors++;
         }
     }
 
-    console.log(`Sync complete.Created: ${ created }, Updated: ${ updated }, Errors: ${ errors } `);
+    console.log(`Sync complete.Created: ${created}, Updated: ${updated}, Errors: ${errors} `);
 }
 
 sync();
