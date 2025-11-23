@@ -9,7 +9,8 @@ const categories = {
     debug: "Debugging",
     docs: "Documentation",
     api: "API Integrations",
-    auto: "Automation"
+    auto: "Automation",
+    mcp: "MCP (Model Context Protocol)"
 };
 
 const rawCases = [
@@ -143,7 +144,29 @@ const rawCases = [
     { id: 'auto-7', cat: 'auto', title: 'Database Backups', desc: 'Автоматизация дампов БД.' },
     { id: 'auto-8', cat: 'auto', title: 'Health Check Scripts', desc: 'Мониторинг доступности сервисов.' },
     { id: 'auto-9', cat: 'auto', title: 'Git Hooks (Husky)', desc: 'Проверки перед коммитом.' },
-    { id: 'auto-10', cat: 'auto', title: 'Release Versioning', desc: 'SemVer и генерация тегов.' }
+    { id: 'auto-10', cat: 'auto', title: 'Release Versioning', desc: 'SemVer и генерация тегов.' },
+
+    // --- MCP (Model Context Protocol) ---
+    { id: 'mcp-1', cat: 'mcp', title: 'MCP Server Creation', desc: 'Создание собственного MCP сервера для расширения возможностей LLM.' },
+    { id: 'mcp-2', cat: 'mcp', title: 'File System MCP Server', desc: 'Сервер для безопасного доступа к файловой системе через MCP.' },
+    { id: 'mcp-3', cat: 'mcp', title: 'Database MCP Integration', desc: 'Подключение баз данных (PostgreSQL, MySQL) через MCP протокол.' },
+    { id: 'mcp-4', cat: 'mcp', title: 'Web Search MCP Tool', desc: 'Интеграция поисковых API (Google, Brave) как MCP инструмент.' },
+    { id: 'mcp-5', cat: 'mcp', title: 'GitHub MCP Server', desc: 'Управление репозиториями и issues через MCP.' },
+    { id: 'mcp-6', cat: 'mcp', title: 'Slack MCP Integration', desc: 'Отправка сообщений и чтение каналов через MCP.' },
+    { id: 'mcp-7', cat: 'mcp', title: 'Custom MCP Resources', desc: 'Создание кастомных ресурсов для контекста модели.' },
+    { id: 'mcp-8', cat: 'mcp', title: 'MCP Prompts Library', desc: 'Библиотека переиспользуемых промптов через MCP.' },
+    { id: 'mcp-9', cat: 'mcp', title: 'MCP Tools Development', desc: 'Разработка инструментов (Tools) для расширения функционала.' },
+    { id: 'mcp-10', cat: 'mcp', title: 'Memory MCP Server', desc: 'Долгосрочная память для агента через MCP.' },
+    { id: 'mcp-11', cat: 'mcp', title: 'Puppeteer MCP Automation', desc: 'Браузерная автоматизация через MCP протокол.' },
+    { id: 'mcp-12', cat: 'mcp', title: 'Google Drive MCP', desc: 'Доступ к Google Drive документам через MCP.' },
+    { id: 'mcp-13', cat: 'mcp', title: 'Sequential Thinking MCP', desc: 'Улучшение рассуждений модели через MCP промпты.' },
+    { id: 'mcp-14', cat: 'mcp', title: 'Time & Calendar MCP', desc: 'Работа с датами, временем и календарями через MCP.' },
+    { id: 'mcp-15', cat: 'mcp', title: 'Fetch MCP Server', desc: 'HTTP запросы к внешним API через MCP.' },
+    { id: 'mcp-16', cat: 'mcp', title: 'Notion MCP Integration', desc: 'Синхронизация с Notion базами знаний.' },
+    { id: 'mcp-17', cat: 'mcp', title: 'MCP Server Security', desc: 'Настройка аутентификации и авторизации для MCP серверов.' },
+    { id: 'mcp-18', cat: 'mcp', title: 'MCP Logging & Monitoring', desc: 'Отслеживание использования и ошибок MCP серверов.' },
+    { id: 'mcp-19', cat: 'mcp', title: 'Multi-Server MCP Setup', desc: 'Конфигурация нескольких MCP серверов одновременно.' },
+    { id: 'mcp-20', cat: 'mcp', title: 'MCP TypeScript SDK', desc: 'Использование официального SDK для разработки MCP серверов.' }
 ];
 
 // Image mapping
@@ -158,7 +181,8 @@ const categoryImages = {
     auto: 'ag_datascience.png',
     devops: 'ag_devops.png',
     qa: 'ag_testing.png',
-    debug: 'ag_devops.png'
+    debug: 'ag_devops.png',
+    mcp: 'antigravity_manager_dashboard.png'
 };
 
 // Helper to generate extensive content (15+ items)
