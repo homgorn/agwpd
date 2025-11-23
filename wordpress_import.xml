@@ -10,7 +10,7 @@
     <title>Google Antigravity Documentation</title>
     <link>https://antigravity.google</link>
     <description>Official documentation and use cases for Google Antigravity - The Agent-First IDE.</description>
-    <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+    <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
     <language>ru_RU</language>
     <wp:wxr_version>1.2</wp:wxr_version>
     <wp:base_site_url>https://antigravity.google</wp:base_site_url>
@@ -20,7 +20,7 @@
     <item>
         <title>Agent-First IDE Workflow</title>
         <link>https://antigravity.google/core/core-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1000</guid>
         <description></description>
@@ -148,8 +148,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Как использовать агент-ориентированный подход вместо традиционного редактора.]]></excerpt:encoded>
         <wp:post_id>1000</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-1</wp:post_name>
@@ -172,7 +172,7 @@
     <item>
         <title>Manager Surface Dashboard</title>
         <link>https://antigravity.google/core/core-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1001</guid>
         <description></description>
@@ -300,8 +300,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Управление несколькими агентами через Mission Control интерфейс.]]></excerpt:encoded>
         <wp:post_id>1001</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-2</wp:post_name>
@@ -324,7 +324,7 @@
     <item>
         <title>Browser Subagent Automation</title>
         <link>https://antigravity.google/core/core-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1002</guid>
         <description></description>
@@ -452,8 +452,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Использование встроенного браузерного агента для E2E тестов и веб-скрапинга.]]></excerpt:encoded>
         <wp:post_id>1002</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-3</wp:post_name>
@@ -476,7 +476,7 @@
     <item>
         <title>Generating Artifacts</title>
         <link>https://antigravity.google/core/core-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1003</guid>
         <description></description>
@@ -604,8 +604,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание и экспорт артефактов: планы, диаграммы, видео-отчеты.]]></excerpt:encoded>
         <wp:post_id>1003</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-4</wp:post_name>
@@ -628,7 +628,7 @@
     <item>
         <title>Multi-Agent Collaboration</title>
         <link>https://antigravity.google/core/core-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1004</guid>
         <description></description>
@@ -756,8 +756,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Запуск параллельных агентов для фронтенда и бэкенда одновременно.]]></excerpt:encoded>
         <wp:post_id>1004</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-5</wp:post_name>
@@ -780,7 +780,7 @@
     <item>
         <title>Feedback Loops & Learning</title>
         <link>https://antigravity.google/core/core-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1005</guid>
         <description></description>
@@ -908,8 +908,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Как обучать агента через комментарии в стиле Google Docs.]]></excerpt:encoded>
         <wp:post_id>1005</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-6</wp:post_name>
@@ -932,7 +932,7 @@
     <item>
         <title>Model Selection (Gemini/Claude)</title>
         <link>https://antigravity.google/core/core-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1006</guid>
         <description></description>
@@ -1060,8 +1060,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Переключение между Gemini 3, Claude Sonnet 4.5 и GPT-OSS.]]></excerpt:encoded>
         <wp:post_id>1006</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-7</wp:post_name>
@@ -1084,7 +1084,7 @@
     <item>
         <title>Context Management</title>
         <link>https://antigravity.google/core/core-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1007</guid>
         <description></description>
@@ -1212,8 +1212,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Управление контекстом и базой знаний агента.]]></excerpt:encoded>
         <wp:post_id>1007</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-8</wp:post_name>
@@ -1236,7 +1236,7 @@
     <item>
         <title>Terminal Integration</title>
         <link>https://antigravity.google/core/core-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1008</guid>
         <description></description>
@@ -1364,8 +1364,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Безопасное выполнение терминальных команд агентом.]]></excerpt:encoded>
         <wp:post_id>1008</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-9</wp:post_name>
@@ -1388,7 +1388,7 @@
     <item>
         <title>Visual Regression with Artifacts</title>
         <link>https://antigravity.google/core/core-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1009</guid>
         <description></description>
@@ -1516,8 +1516,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Использование скриншотов-артефактов для визуальной проверки.]]></excerpt:encoded>
         <wp:post_id>1009</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>core-10</wp:post_name>
@@ -1540,7 +1540,7 @@
     <item>
         <title>React Component Generation</title>
         <link>https://antigravity.google/web/web-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1010</guid>
         <description></description>
@@ -1668,8 +1668,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание функциональных компонентов с пропсами и типами.]]></excerpt:encoded>
         <wp:post_id>1010</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-1</wp:post_name>
@@ -1692,7 +1692,7 @@
     <item>
         <title>Tailwind CSS Conversion</title>
         <link>https://antigravity.google/web/web-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1011</guid>
         <description></description>
@@ -1820,8 +1820,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Миграция с CSS/SASS на Tailwind Utility Classes.]]></excerpt:encoded>
         <wp:post_id>1011</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-2</wp:post_name>
@@ -1844,7 +1844,7 @@
     <item>
         <title>Next.js App Router Setup</title>
         <link>https://antigravity.google/web/web-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1012</guid>
         <description></description>
@@ -1972,8 +1972,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Скаффолдинг структуры папок для Next.js 14+.]]></excerpt:encoded>
         <wp:post_id>1012</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-3</wp:post_name>
@@ -1996,7 +1996,7 @@
     <item>
         <title>Form Validation (Zod/RHF)</title>
         <link>https://antigravity.google/web/web-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1013</guid>
         <description></description>
@@ -2124,8 +2124,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация форм с клиентской и серверной валидацией.]]></excerpt:encoded>
         <wp:post_id>1013</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-4</wp:post_name>
@@ -2148,7 +2148,7 @@
     <item>
         <title>Responsive Design Implementation</title>
         <link>https://antigravity.google/web/web-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1014</guid>
         <description></description>
@@ -2276,8 +2276,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Адаптация верстки под мобильные устройства.]]></excerpt:encoded>
         <wp:post_id>1014</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-5</wp:post_name>
@@ -2300,7 +2300,7 @@
     <item>
         <title>Dark Mode Integration</title>
         <link>https://antigravity.google/web/web-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1015</guid>
         <description></description>
@@ -2428,8 +2428,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Реализация темизации с системными настройками.]]></excerpt:encoded>
         <wp:post_id>1015</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-6</wp:post_name>
@@ -2452,7 +2452,7 @@
     <item>
         <title>Framer Motion Animations</title>
         <link>https://antigravity.google/web/web-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1016</guid>
         <description></description>
@@ -2580,8 +2580,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Добавление декларативных анимаций интерфейса.]]></excerpt:encoded>
         <wp:post_id>1016</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-7</wp:post_name>
@@ -2604,7 +2604,7 @@
     <item>
         <title>Web Performance Optimization</title>
         <link>https://antigravity.google/web/web-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1017</guid>
         <description></description>
@@ -2732,8 +2732,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Lazy loading, оптимизация шрифтов и изображений.]]></excerpt:encoded>
         <wp:post_id>1017</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-8</wp:post_name>
@@ -2756,7 +2756,7 @@
     <item>
         <title>PWA Configuration</title>
         <link>https://antigravity.google/web/web-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1018</guid>
         <description></description>
@@ -2884,8 +2884,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Настройка Service Workers и манифеста.]]></excerpt:encoded>
         <wp:post_id>1018</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-9</wp:post_name>
@@ -2908,7 +2908,7 @@
     <item>
         <title>Accessibility (a11y) Audit</title>
         <link>https://antigravity.google/web/web-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1019</guid>
         <description></description>
@@ -3036,8 +3036,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматическое исправление ARIA-атрибутов.]]></excerpt:encoded>
         <wp:post_id>1019</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>web-10</wp:post_name>
@@ -3060,7 +3060,7 @@
     <item>
         <title>Go REST API Boilerplate</title>
         <link>https://antigravity.google/backend/be-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1020</guid>
         <description></description>
@@ -3188,8 +3188,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация сервиса на Gin/Echo с чистой архитектурой.]]></excerpt:encoded>
         <wp:post_id>1020</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-1</wp:post_name>
@@ -3212,7 +3212,7 @@
     <item>
         <title>GraphQL Schema Generation</title>
         <link>https://antigravity.google/backend/be-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1021</guid>
         <description></description>
@@ -3340,8 +3340,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание схемы и резолверов из SQL моделей.]]></excerpt:encoded>
         <wp:post_id>1021</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-2</wp:post_name>
@@ -3364,7 +3364,7 @@
     <item>
         <title>PostgreSQL Migrations</title>
         <link>https://antigravity.google/backend/be-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1022</guid>
         <description></description>
@@ -3492,8 +3492,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Написание SQL миграций для изменения схемы БД.]]></excerpt:encoded>
         <wp:post_id>1022</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-3</wp:post_name>
@@ -3516,7 +3516,7 @@
     <item>
         <title>JWT Auth Implementation</title>
         <link>https://antigravity.google/backend/be-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1023</guid>
         <description></description>
@@ -3644,8 +3644,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Полный цикл аутентификации и авторизации.]]></excerpt:encoded>
         <wp:post_id>1023</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-4</wp:post_name>
@@ -3668,7 +3668,7 @@
     <item>
         <title>Redis Caching Layer</title>
         <link>https://antigravity.google/backend/be-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1024</guid>
         <description></description>
@@ -3796,8 +3796,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Интеграция кэширования для высоконагруженных API.]]></excerpt:encoded>
         <wp:post_id>1024</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-5</wp:post_name>
@@ -3820,7 +3820,7 @@
     <item>
         <title>gRPC Microservices</title>
         <link>https://antigravity.google/backend/be-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1025</guid>
         <description></description>
@@ -3948,8 +3948,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание .proto файлов и генерация кода сервисов.]]></excerpt:encoded>
         <wp:post_id>1025</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-6</wp:post_name>
@@ -3972,7 +3972,7 @@
     <item>
         <title>WebSocket Real-time Server</title>
         <link>https://antigravity.google/backend/be-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1026</guid>
         <description></description>
@@ -4100,8 +4100,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Чат-сервер на Node.js или Go.]]></excerpt:encoded>
         <wp:post_id>1026</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-7</wp:post_name>
@@ -4124,7 +4124,7 @@
     <item>
         <title>Message Queue Consumers</title>
         <link>https://antigravity.google/backend/be-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1027</guid>
         <description></description>
@@ -4252,8 +4252,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Обработка сообщений RabbitMQ/Kafka.]]></excerpt:encoded>
         <wp:post_id>1027</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-8</wp:post_name>
@@ -4276,7 +4276,7 @@
     <item>
         <title>Serverless Functions (AWS)</title>
         <link>https://antigravity.google/backend/be-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1028</guid>
         <description></description>
@@ -4404,8 +4404,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Деплой Lambda функций через SAM или Terraform.]]></excerpt:encoded>
         <wp:post_id>1028</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-9</wp:post_name>
@@ -4428,7 +4428,7 @@
     <item>
         <title>Logging & Telemetry</title>
         <link>https://antigravity.google/backend/be-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1029</guid>
         <description></description>
@@ -4556,8 +4556,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Настройка OpenTelemetry и ELK стека.]]></excerpt:encoded>
         <wp:post_id>1029</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>be-10</wp:post_name>
@@ -4580,7 +4580,7 @@
     <item>
         <title>EDA Report Generation</title>
         <link>https://antigravity.google/ds/ds-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1030</guid>
         <description></description>
@@ -4708,8 +4708,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматический разведочный анализ данных (Pandas).]]></excerpt:encoded>
         <wp:post_id>1030</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-1</wp:post_name>
@@ -4732,7 +4732,7 @@
     <item>
         <title>Scikit-learn Model Training</title>
         <link>https://antigravity.google/ds/ds-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1031</guid>
         <description></description>
@@ -4860,8 +4860,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Пайплайн обучения и валидации классификатора.]]></excerpt:encoded>
         <wp:post_id>1031</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-2</wp:post_name>
@@ -4884,7 +4884,7 @@
     <item>
         <title>Advanced Matplotlib Plots</title>
         <link>https://antigravity.google/ds/ds-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1032</guid>
         <description></description>
@@ -5012,8 +5012,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация сложных визуализаций для публикаций.]]></excerpt:encoded>
         <wp:post_id>1032</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-3</wp:post_name>
@@ -5036,7 +5036,7 @@
     <item>
         <title>PyTorch CNN Architecture</title>
         <link>https://antigravity.google/ds/ds-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1033</guid>
         <description></description>
@@ -5164,8 +5164,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание нейросети для компьютерного зрения.]]></excerpt:encoded>
         <wp:post_id>1033</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-4</wp:post_name>
@@ -5188,7 +5188,7 @@
     <item>
         <title>NLP Text Preprocessing</title>
         <link>https://antigravity.google/ds/ds-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1034</guid>
         <description></description>
@@ -5316,8 +5316,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Токенизация и лемматизация с NLTK/Spacy.]]></excerpt:encoded>
         <wp:post_id>1034</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-5</wp:post_name>
@@ -5340,7 +5340,7 @@
     <item>
         <title>Jupyter Notebook Refactoring</title>
         <link>https://antigravity.google/ds/ds-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1035</guid>
         <description></description>
@@ -5468,8 +5468,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Очистка ноутбуков для продакшена.]]></excerpt:encoded>
         <wp:post_id>1035</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-6</wp:post_name>
@@ -5492,7 +5492,7 @@
     <item>
         <title>Data Cleaning Scripts</title>
         <link>https://antigravity.google/ds/ds-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1036</guid>
         <description></description>
@@ -5620,8 +5620,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Обработка пропусков и выбросов в датасетах.]]></excerpt:encoded>
         <wp:post_id>1036</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-7</wp:post_name>
@@ -5644,7 +5644,7 @@
     <item>
         <title>Airflow DAG Creation</title>
         <link>https://antigravity.google/ds/ds-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1037</guid>
         <description></description>
@@ -5772,8 +5772,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Написание ETL процессов для Apache Airflow.]]></excerpt:encoded>
         <wp:post_id>1037</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-8</wp:post_name>
@@ -5796,7 +5796,7 @@
     <item>
         <title>FastAPI Model Serving</title>
         <link>https://antigravity.google/ds/ds-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1038</guid>
         <description></description>
@@ -5924,8 +5924,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Обертка ML модели в REST API.]]></excerpt:encoded>
         <wp:post_id>1038</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-9</wp:post_name>
@@ -5948,7 +5948,7 @@
     <item>
         <title>A/B Test Analysis</title>
         <link>https://antigravity.google/ds/ds-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1039</guid>
         <description></description>
@@ -6076,8 +6076,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Статистический анализ результатов экспериментов.]]></excerpt:encoded>
         <wp:post_id>1039</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ds-10</wp:post_name>
@@ -6100,7 +6100,7 @@
     <item>
         <title>Docker Compose Setup</title>
         <link>https://antigravity.google/devops/ops-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1040</guid>
         <description></description>
@@ -6228,8 +6228,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Мульти-контейнерная среда для разработки.]]></excerpt:encoded>
         <wp:post_id>1040</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-1</wp:post_name>
@@ -6252,7 +6252,7 @@
     <item>
         <title>K8s Manifest Generation</title>
         <link>https://antigravity.google/devops/ops-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1041</guid>
         <description></description>
@@ -6380,8 +6380,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Deployment, Service и Ingress для Kubernetes.]]></excerpt:encoded>
         <wp:post_id>1041</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-2</wp:post_name>
@@ -6405,7 +6405,7 @@
     <item>
         <title>Terraform AWS Infrastructure</title>
         <link>https://antigravity.google/devops/ops-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1042</guid>
         <description></description>
@@ -6533,8 +6533,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[IaC для VPC, EC2 и RDS.]]></excerpt:encoded>
         <wp:post_id>1042</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-3</wp:post_name>
@@ -6557,7 +6557,7 @@
     <item>
         <title>GitHub Actions CI/CD</title>
         <link>https://antigravity.google/devops/ops-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1043</guid>
         <description></description>
@@ -6685,8 +6685,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Пайплайн сборки, тестов и деплоя.]]></excerpt:encoded>
         <wp:post_id>1043</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-4</wp:post_name>
@@ -6709,7 +6709,7 @@
     <item>
         <title>Nginx Reverse Proxy</title>
         <link>https://antigravity.google/devops/ops-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1044</guid>
         <description></description>
@@ -6837,8 +6837,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Конфигурация проксирования и SSL.]]></excerpt:encoded>
         <wp:post_id>1044</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-5</wp:post_name>
@@ -6861,7 +6861,7 @@
     <item>
         <title>Ansible Playbooks</title>
         <link>https://antigravity.google/devops/ops-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1045</guid>
         <description></description>
@@ -6989,8 +6989,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Управление конфигурацией серверов.]]></excerpt:encoded>
         <wp:post_id>1045</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-6</wp:post_name>
@@ -7013,7 +7013,7 @@
     <item>
         <title>Prometheus Alerting</title>
         <link>https://antigravity.google/devops/ops-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1046</guid>
         <description></description>
@@ -7141,8 +7141,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Настройка правил для Alertmanager.]]></excerpt:encoded>
         <wp:post_id>1046</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-7</wp:post_name>
@@ -7165,7 +7165,7 @@
     <item>
         <title>Bash Maintenance Scripts</title>
         <link>https://antigravity.google/devops/ops-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1047</guid>
         <description></description>
@@ -7293,8 +7293,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Скрипты бэкапов и ротации логов.]]></excerpt:encoded>
         <wp:post_id>1047</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-8</wp:post_name>
@@ -7317,7 +7317,7 @@
     <item>
         <title>SSL Certificate Auto-renewal</title>
         <link>https://antigravity.google/devops/ops-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1048</guid>
         <description></description>
@@ -7445,8 +7445,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Настройка Certbot и Let's Encrypt.]]></excerpt:encoded>
         <wp:post_id>1048</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-9</wp:post_name>
@@ -7469,7 +7469,7 @@
     <item>
         <title>Cloudflare Workers Deploy</title>
         <link>https://antigravity.google/devops/ops-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1049</guid>
         <description></description>
@@ -7597,8 +7597,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Развертывание Edge-функций.]]></excerpt:encoded>
         <wp:post_id>1049</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ops-10</wp:post_name>
@@ -7621,7 +7621,7 @@
     <item>
         <title>Jest Unit Testing</title>
         <link>https://antigravity.google/qa/qa-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1050</guid>
         <description></description>
@@ -7749,8 +7749,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация тестов для JS/TS функций.]]></excerpt:encoded>
         <wp:post_id>1050</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-1</wp:post_name>
@@ -7773,7 +7773,7 @@
     <item>
         <title>Cypress E2E Scenarios</title>
         <link>https://antigravity.google/qa/qa-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1051</guid>
         <description></description>
@@ -7901,8 +7901,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Сквозное тестирование пользовательских путей.]]></excerpt:encoded>
         <wp:post_id>1051</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-2</wp:post_name>
@@ -7925,7 +7925,7 @@
     <item>
         <title>Playwright Cross-browser</title>
         <link>https://antigravity.google/qa/qa-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1052</guid>
         <description></description>
@@ -8053,8 +8053,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматизация браузерных тестов.]]></excerpt:encoded>
         <wp:post_id>1052</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-3</wp:post_name>
@@ -8077,7 +8077,7 @@
     <item>
         <title>Postman Collection Gen</title>
         <link>https://antigravity.google/qa/qa-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1053</guid>
         <description></description>
@@ -8205,8 +8205,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание коллекции тестов для API.]]></excerpt:encoded>
         <wp:post_id>1053</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-4</wp:post_name>
@@ -8229,7 +8229,7 @@
     <item>
         <title>k6 Load Testing</title>
         <link>https://antigravity.google/qa/qa-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1054</guid>
         <description></description>
@@ -8357,8 +8357,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Нагрузочное тестирование производительности.]]></excerpt:encoded>
         <wp:post_id>1054</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-5</wp:post_name>
@@ -8381,7 +8381,7 @@
     <item>
         <title>Faker.js Mock Data</title>
         <link>https://antigravity.google/qa/qa-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1055</guid>
         <description></description>
@@ -8509,8 +8509,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация реалистичных тестовых данных.]]></excerpt:encoded>
         <wp:post_id>1055</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-6</wp:post_name>
@@ -8533,7 +8533,7 @@
     <item>
         <title>Storybook Visual Tests</title>
         <link>https://antigravity.google/qa/qa-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1056</guid>
         <description></description>
@@ -8661,8 +8661,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Тестирование компонентов в изоляции.]]></excerpt:encoded>
         <wp:post_id>1056</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-7</wp:post_name>
@@ -8685,7 +8685,7 @@
     <item>
         <title>OWASP ZAP Security Scan</title>
         <link>https://antigravity.google/qa/qa-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1057</guid>
         <description></description>
@@ -8813,8 +8813,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматизированный поиск уязвимостей.]]></excerpt:encoded>
         <wp:post_id>1057</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-8</wp:post_name>
@@ -8837,7 +8837,7 @@
     <item>
         <title>Appium Mobile Tests</title>
         <link>https://antigravity.google/qa/qa-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1058</guid>
         <description></description>
@@ -8965,8 +8965,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Тесты для iOS и Android приложений.]]></excerpt:encoded>
         <wp:post_id>1058</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-9</wp:post_name>
@@ -8989,7 +8989,7 @@
     <item>
         <title>Coverage Reports Setup</title>
         <link>https://antigravity.google/qa/qa-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1059</guid>
         <description></description>
@@ -9117,8 +9117,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Интеграция Codecov или Istanbul.]]></excerpt:encoded>
         <wp:post_id>1059</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>qa-10</wp:post_name>
@@ -9141,7 +9141,7 @@
     <item>
         <title>Legacy JS to Modern</title>
         <link>https://antigravity.google/refactor/ref-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1060</guid>
         <description></description>
@@ -9269,8 +9269,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Обновление синтаксиса (ES6+).]]></excerpt:encoded>
         <wp:post_id>1060</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-1</wp:post_name>
@@ -9293,7 +9293,7 @@
     <item>
         <title>Extract React Component</title>
         <link>https://antigravity.google/refactor/ref-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1061</guid>
         <description></description>
@@ -9421,8 +9421,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Декомпозиция больших компонентов.]]></excerpt:encoded>
         <wp:post_id>1061</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-2</wp:post_name>
@@ -9445,7 +9445,7 @@
     <item>
         <title>Optimize Imports</title>
         <link>https://antigravity.google/refactor/ref-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1062</guid>
         <description></description>
@@ -9573,8 +9573,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Удаление неиспользуемых зависимостей.]]></excerpt:encoded>
         <wp:post_id>1062</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-3</wp:post_name>
@@ -9597,7 +9597,7 @@
     <item>
         <title>Variable Renaming</title>
         <link>https://antigravity.google/refactor/ref-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1063</guid>
         <description></description>
@@ -9725,8 +9725,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Улучшение читаемости кода.]]></excerpt:encoded>
         <wp:post_id>1063</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-4</wp:post_name>
@@ -9749,7 +9749,7 @@
     <item>
         <title>Class to Function</title>
         <link>https://antigravity.google/refactor/ref-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1064</guid>
         <description></description>
@@ -9877,8 +9877,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Миграция на React Hooks.]]></excerpt:encoded>
         <wp:post_id>1064</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-5</wp:post_name>
@@ -9901,7 +9901,7 @@
     <item>
         <title>Logic Simplification</title>
         <link>https://antigravity.google/refactor/ref-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1065</guid>
         <description></description>
@@ -10029,8 +10029,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Устранение вложенности (Guard Clauses).]]></excerpt:encoded>
         <wp:post_id>1065</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-6</wp:post_name>
@@ -10053,7 +10053,7 @@
     <item>
         <title>TypeScript Migration</title>
         <link>https://antigravity.google/refactor/ref-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1066</guid>
         <description></description>
@@ -10181,8 +10181,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Добавление строгой типизации в JS проект.]]></excerpt:encoded>
         <wp:post_id>1066</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-7</wp:post_name>
@@ -10205,7 +10205,7 @@
     <item>
         <title>CSS Cleanup</title>
         <link>https://antigravity.google/refactor/ref-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1067</guid>
         <description></description>
@@ -10333,8 +10333,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Удаление мертвого CSS кода.]]></excerpt:encoded>
         <wp:post_id>1067</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-8</wp:post_name>
@@ -10357,7 +10357,7 @@
     <item>
         <title>Design Patterns Impl</title>
         <link>https://antigravity.google/refactor/ref-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1068</guid>
         <description></description>
@@ -10485,8 +10485,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Внедрение Singleton, Factory, Observer.]]></excerpt:encoded>
         <wp:post_id>1068</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-9</wp:post_name>
@@ -10509,7 +10509,7 @@
     <item>
         <title>Dead Code Elimination</title>
         <link>https://antigravity.google/refactor/ref-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1069</guid>
         <description></description>
@@ -10637,8 +10637,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Анализ и удаление неиспользуемого кода.]]></excerpt:encoded>
         <wp:post_id>1069</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>ref-10</wp:post_name>
@@ -10661,7 +10661,7 @@
     <item>
         <title>Stack Trace Analysis</title>
         <link>https://antigravity.google/debug/dbg-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1070</guid>
         <description></description>
@@ -10789,8 +10789,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Расшифровка и исправление ошибок.]]></excerpt:encoded>
         <wp:post_id>1070</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-1</wp:post_name>
@@ -10813,7 +10813,7 @@
     <item>
         <title>Memory Leak Hunt</title>
         <link>https://antigravity.google/debug/dbg-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1071</guid>
         <description></description>
@@ -10941,8 +10941,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Поиск утечек в Node.js/Browser.]]></excerpt:encoded>
         <wp:post_id>1071</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-2</wp:post_name>
@@ -10965,7 +10965,7 @@
     <item>
         <title>Network Request Debug</title>
         <link>https://antigravity.google/debug/dbg-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1072</guid>
         <description></description>
@@ -11093,8 +11093,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Анализ заголовков и тел запросов.]]></excerpt:encoded>
         <wp:post_id>1072</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-3</wp:post_name>
@@ -11117,7 +11117,7 @@
     <item>
         <title>React Render Optimization</title>
         <link>https://antigravity.google/debug/dbg-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1073</guid>
         <description></description>
@@ -11245,8 +11245,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Поиск лишних ре-рендеров.]]></excerpt:encoded>
         <wp:post_id>1073</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-4</wp:post_name>
@@ -11269,7 +11269,7 @@
     <item>
         <title>Slow SQL Query Fix</title>
         <link>https://antigravity.google/debug/dbg-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1074</guid>
         <description></description>
@@ -11397,8 +11397,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Оптимизация индексов и запросов.]]></excerpt:encoded>
         <wp:post_id>1074</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-5</wp:post_name>
@@ -11421,7 +11421,7 @@
     <item>
         <title>Server Log Parsing</title>
         <link>https://antigravity.google/debug/dbg-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1075</guid>
         <description></description>
@@ -11549,8 +11549,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Анализ логов доступа и ошибок.]]></excerpt:encoded>
         <wp:post_id>1075</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-6</wp:post_name>
@@ -11573,7 +11573,7 @@
     <item>
         <title>CSS Layout Fixes</title>
         <link>https://antigravity.google/debug/dbg-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1076</guid>
         <description></description>
@@ -11701,8 +11701,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Решение проблем с z-index и flexbox.]]></excerpt:encoded>
         <wp:post_id>1076</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-7</wp:post_name>
@@ -11725,7 +11725,7 @@
     <item>
         <title>Async Race Conditions</title>
         <link>https://antigravity.google/debug/dbg-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1077</guid>
         <description></description>
@@ -11853,8 +11853,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Отладка проблем асинхронности.]]></excerpt:encoded>
         <wp:post_id>1077</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-8</wp:post_name>
@@ -11877,7 +11877,7 @@
     <item>
         <title>Env Config Validation</title>
         <link>https://antigravity.google/debug/dbg-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1078</guid>
         <description></description>
@@ -12005,8 +12005,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Проверка переменных окружения.]]></excerpt:encoded>
         <wp:post_id>1078</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-9</wp:post_name>
@@ -12029,7 +12029,7 @@
     <item>
         <title>Dependency Hell Fix</title>
         <link>https://antigravity.google/debug/dbg-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1079</guid>
         <description></description>
@@ -12157,8 +12157,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Разрешение конфликтов версий npm.]]></excerpt:encoded>
         <wp:post_id>1079</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>dbg-10</wp:post_name>
@@ -12181,7 +12181,7 @@
     <item>
         <title>README.md Generation</title>
         <link>https://antigravity.google/docs/doc-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1080</guid>
         <description></description>
@@ -12309,8 +12309,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание продающего описания проекта.]]></excerpt:encoded>
         <wp:post_id>1080</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-1</wp:post_name>
@@ -12333,7 +12333,7 @@
     <item>
         <title>OpenAPI/Swagger Specs</title>
         <link>https://antigravity.google/docs/doc-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1081</guid>
         <description></description>
@@ -12461,8 +12461,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Авто-генерация документации API.]]></excerpt:encoded>
         <wp:post_id>1081</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-2</wp:post_name>
@@ -12485,7 +12485,7 @@
     <item>
         <title>JSDoc/DocStrings</title>
         <link>https://antigravity.google/docs/doc-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1082</guid>
         <description></description>
@@ -12613,8 +12613,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Документирование функций и классов.]]></excerpt:encoded>
         <wp:post_id>1082</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-3</wp:post_name>
@@ -12637,7 +12637,7 @@
     <item>
         <title>Changelog Automation</title>
         <link>https://antigravity.google/docs/doc-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1083</guid>
         <description></description>
@@ -12765,8 +12765,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Генерация списка изменений из git.]]></excerpt:encoded>
         <wp:post_id>1083</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-4</wp:post_name>
@@ -12789,7 +12789,7 @@
     <item>
         <title>User Manuals</title>
         <link>https://antigravity.google/docs/doc-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1084</guid>
         <description></description>
@@ -12917,8 +12917,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Написание инструкций для пользователей.]]></excerpt:encoded>
         <wp:post_id>1084</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-5</wp:post_name>
@@ -12941,7 +12941,7 @@
     <item>
         <title>Mermaid Architecture Maps</title>
         <link>https://antigravity.google/docs/doc-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1085</guid>
         <description></description>
@@ -13069,8 +13069,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Визуализация архитектуры в коде.]]></excerpt:encoded>
         <wp:post_id>1085</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-6</wp:post_name>
@@ -13093,7 +13093,7 @@
     <item>
         <title>i18n Documentation</title>
         <link>https://antigravity.google/docs/doc-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1086</guid>
         <description></description>
@@ -13221,8 +13221,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Перевод документации на языки мира.]]></excerpt:encoded>
         <wp:post_id>1086</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-7</wp:post_name>
@@ -13245,7 +13245,7 @@
     <item>
         <title>Code Tutorials</title>
         <link>https://antigravity.google/docs/doc-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1087</guid>
         <description></description>
@@ -13373,8 +13373,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание обучающих материалов.]]></excerpt:encoded>
         <wp:post_id>1087</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-8</wp:post_name>
@@ -13397,7 +13397,7 @@
     <item>
         <title>CONTRIBUTING.md</title>
         <link>https://antigravity.google/docs/doc-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1088</guid>
         <description></description>
@@ -13525,8 +13525,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Гайдлайны для контрибьюторов.]]></excerpt:encoded>
         <wp:post_id>1088</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-9</wp:post_name>
@@ -13549,7 +13549,7 @@
     <item>
         <title>License Management</title>
         <link>https://antigravity.google/docs/doc-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1089</guid>
         <description></description>
@@ -13677,8 +13677,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Добавление и проверка лицензий.]]></excerpt:encoded>
         <wp:post_id>1089</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>doc-10</wp:post_name>
@@ -13701,7 +13701,7 @@
     <item>
         <title>Stripe Integration</title>
         <link>https://antigravity.google/api/api-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1090</guid>
         <description></description>
@@ -13829,8 +13829,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Прием платежей и подписки.]]></excerpt:encoded>
         <wp:post_id>1090</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-1</wp:post_name>
@@ -13853,7 +13853,7 @@
     <item>
         <title>Google Maps API</title>
         <link>https://antigravity.google/api/api-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1091</guid>
         <description></description>
@@ -13981,8 +13981,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Геолокация и карты.]]></excerpt:encoded>
         <wp:post_id>1091</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-2</wp:post_name>
@@ -14005,7 +14005,7 @@
     <item>
         <title>OpenAI/Gemini API</title>
         <link>https://antigravity.google/api/api-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1092</guid>
         <description></description>
@@ -14133,8 +14133,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Внедрение ИИ возможностей.]]></excerpt:encoded>
         <wp:post_id>1092</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-3</wp:post_name>
@@ -14157,7 +14157,7 @@
     <item>
         <title>Firebase Services</title>
         <link>https://antigravity.google/api/api-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1093</guid>
         <description></description>
@@ -14285,8 +14285,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Auth, Firestore, Storage.]]></excerpt:encoded>
         <wp:post_id>1093</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-4</wp:post_name>
@@ -14310,7 +14310,7 @@
     <item>
         <title>SendGrid/Mailgun</title>
         <link>https://antigravity.google/api/api-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1094</guid>
         <description></description>
@@ -14438,8 +14438,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Транзакционные email рассылки.]]></excerpt:encoded>
         <wp:post_id>1094</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-5</wp:post_name>
@@ -14462,7 +14462,7 @@
     <item>
         <title>Twilio SMS/Voice</title>
         <link>https://antigravity.google/api/api-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1095</guid>
         <description></description>
@@ -14590,8 +14590,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Коммуникации и уведомления.]]></excerpt:encoded>
         <wp:post_id>1095</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-6</wp:post_name>
@@ -14614,7 +14614,7 @@
     <item>
         <title>Slack/Discord Bots</title>
         <link>https://antigravity.google/api/api-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1096</guid>
         <description></description>
@@ -14742,8 +14742,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Интеграция с мессенджерами.]]></excerpt:encoded>
         <wp:post_id>1096</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-7</wp:post_name>
@@ -14766,7 +14766,7 @@
     <item>
         <title>Notion API Sync</title>
         <link>https://antigravity.google/api/api-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1097</guid>
         <description></description>
@@ -14894,8 +14894,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Управление базами знаний.]]></excerpt:encoded>
         <wp:post_id>1097</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-8</wp:post_name>
@@ -14918,7 +14918,7 @@
     <item>
         <title>GitHub REST API</title>
         <link>https://antigravity.google/api/api-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1098</guid>
         <description></description>
@@ -15046,8 +15046,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматизация работы с кодом.]]></excerpt:encoded>
         <wp:post_id>1098</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-9</wp:post_name>
@@ -15070,7 +15070,7 @@
     <item>
         <title>OAuth2 Providers</title>
         <link>https://antigravity.google/api/api-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1099</guid>
         <description></description>
@@ -15198,8 +15198,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Вход через Google/Facebook/GitHub.]]></excerpt:encoded>
         <wp:post_id>1099</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>api-10</wp:post_name>
@@ -15222,7 +15222,7 @@
     <item>
         <title>Batch File Renaming</title>
         <link>https://antigravity.google/auto/auto-1</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1100</guid>
         <description></description>
@@ -15350,8 +15350,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Массовая обработка файлов.]]></excerpt:encoded>
         <wp:post_id>1100</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-1</wp:post_name>
@@ -15374,7 +15374,7 @@
     <item>
         <title>Image Processing</title>
         <link>https://antigravity.google/auto/auto-2</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1101</guid>
         <description></description>
@@ -15502,8 +15502,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Ресайз и конвертация форматов.]]></excerpt:encoded>
         <wp:post_id>1101</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-2</wp:post_name>
@@ -15526,7 +15526,7 @@
     <item>
         <title>Web Scraping (Puppeteer)</title>
         <link>https://antigravity.google/auto/auto-3</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1102</guid>
         <description></description>
@@ -15654,8 +15654,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Сбор данных с сайтов.]]></excerpt:encoded>
         <wp:post_id>1102</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-3</wp:post_name>
@@ -15678,7 +15678,7 @@
     <item>
         <title>PDF Generation</title>
         <link>https://antigravity.google/auto/auto-4</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1103</guid>
         <description></description>
@@ -15806,8 +15806,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Создание отчетов из HTML/Markdown.]]></excerpt:encoded>
         <wp:post_id>1103</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-4</wp:post_name>
@@ -15830,7 +15830,7 @@
     <item>
         <title>Excel/CSV Parsing</title>
         <link>https://antigravity.google/auto/auto-5</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1104</guid>
         <description></description>
@@ -15958,8 +15958,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Обработка табличных данных.]]></excerpt:encoded>
         <wp:post_id>1104</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-5</wp:post_name>
@@ -15982,7 +15982,7 @@
     <item>
         <title>Cron Job Scheduling</title>
         <link>https://antigravity.google/auto/auto-6</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1105</guid>
         <description></description>
@@ -16110,8 +16110,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Планирование периодических задач.]]></excerpt:encoded>
         <wp:post_id>1105</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-6</wp:post_name>
@@ -16134,7 +16134,7 @@
     <item>
         <title>Database Backups</title>
         <link>https://antigravity.google/auto/auto-7</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1106</guid>
         <description></description>
@@ -16262,8 +16262,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Автоматизация дампов БД.]]></excerpt:encoded>
         <wp:post_id>1106</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-7</wp:post_name>
@@ -16286,7 +16286,7 @@
     <item>
         <title>Health Check Scripts</title>
         <link>https://antigravity.google/auto/auto-8</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1107</guid>
         <description></description>
@@ -16414,8 +16414,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Мониторинг доступности сервисов.]]></excerpt:encoded>
         <wp:post_id>1107</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-8</wp:post_name>
@@ -16438,7 +16438,7 @@
     <item>
         <title>Git Hooks (Husky)</title>
         <link>https://antigravity.google/auto/auto-9</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1108</guid>
         <description></description>
@@ -16566,8 +16566,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[Проверки перед коммитом.]]></excerpt:encoded>
         <wp:post_id>1108</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-9</wp:post_name>
@@ -16590,7 +16590,7 @@
     <item>
         <title>Release Versioning</title>
         <link>https://antigravity.google/auto/auto-10</link>
-        <pubDate>Sun, 23 Nov 2025 15:12:01 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 15:33:56 GMT</pubDate>
         <dc:creator>admin</dc:creator>
         <guid isPermaLink="false">https://antigravity.google/?p=1109</guid>
         <description></description>
@@ -16718,8 +16718,8 @@
         ]]></content:encoded>
         <excerpt:encoded><![CDATA[SemVer и генерация тегов.]]></excerpt:encoded>
         <wp:post_id>1109</wp:post_id>
-        <wp:post_date>2025-11-23 15:12:01</wp:post_date>
-        <wp:post_date_gmt>2025-11-23 15:12:01</wp:post_date_gmt>
+        <wp:post_date>2025-11-23 15:33:56</wp:post_date>
+        <wp:post_date_gmt>2025-11-23 15:33:56</wp:post_date_gmt>
         <wp:comment_status>open</wp:comment_status>
         <wp:ping_status>open</wp:ping_status>
         <wp:post_name>auto-10</wp:post_name>
