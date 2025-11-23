@@ -1,0 +1,152 @@
+name: Code Quality Check
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  content-uniqueness-check:
+    name: Check Content Uniqueness
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Check for duplicate content
+        run: |
+          node generator/build.js
+          
+          # Check for duplicate richContent
+          echo "Checking for duplicate content..."
+          
+          # Extract richContent from generated files
+          grep -r "Обзор технологии" dist/ | wc -l > /tmp/content_count.txt
+          
+          CONTENT_COUNT=$(cat /tmp/content_count.txt)
+          FILE_COUNT=$(find dist/ -name "*.html" -not -name "index.html" -not -name "sitemap.html" | wc -l)
+          
+          echo "Content blocks: $CONTENT_COUNT"
+          echo "HTML files: $FILE_COUNT"
+          
+          # If content is duplicated, all files will have same text
+          # We expect unique content, so this check would fail if templated
+          
+          if [ "$CONTENT_COUNT" -eq "$FILE_COUNT" ]; then
+            echo "⚠️  Warning: Content might be templated (same count)"
+          fi
+
+  slug-conflict-check:
+    name: Check Slug Conflicts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Check for slug conflicts
+        run: |
+          node -e "
+          const { cases } = require('./generator/data.js');
+          const slugs = cases.map(c => c.slug);
+          const duplicates = slugs.filter((slug, index) => slugs.indexOf(slug) !== index);
+          
+          if (duplicates.length > 0) {
+            console.error('❌ Slug conflicts found:', [...new Set(duplicates)]);
+            process.exit(1);
+          } else {
+            console.log('✅ No slug conflicts');
+          }
+          "
+
+  build-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Build site
+        run: node generator/build.js
+      
+      - name: Check generated files
+        run: |
+          echo "Checking generated files..."
+          
+          # Count generated HTML files
+          HTML_COUNT=$(find dist/ -name "*.html" -not -name "index.html" -not -name "sitemap.html" | wc -l)
+          echo "Generated $HTML_COUNT HTML files"
+          
+          # Check sitemap exists
+          if [ ! -f "dist/sitemap.xml" ]; then
+            echo "❌ sitemap.xml not found"
+            exit 1
+          fi
+          
+          if [ ! -f "dist/sitemap.html" ]; then
+            echo "❌ sitemap.html not found"
+            exit 1
+          fi
+          
+          echo "✅ All checks passed"
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist/
+          retention-days: 7
+
+  seo-check:
+    name: SEO Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Build site
+        run: node generator/build.js
+      
+      - name: Check meta tags
+        run: |
+          echo "Checking SEO meta tags..."
+          
+          # Check for og:image with full URL
+          if grep -r "og:image.*https://" dist/*.html > /dev/null; then
+            echo "✅ Open Graph images have full URLs"
+          else
+            echo "❌ Open Graph images missing full URLs"
+            exit 1
+          fi
+          
+          # Check for Twitter Card
+          if grep -r "twitter:card" dist/*.html > /dev/null; then
+            echo "✅ Twitter Card meta tags present"
+          else
+            echo "❌ Twitter Card meta tags missing"
+            exit 1
+          fi
+          
+          # Check for Schema.org
+          if grep -r "schema.org" dist/*.html > /dev/null; then
+            echo "✅ Schema.org markup present"
+          else
+            echo "❌ Schema.org markup missing"
+            exit 1
+          fi

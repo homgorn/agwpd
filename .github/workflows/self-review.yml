@@ -1,0 +1,84 @@
+name: Self-Review Agent
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  self-review:
+    name: Automated Code Review
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: read
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Analyze changes
+        id: analyze
+        run: |
+          echo "## 🤖 Automated Review" > review.md
+          echo "" >> review.md
+          
+          # Check if data.js changed
+          if git diff --name-only origin/main...HEAD | grep "generator/data.js"; then
+            echo "### ⚠️ Data Changes Detected" >> review.md
+            echo "" >> review.md
+            
+            # Count new cases
+            NEW_CASES=$(git diff origin/main...HEAD generator/data.js | grep "^+" | grep -c "{ id:" || echo "0")
+            echo "- New cases added: $NEW_CASES" >> review.md
+            
+            # Check for potential issues
+            if git diff origin/main...HEAD generator/data.js | grep "richContent.*\${c.title}"; then
+              echo "- ⚠️ **Warning:** Detected templated richContent (not unique)" >> review.md
+            fi
+          fi
+          
+          # Check if build.js changed
+          if git diff --name-only origin/main...HEAD | grep "generator/build.js"; then
+            echo "" >> review.md
+            echo "### 🔧 Build Script Changes" >> review.md
+            echo "- Build script was modified" >> review.md
+            echo "- **Action Required:** Test build locally before merging" >> review.md
+          fi
+          
+          # Check for Docker changes
+          if git diff --name-only origin/main...HEAD | grep -E "(Dockerfile|docker-compose)"; then
+            echo "" >> review.md
+            echo "### 🐳 Docker Configuration Changed" >> review.md
+            echo "- **Action Required:** Test Docker build locally" >> review.md
+            echo '```bash' >> review.md
+            echo 'docker-compose up --build' >> review.md
+            echo '```' >> review.md
+          fi
+          
+          echo "" >> review.md
+          echo "### ✅ Checklist" >> review.md
+          echo "- [ ] Build passes locally" >> review.md
+          echo "- [ ] Content is unique (not templated)" >> review.md
+          echo "- [ ] No slug conflicts" >> review.md
+          echo "- [ ] SEO tags are correct" >> review.md
+          echo "- [ ] Tested in browser" >> review.md
+      
+      - name: Post review comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const review = fs.readFileSync('review.md', 'utf8');
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: review
+            });
