@@ -14,6 +14,11 @@ if (!fs.existsSync(OUT_DIR)) {
 // --- HTML GENERATOR (Simple) ---
 function generateHtml() {
     console.log('Generating HTML files...');
+
+    // 1. Copy main entry files to dist to make it a complete website
+    fs.copyFileSync(path.join(__dirname, '../index.html'), path.join(OUT_DIR, 'index.html'));
+    fs.copyFileSync(path.join(__dirname, '../use_cases.js'), path.join(OUT_DIR, 'use_cases.js'));
+
     const template = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf-8');
 
     // Create index listing
