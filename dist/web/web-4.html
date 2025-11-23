@@ -7,9 +7,26 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Пошаговая инструкция (15 шагов) как реализовать Form Validation (Zod/RHF) с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
     <meta name="keywords" content="Form Validation (Zod/RHF), Генерация форм, Google Antigravity, AI coding, Automation, GenAI">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://antigravity.google/web/web-4.html">
     <meta property="og:title" content="Form Validation (Zod/RHF): Полное руководство и Кейс Google Antigravity">
     <meta property="og:description" content="Пошаговая инструкция (15 шагов) как реализовать Form Validation (Zod/RHF) с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
     <meta property="og:image" content="https://antigravity.google/assets/ag_web_dev.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://antigravity.google/web/web-4.html">
+    <meta name="twitter:title" content="Form Validation (Zod/RHF): Полное руководство и Кейс Google Antigravity">
+    <meta name="twitter:description" content="Пошаговая инструкция (15 шагов) как реализовать Form Validation (Zod/RHF) с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
+    <meta name="twitter:image" content="https://antigravity.google/assets/ag_web_dev.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://antigravity.google/web/web-4.html">
+    
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Как Antigravity помогает с Form Validation (Zod/RHF)?","acceptedAnswer":{"@type":"Answer","text":"Antigravity берет на себя рутину: от скаффолдинга проекта до написания конкретной логики Form Validation (Zod/RHF), позволяя вам сосредоточиться на архитектуре."}},{"@type":"Question","name":"Нужно ли мне знать синтаксис языка досконально?","acceptedAnswer":{"@type":"Answer","text":"Для задачи Form Validation (Zod/RHF) глубокое знание не обязательно, так как агент генерирует синтаксически верный код, но понимание логики поможет при ревью."}},{"@type":"Question","name":"Может ли агент исправить ошибки в Form Validation (Zod/RHF)?","acceptedAnswer":{"@type":"Answer","text":"Да, Antigravity имеет цикл обратной связи: он читает ошибки из терминала и автоматически предлагает исправления."}},{"@type":"Question","name":"Как интегрировать это в существующий проект?","acceptedAnswer":{"@type":"Answer","text":"Агент умеет работать с контекстом. Просто откройте ваш проект и попросите добавить функционал Form Validation (Zod/RHF) в существующую структуру."}},{"@type":"Question","name":"Какие модели используются?","acceptedAnswer":{"@type":"Answer","text":"По умолчанию Gemini 3, но вы можете переключиться на Claude Sonnet или GPT-OSS в настройках агента."}},{"@type":"Question","name":"Безопасно ли доверять агенту Form Validation (Zod/RHF)?","acceptedAnswer":{"@type":"Answer","text":"Код выполняется в песочнице, и вы всегда должны подтверждать критические действия (удаление файлов, API запросы)."}},{"@type":"Question","name":"Сколько времени занимает генерация?","acceptedAnswer":{"@type":"Answer","text":"Простые задачи типа Form Validation (Zod/RHF) решаются за 1-3 минуты. Сложные архитектурные изменения могут занять до 10-15 минут."}},{"@type":"Question","name":"Генерируются ли тесты?","acceptedAnswer":{"@type":"Answer","text":"Да, мы рекомендуем всегда просить агента генерировать тесты для Form Validation (Zod/RHF) для гарантии качества."}},{"@type":"Question","name":"Можно ли экспортировать результат?","acceptedAnswer":{"@type":"Answer","text":"Конечно, результат — это обычные файлы в вашей файловой системе, которые можно залить в Git."}},{"@type":"Question","name":"Поддерживается ли командная работа?","acceptedAnswer":{"@type":"Answer","text":"Да, через Manager Surface вы можете видеть, над чем работают агенты ваших коллег в реальном времени."}},{"@type":"Question","name":"Нужен ли доступ в интернет?","acceptedAnswer":{"@type":"Answer","text":"Для работы модели нужен интернет, но локальный код остается на вашей машине (если не включена облачная синхронизация)."}},{"@type":"Question","name":"Как улучшить качество генерации для Form Validation (Zod/RHF)?","acceptedAnswer":{"@type":"Answer","text":"Чем детальнее ваш промпт и контекст (открытые файлы), тем лучше результат. Используйте @-упоминания файлов."}},{"@type":"Question","name":"Есть ли плагины для Form Validation (Zod/RHF)?","acceptedAnswer":{"@type":"Answer","text":"Antigravity поддерживает расширения VS Code, поэтому вы можете использовать привычные инструменты."}},{"@type":"Question","name":"Что делать, если агент завис?","acceptedAnswer":{"@type":"Answer","text":"Вы можете перезапустить задачу или уточнить промпт. Состояние агента сохраняется."}},{"@type":"Question","name":"Где найти документацию?","acceptedAnswer":{"@type":"Answer","text":"Вся документация доступна на официальном сайте antigravity.google и в этом справочнике."}}]}
     </script>
@@ -61,7 +78,7 @@
         h2 { color: #202124; font-size: 1.8em; margin: 40px 0 20px; padding-bottom: 12px; border-bottom: 2px solid #e8eaed; }
     </style>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/TechArticle">
     <div class="page-wrapper">
         <aside class="sidebar">
             <div class="toc">

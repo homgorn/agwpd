@@ -55,9 +55,26 @@ function generateImprovedHtml() {
     <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="${c.seo.description}">
     <meta name="keywords" content="${c.seo.keywords}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="${config.siteUrl}/${c.cat}/${c.id}.html">
     <meta property="og:title" content="${c.seo.title}">
     <meta property="og:description" content="${c.seo.description}">
-    <meta property="og:image" content="${c.image.url}">
+    <meta property="og:image" content="${config.siteUrl}/assets/${c.image.url.split('/').pop()}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="${config.siteUrl}/${c.cat}/${c.id}.html">
+    <meta name="twitter:title" content="${c.seo.title}">
+    <meta name="twitter:description" content="${c.seo.description}">
+    <meta name="twitter:image" content="${config.siteUrl}/assets/${c.image.url.split('/').pop()}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="${config.siteUrl}/${c.cat}/${c.id}.html">
+    
     <script type="application/ld+json">
     ${JSON.stringify({
             "@context": "https://schema.org",
@@ -149,7 +166,7 @@ function generateImprovedHtml() {
         h2 { color: #202124; font-size: 1.8em; margin: 40px 0 20px; padding-bottom: 12px; border-bottom: 2px solid #e8eaed; }
     </style>
 </head>
-<body>
+<body itemscope itemtype="https://schema.org/TechArticle">
     <div class="page-wrapper">
         <aside class="sidebar">
             <div class="toc">
