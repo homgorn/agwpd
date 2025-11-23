@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: antigravity-docs
+    ports:
+      - "${PORT:-80}:80"
+    environment:
+      - DOMAIN=${DOMAIN:-localhost}
+    restart: unless-stopped
+    labels:
+      - "coolify.managed=true"
