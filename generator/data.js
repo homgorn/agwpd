@@ -185,8 +185,199 @@ const categoryImages = {
     mcp: 'antigravity_manager_dashboard.png'
 };
 
+// Helper to create SEO-friendly slug
+function createSlug(title) {
+    const translitMap = {
+        'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'yo', 'ж': 'zh',
+        'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n', 'о': 'o',
+        'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f', 'х': 'h', 'ц': 'ts',
+        'ч': 'ch', 'ш': 'sh', 'щ': 'sch', 'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu', 'я': 'ya'
+    };
+
+    return title.toLowerCase()
+        .split('').map(char => translitMap[char] || char).join('')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '')
+        .substring(0, 60);
+}
+
 // Helper to generate extensive content (15+ items)
 function generateExtendedContent(c) {
+    const slug = createSlug(c.title);
+
+    // 3 промпта для разных сценариев
+    const prompts = [
+        {
+            title: 'Базовый промпт',
+            content: `Создай решение для задачи: ${c.title}
+
+Требования:
+- ${c.desc}
+- Используй современные практики и паттерны
+- Добавь комментарии к коду
+- Следуй best practices для ${c.categoryName}`
+        },
+        {
+            title: 'Продвинутый промпт с деталями',
+            content: `Реализуй ${c.title} с учетом следующих требований:
+
+Функциональность:
+- ${c.desc}
+- Обработка ошибок и граничных случаев
+- Логирование всех важных операций
+- Валидация входных данных
+
+Качество кода:
+- Следуй принципам SOLID
+- Используй TypeScript для типобезопасности
+- Добавь JSDoc комментарии
+- Оптимизируй производительность
+
+Дополнительно:
+- Создай README.md с инструкцией
+- Добавь примеры использования`
+        },
+        {
+            title: 'С тестами и документацией',
+            content: `Полная реализация: ${c.title}
+
+Основная задача:
+${c.desc}
+
+Обязательные компоненты:
+1. Рабочий код с обработкой ошибок
+2. Unit-тесты (покрытие >80%)
+3. Integration тесты для критичных путей
+4. README.md с:
+   - Описанием функционала
+   - Инструкцией по установке
+   - Примерами использования
+   - API документацией
+5. CHANGELOG.md для отслеживания изменений
+
+Технические требования:
+- Современный стек технологий
+- Чистая архитектура
+- Производительность и масштабируемость`
+        }
+    ];
+
+    // Структурированный контент 2-3к знаков
+    const richContent = `
+<h3>Обзор технологии</h3>
+<p>${c.title} — это важный аспект современной разработки в области ${c.categoryName}. ${c.desc} Данный подход позволяет значительно ускорить процесс разработки и повысить качество кода благодаря использованию ИИ-агента Google Antigravity.</p>
+
+<h3>Ключевые преимущества</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Преимущество</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Описание</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Экономия времени</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Автоматизация</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Агент генерирует код автоматически</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">До 80%</td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Качество</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Следование best practices</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Тестирование</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Автогенерация тестов</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">До 70%</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Требования к проекту</h3>
+<ul style="margin: 15px 0; padding-left: 25px;">
+    <li><strong>Технические:</strong> Современная версия языка/фреймворка, доступ к интернету для агента</li>
+    <li><strong>Навыки:</strong> Базовое понимание ${c.categoryName}, умение формулировать задачи</li>
+    <li><strong>Инструменты:</strong> Google Antigravity IDE, Git для версионирования</li>
+    <li><strong>Время:</strong> 2-10 минут в зависимости от сложности задачи</li>
+</ul>
+
+<h3>Сценарии применения</h3>
+<p>Технология ${c.title} особенно полезна в следующих случаях:</p>
+<ol style="margin: 15px 0; padding-left: 25px;">
+    <li><strong>Быстрое прототипирование:</strong> Когда нужно быстро проверить идею или создать MVP</li>
+    <li><strong>Рутинные задачи:</strong> Автоматизация повторяющихся паттернов кода</li>
+    <li><strong>Обучение:</strong> Изучение новых технологий через примеры от агента</li>
+    <li><strong>Рефакторинг:</strong> Улучшение существующего кода с сохранением функциональности</li>
+    <li><strong>Документация:</strong> Автоматическая генерация README и комментариев</li>
+</ol>
+
+<h3>Сравнение подходов</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Критерий</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Ручная разработка</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">С Antigravity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Время разработки</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">2-4 часа</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>5-15 минут</strong></td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Покрытие тестами</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">30-50%</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>70-90%</strong></td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Документация</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Часто отсутствует</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>Автоматически</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Лучшие практики</h3>
+<div style="background: #e8f5e9; padding: 20px; border-left: 4px solid #34a853; margin: 20px 0; border-radius: 4px;">
+    <p><strong>💡 Совет эксперта:</strong> Для достижения наилучших результатов с ${c.title}:</p>
+    <ul style="margin: 10px 0; padding-left: 25px;">
+        <li>Формулируйте промпты максимально конкретно</li>
+        <li>Указывайте желаемые технологии и паттерны</li>
+        <li>Проверяйте сгенерированный код перед использованием</li>
+        <li>Используйте итеративный подход: уточняйте и дополняйте</li>
+        <li>Сохраняйте успешные промпты для повторного использования</li>
+    </ul>
+</div>
+
+<h3>Типичные ошибки и решения</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Проблема</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Решение</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Агент не понимает контекст</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Откройте нужные файлы в редакторе, используйте @-упоминания</td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Код не соответствует стилю проекта</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Укажите в промпте конкретные требования к стилю</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Генерация занимает слишком долго</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Разбейте задачу на более мелкие подзадачи</td>
+        </tr>
+    </tbody>
+</table>
+`;
+
     const steps = [
         `Откройте Google Antigravity IDE и перейдите в рабочее пространство проекта.`,
         `Убедитесь, что у вас выбрана модель Gemini 3 Pro для максимальной точности генерации кода.`,
@@ -225,7 +416,7 @@ function generateExtendedContent(c) {
         { q: `Где найти документацию?`, a: `Вся документация доступна на официальном сайте antigravity.google и в этом справочнике.` }
     ];
 
-    return { steps, faqs };
+    return { steps, faqs, slug, prompts, richContent };
 }
 
 // Helper to enrich data with SEO, FAQ, HowTo, Images
@@ -242,10 +433,11 @@ function enrichData(cases) {
             imageName = 'ag_testing.png';
         }
 
-        const { steps, faqs } = generateExtendedContent(c);
+        const { steps, faqs, slug, prompts, richContent } = generateExtendedContent(c);
 
         return {
             ...c,
+            slug,
             categoryName: categories[c.cat],
             image: {
                 url: `https://antigravity.google/assets/${imageName}`,
@@ -261,7 +453,9 @@ function enrichData(cases) {
             howto: {
                 name: `Инструкция: Реализация ${c.title}`,
                 steps: steps
-            }
+            },
+            prompts,
+            richContent
         };
     });
 }
