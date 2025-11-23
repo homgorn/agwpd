@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Component Generation: Полное руководство по работе в Google Antigravity</title>
+    <meta name="description"
+        content="Подробная инструкция по генерации React компонентов с помощью Google Antigravity. Пошаговый разбор, примеры кода, ссылки на сервисы и лучшие практики.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4285f4;
+        }
+
+        .nav a {
+            color: #4285f4;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        h1 {
+            color: #1a73e8;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8eaed;
+        }
+
+        h3 {
+            color: #5f6368;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .lead {
+            font-size: 1.2em;
+            color: #5f6368;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #e8f0fe;
+            border-left: 4px solid #1a73e8;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 30px 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .step {
+            margin-bottom: 30px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #34a853;
+        }
+
+        .step-number {
+            display: inline-block;
+            background: #34a853;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 35px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .code-block {
+            background: #263238;
+            color: #aed581;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .tip {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .tip strong {
+            color: #856404;
+        }
+
+        .service-link {
+            display: inline-block;
+            background: #1a73e8;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            margin: 5px;
+            font-size: 0.9em;
+            transition: background 0.3s;
+        }
+
+        .service-link:hover {
+            background: #1557b0;
+        }
+
+        .faq-item {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .faq-item h3 {
+            color: #1a73e8;
+            margin-top: 0;
+        }
+
+        .related {
+            margin-top: 50px;
+            padding: 30px;
+            background: #e8f0fe;
+            border-radius: 8px;
+        }
+
+        .related ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .related li {
+            margin-bottom: 10px;
+        }
+
+        .related a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            margin: 10px 0;
+        }
+
+        .toc a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <a href="../index.html">← Назад к списку кейсов</a>
+        </nav>
+
+        <article>
+            <h1>React Component Generation: Полное руководство по работе в Google Antigravity</h1>
+
+            <p class="lead">
+                Узнайте, как использовать Google Antigravity для автоматической генерации React компонентов.
+                В этом руководстве мы подробно разберем весь процесс — от первого промпта до готового,
+                протестированного компонента с TypeScript типизацией и Storybook документацией.
+            </p>
+
+            <img src="../assets/ag_web_dev.png" alt="React Component Generation в Google Antigravity"
+                class="hero-image">
+
+            <div class="toc">
+                <h3>Содержание</h3>
+                <ul>
+                    <li><a href="#intro">Введение</a></li>
+                    <li><a href="#setup">Подготовка рабочего пространства</a></li>
+                    <li><a href="#generation">Процесс генерации компонента</a></li>
+                    <li><a href="#customization">Кастомизация и доработка</a></li>
+                    <li><a href="#testing">Тестирование</a></li>
+                    <li><a href="#services">Полезные сервисы и инструменты</a></li>
+                    <li><a href="#faq">Часто задаваемые вопросы</a></li>
+                </ul>
+            </div>
+
+            <h2 id="intro">Введение: Зачем использовать Antigravity для React?</h2>
+
+            <p>
+                Разработка React компонентов традиционно требует множества рутинных действий: создание файловой
+                структуры,
+                настройка пропсов, написание стилей, создание тестов. Google Antigravity автоматизирует этот процесс,
+                позволяя вам сосредоточиться на бизнес-логике и архитектуре приложения.
+            </p>
+
+            <p>
+                В отличие от обычных генераторов кода, Antigravity понимает контекст вашего проекта. Он анализирует
+                существующие компоненты, следует вашим паттернам именования, использует те же библиотеки стилей
+                (CSS Modules, Styled Components, Tailwind) и автоматически интегрирует новый компонент в существующую
+                архитектуру.
+            </p>
+
+            <h2 id="setup">Подготовка рабочего пространства</h2>
+
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Откройте проект в Antigravity</strong>
+                <p>
+                    Запустите Antigravity IDE и откройте ваш React проект. Убедитесь, что в корне проекта есть
+                    <code>package.json</code> с зависимостями React. Antigravity автоматически определит версию React
+                    и настроит генерацию под нее (функциональные компоненты для React 16.8+, хуки и т.д.).
+                </p>
+            </div>
+
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Выберите модель агента</strong>
+                <p>
+                    В правом верхнем углу выберите модель <strong>Gemini 3 Pro (High)</strong>. Эта модель обеспечивает
+                    наилучшее качество генерации кода для сложных компонентов с TypeScript и современными паттернами.
+                </p>
+                <div class="tip">
+                    <strong>💡 Совет:</strong> Для простых UI компонентов (кнопки, карточки) можно использовать
+                    Gemini 3 Fast для ускорения генерации.
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Откройте Manager Surface</strong>
+                <p>
+                    Нажмите на иконку "Manager Surface" в левой панели. Это даст вам визуальное представление о том,
+                    какие задачи выполняет агент в реальном времени. Вы увидите граф зависимостей, план действий и
+                    прогресс выполнения.
+                </p>
+            </div>
+
+            <h2 id="generation">Процесс генерации компонента</h2>
+
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Сформулируйте промпт</strong>
+                <p>
+                    В чате с агентом введите детальное описание компонента. Чем подробнее, тем лучше результат. Пример:
+                </p>
+                <div class="code-block">
+                    Создай React компонент UserCard для отображения информации о пользователе.
+
+                    Требования:
+                    - TypeScript
+                    - Пропсы: name (string), avatar (string), role (string), isOnline (boolean)
+                    - Styled Components для стилей
+                    - Адаптивная верстка (мобильная и десктоп версии)
+                    - Анимация появления (fade-in)
+                    - Индикатор онлайн статуса (зеленая точка)
+                    - Кнопка "Send Message" с обработчиком onClick
+                </div>
+            </div>
+
+            <div class="step">
+                <span class="step-number">5</span>
+                <strong>Агент создает Implementation Plan</strong>
+                <p>
+                    Antigravity проанализирует ваш запрос и создаст план действий. Вы увидите артефакт
+                    "Implementation Plan" с пунктами:
+                </p>
+                <ul>
+                    <li>Создать файл <code>UserCard.tsx</code></li>
+                    <li>Определить TypeScript интерфейс для пропсов</li>
+                    <li>Создать styled-components</li>
+                    <li>Добавить анимацию через CSS</li>
+                    <li>Создать файл тестов <code>UserCard.test.tsx</code></li>
+                    <li>Экспортировать компонент в <code>index.ts</code></li>
+                </ul>
+                <p>
+                    Вы можете отредактировать этот план или добавить комментарии. Например:
+                    "Добавь также Storybook story для этого компонента".
+                </p>
+            </div>
+
+            <div class="step">
+                <span class="step-number">6</span>
+                <strong>Наблюдайте за генерацией в реальном времени</strong>
+                <p>
+                    Агент начнет создавать файлы. В редакторе вы увидите, как появляется код построчно.
+                    В терминале отобразятся команды установки зависимостей (если нужны новые пакеты).
+                </p>
+            </div>
+
+            <h2 id="customization">Кастомизация и доработка</h2>
+
+            <div class="step">
+                <span class="step-number">7</span>
+                <strong>Попросите изменения через чат</strong>
+                <p>
+                    Если что-то не устраивает, просто напишите в чат. Примеры запросов:
+                </p>
+                <ul>
+                    <li>"Сделай аватар круглым, а не квадратным"</li>
+                    <li>"Добавь hover эффект на кнопку"</li>
+                    <li>"Используй CSS Grid вместо Flexbox"</li>
+                    <li>"Добавь prop для кастомного цвета фона"</li>
+                </ul>
+                <p>
+                    Агент применит изменения точечно, не переписывая весь компонент.
+                </p>
+            </div>
+
+            <h2 id="testing">Тестирование и проверка</h2>
+
+            <div class="step">
+                <span class="step-number">8</span>
+                <strong>Автоматическая генерация тестов</strong>
+                <p>
+                    Попросите агента: "Создай unit-тесты для UserCard с использованием React Testing Library".
+                    Агент сгенерирует тесты для:
+                </p>
+                <ul>
+                    <li>Рендеринга компонента с разными пропсами</li>
+                    <li>Проверки онлайн индикатора</li>
+                    <li>Клика по кнопке</li>
+                    <li>Snapshot тестирования</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <span class="step-number">9</span>
+                <strong>Запуск тестов</strong>
+                <p>
+                    Агент автоматически запустит тесты в терминале. Если есть ошибки, он попытается исправить их
+                    самостоятельно (self-healing). Вы увидите результаты в реальном времени.
+                </p>
+            </div>
+
+            <div class="step">
+                <span class="step-number">10</span>
+                <strong>Предпросмотр в браузере</strong>
+                <p>
+                    Используйте встроенный браузер Antigravity для предпросмотра компонента. Агент может автоматически
+                    создать демо-страницу с разными вариантами компонента.
+                </p>
+            </div>
+
+            <h2 id="services">Полезные сервисы и инструменты</h2>
+
+            <p>Для работы с React компонентами в Antigravity рекомендуем использовать следующие сервисы:</p>
+
+            <h3>Библиотеки компонентов и UI</h3>
+            <a href="https://mui.com/" target="_blank" class="service-link">Material-UI</a>
+            <a href="https://ant.design/" target="_blank" class="service-link">Ant Design</a>
+            <a href="https://chakra-ui.com/" target="_blank" class="service-link">Chakra UI</a>
+            <a href="https://www.radix-ui.com/" target="_blank" class="service-link">Radix UI</a>
+
+            <h3>Стилизация</h3>
+            <a href="https://styled-components.com/" target="_blank" class="service-link">Styled Components</a>
+            <a href="https://tailwindcss.com/" target="_blank" class="service-link">Tailwind CSS</a>
+            <a href="https://emotion.sh/" target="_blank" class="service-link">Emotion</a>
+
+            <h3>Тестирование</h3>
+            <a href="https://testing-library.com/react" target="_blank" class="service-link">React Testing Library</a>
+            <a href="https://jestjs.io/" target="_blank" class="service-link">Jest</a>
+            <a href="https://www.cypress.io/" target="_blank" class="service-link">Cypress</a>
+            <a href="https://playwright.dev/" target="_blank" class="service-link">Playwright</a>
+
+            <h3>Документация и Storybook</h3>
+            <a href="https://storybook.js.org/" target="_blank" class="service-link">Storybook</a>
+            <a href="https://react-styleguidist.js.org/" target="_blank" class="service-link">React Styleguidist</a>
+
+            <h3>TypeScript и линтинг</h3>
+            <a href="https://www.typescriptlang.org/" target="_blank" class="service-link">TypeScript</a>
+            <a href="https://eslint.org/" target="_blank" class="service-link">ESLint</a>
+            <a href="https://prettier.io/" target="_blank" class="service-link">Prettier</a>
+
+            <h3>Деплой и хостинг</h3>
+            <a href="https://vercel.com/" target="_blank" class="service-link">Vercel</a>
+            <a href="https://www.netlify.com/" target="_blank" class="service-link">Netlify</a>
+            <a href="https://pages.cloudflare.com/" target="_blank" class="service-link">Cloudflare Pages</a>
+
+            <h2 id="faq">Часто задаваемые вопросы</h2>
+
+            <div class="faq-item">
+                <h3>Может ли Antigravity работать с существующим проектом?</h3>
+                <p>
+                    Да, Antigravity отлично работает с существующими проектами. Он анализирует вашу кодовую базу,
+                    понимает используемые паттерны и генерирует компоненты в том же стиле. Например, если вы используете
+                    функциональные компоненты с хуками, он не будет создавать классовые компоненты.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Как Antigravity обрабатывает TypeScript?</h3>
+                <p>
+                    Если в вашем проекте есть <code>tsconfig.json</code>, Antigravity автоматически генерирует код
+                    с TypeScript типизацией. Он создает интерфейсы для пропсов, типизирует хуки и обработчики событий.
+                    Вы можете попросить агента усилить типизацию или использовать generics.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Можно ли генерировать компоненты с анимациями?</h3>
+                <p>
+                    Абсолютно! Укажите в промпте библиотеку анимаций (Framer Motion, React Spring, GSAP), и агент
+                    интегрирует ее. Например: "Добавь анимацию появления через Framer Motion с spring эффектом".
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Генерирует ли Antigravity адаптивные компоненты?</h3>
+                <p>
+                    Да, если вы укажете требование адаптивности. Агент создаст медиа-запросы или использует
+                    responsive утилиты вашей CSS-библиотеки. Вы можете указать конкретные брейкпоинты.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Как работает интеграция со Storybook?</h3>
+                <p>
+                    Попросите агента: "Создай Storybook story для этого компонента". Он сгенерирует файл
+                    <code>.stories.tsx</code> с разными вариантами компонента (stories), включая edge cases.
+                </p>
+            </div>
+
+            <div class="related">
+                <h3>Смотрите также:</h3>
+                <ul>
+                    <li><a href="#">Next.js App Development</a></li>
+                    <li><a href="#">TypeScript Integration</a></li>
+                    <li><a href="#">Component Testing with Jest</a></li>
+                    <li><a href="#">Responsive Design Automation</a></li>
+                    <li><a href="#">CSS-in-JS Solutions</a></li>
+                </ul>
+            </div>
+        </article>
+    </div>
+</body>
+
+</html>
