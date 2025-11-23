@@ -1,6 +1,7 @@
 const useCases = [
     {
         "id": "core-1",
+        "category": "core",
         "title": "Agent-First IDE Workflow",
         "desc": "Как использовать агент-ориентированный подход вместо традиционного редактора.",
         "link": "./core/core-1.html",
@@ -8,6 +9,7 @@ const useCases = [
     },
     {
         "id": "core-2",
+        "category": "core",
         "title": "Manager Surface Dashboard",
         "desc": "Управление несколькими агентами через Mission Control интерфейс.",
         "link": "./core/core-2.html",
@@ -15,6 +17,7 @@ const useCases = [
     },
     {
         "id": "core-3",
+        "category": "core",
         "title": "Browser Subagent Automation",
         "desc": "Использование встроенного браузерного агента для E2E тестов и веб-скрапинга.",
         "link": "./core/core-3.html",
@@ -22,6 +25,7 @@ const useCases = [
     },
     {
         "id": "core-4",
+        "category": "core",
         "title": "Generating Artifacts",
         "desc": "Создание и экспорт артефактов: планы, диаграммы, видео-отчеты.",
         "link": "./core/core-4.html",
@@ -29,6 +33,7 @@ const useCases = [
     },
     {
         "id": "core-5",
+        "category": "core",
         "title": "Multi-Agent Collaboration",
         "desc": "Запуск параллельных агентов для фронтенда и бэкенда одновременно.",
         "link": "./core/core-5.html",
@@ -36,6 +41,7 @@ const useCases = [
     },
     {
         "id": "core-6",
+        "category": "core",
         "title": "Feedback Loops & Learning",
         "desc": "Как обучать агента через комментарии в стиле Google Docs.",
         "link": "./core/core-6.html",
@@ -43,6 +49,7 @@ const useCases = [
     },
     {
         "id": "core-7",
+        "category": "core",
         "title": "Model Selection (Gemini/Claude)",
         "desc": "Переключение между Gemini 3, Claude Sonnet 4.5 и GPT-OSS.",
         "link": "./core/core-7.html",
@@ -50,6 +57,7 @@ const useCases = [
     },
     {
         "id": "core-8",
+        "category": "core",
         "title": "Context Management",
         "desc": "Управление контекстом и базой знаний агента.",
         "link": "./core/core-8.html",
@@ -57,6 +65,7 @@ const useCases = [
     },
     {
         "id": "core-9",
+        "category": "core",
         "title": "Terminal Integration",
         "desc": "Безопасное выполнение терминальных команд агентом.",
         "link": "./core/core-9.html",
@@ -64,6 +73,7 @@ const useCases = [
     },
     {
         "id": "core-10",
+        "category": "core",
         "title": "Visual Regression with Artifacts",
         "desc": "Использование скриншотов-артефактов для визуальной проверки.",
         "link": "./core/core-10.html",
@@ -868,5 +878,165 @@ const useCases = [
         "desc": "SemVer и генерация тегов.",
         "link": "./auto/auto-10.html",
         "tag": "Automation"
+    },
+    {
+        "id": "mcp-1",
+        "category": "mcp",
+        "title": "MCP Server Creation",
+        "desc": "Создание собственного MCP сервера для расширения возможностей LLM.",
+        "link": "./mcp/mcp-1.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-2",
+        "category": "mcp",
+        "title": "File System MCP Server",
+        "desc": "Сервер для безопасного доступа к файловой системе через MCP.",
+        "link": "./mcp/mcp-2.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-3",
+        "category": "mcp",
+        "title": "Database MCP Integration",
+        "desc": "Подключение баз данных (PostgreSQL, MySQL) через MCP протокол.",
+        "link": "./mcp/mcp-3.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-4",
+        "category": "mcp",
+        "title": "Web Search MCP Tool",
+        "desc": "Интеграция поисковых API (Google, Brave) как MCP инструмент.",
+        "link": "./mcp/mcp-4.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-5",
+        "category": "mcp",
+        "title": "GitHub MCP Server",
+        "desc": "Управление репозиториями и issues через MCP.",
+        "link": "./mcp/mcp-5.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-6",
+        "category": "mcp",
+        "title": "Slack MCP Integration",
+        "desc": "Отправка сообщений и чтение каналов через MCP.",
+        "link": "./mcp/mcp-6.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-7",
+        "category": "mcp",
+        "title": "Custom MCP Resources",
+        "desc": "Создание кастомных ресурсов для контекста модели.",
+        "link": "./mcp/mcp-7.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-8",
+        "category": "mcp",
+        "title": "MCP Prompts Library",
+        "desc": "Библиотека переиспользуемых промптов через MCP.",
+        "link": "./mcp/mcp-8.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-9",
+        "category": "mcp",
+        "title": "MCP Tools Development",
+        "desc": "Разработка инструментов (Tools) для расширения функционала.",
+        "link": "./mcp/mcp-9.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-10",
+        "category": "mcp",
+        "title": "Memory MCP Server",
+        "desc": "Долгосрочная память для агента через MCP.",
+        "link": "./mcp/mcp-10.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-11",
+        "category": "mcp",
+        "title": "Puppeteer MCP Automation",
+        "desc": "Браузерная автоматизация через MCP протокол.",
+        "link": "./mcp/mcp-11.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-12",
+        "category": "mcp",
+        "title": "Google Drive MCP",
+        "desc": "Доступ к Google Drive документам через MCP.",
+        "link": "./mcp/mcp-12.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-13",
+        "category": "mcp",
+        "title": "Sequential Thinking MCP",
+        "desc": "Улучшение рассуждений модели через MCP промпты.",
+        "link": "./mcp/mcp-13.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-14",
+        "category": "mcp",
+        "title": "Time & Calendar MCP",
+        "desc": "Работа с датами, временем и календарями через MCP.",
+        "link": "./mcp/mcp-14.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-15",
+        "category": "mcp",
+        "title": "Fetch MCP Server",
+        "desc": "HTTP запросы к внешним API через MCP.",
+        "link": "./mcp/mcp-15.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-16",
+        "category": "mcp",
+        "title": "Notion MCP Integration",
+        "desc": "Синхронизация с Notion базами знаний.",
+        "link": "./mcp/mcp-16.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-17",
+        "category": "mcp",
+        "title": "MCP Server Security",
+        "desc": "Настройка аутентификации и авторизации для MCP серверов.",
+        "link": "./mcp/mcp-17.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-18",
+        "category": "mcp",
+        "title": "MCP Logging & Monitoring",
+        "desc": "Отслеживание использования и ошибок MCP серверов.",
+        "link": "./mcp/mcp-18.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-19",
+        "category": "mcp",
+        "title": "Multi-Server MCP Setup",
+        "desc": "Конфигурация нескольких MCP серверов одновременно.",
+        "link": "./mcp/mcp-19.html",
+        "tag": "MCP (Model Context Protocol)"
+    },
+    {
+        "id": "mcp-20",
+        "category": "mcp",
+        "title": "MCP TypeScript SDK",
+        "desc": "Использование официального SDK для разработки MCP серверов.",
+        "link": "./mcp/mcp-20.html",
+        "tag": "MCP (Model Context Protocol)"
     }
 ];
