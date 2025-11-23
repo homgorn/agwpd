@@ -15,9 +15,34 @@ if (!fs.existsSync(OUT_DIR)) {
 function generateHtml() {
     console.log('Generating HTML files...');
 
-    // 1. Copy main entry files to dist to make it a complete website
+    // 1. Copy main entry files
     fs.copyFileSync(path.join(__dirname, '../index.html'), path.join(OUT_DIR, 'index.html'));
-    fs.copyFileSync(path.join(__dirname, '../use_cases.js'), path.join(OUT_DIR, 'use_cases.js'));
+
+    // 2. Generate use_cases.js dynamically to link to generated pages
+    const frontendCategories = {
+        web: 'web-dev',
+        backend: 'backend',
+        ds: 'datascience',
+        devops: 'devops',
+        qa: 'testing',
+        refactor: 'refactoring',
+        debug: 'debugging',
+        docs: 'docs',
+        api: 'api',
+        auto: 'automation'
+    };
+
+    const frontendCases = cases.map(c => ({
+        id: c.id,
+        category: frontendCategories[c.cat],
+        title: c.title,
+        desc: c.desc,
+        link: `./${c.cat}/${c.id}.html`, // Link to generated page
+        tag: c.categoryName
+    }));
+
+    const jsContent = `const useCases = ${JSON.stringify(frontendCases, null, 4)};`;
+    fs.writeFileSync(path.join(OUT_DIR, 'use_cases.js'), jsContent);
 
     const template = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf-8');
 
