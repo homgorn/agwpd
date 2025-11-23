@@ -53,6 +53,10 @@ function generateHtml() {
     // So we will generate INDIVIDUAL pages for SEO).
 
     cases.forEach(c => {
+        // Find related cases (same category, excluding self)
+        const related = cases.filter(r => r.cat === c.cat && r.id !== c.id).slice(0, 5);
+        const relatedHtml = related.map(r => `<li><a href="../${r.cat}/${r.id}.html">${r.title}</a></li>`).join('');
+
         const pageContent = `
 <!DOCTYPE html>
 <html lang="ru">
@@ -98,6 +102,9 @@ function generateHtml() {
         a { color: #4285f4; text-decoration: none; }
         .nav { margin-bottom: 40px; }
         .hero-image { width: 100%; height: auto; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .related { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; }
+        .related ul { list-style: none; padding: 0; }
+        .related li { margin-bottom: 10px; }
     </style>
 </head>
 <body>
@@ -128,6 +135,11 @@ function generateHtml() {
                 </div>
             `).join('')}
         </div>
+
+        <div class="related">
+            <h3>Смотрите также:</h3>
+            <ul>${relatedHtml}</ul>
+        </div>
     </article>
 </body>
 </html>
@@ -145,17 +157,29 @@ function generateWpXml() {
 
     const items = cases.map((c, index) => {
         const pubDate = new Date().toUTCString();
+
+        // Related links for WP
+        const related = cases.filter(r => r.cat === c.cat && r.id !== c.id).slice(0, 5);
+        const relatedWp = related.map(r => `<li><a href="${config.siteUrl}/${r.cat}/${r.id}">${r.title}</a></li>`).join('');
+
         const content = `
 <!-- wp:image {"align":"center","sizeSlug":"large"} -->
 <figure class="wp-block-image aligncenter size-large"><img src="${c.image.url}" alt="${c.image.alt}"/></figure>
 <!-- /wp:image -->
 
+<!-- wp:list -->
+<ul>
+<li><a href="#howto">Инструкция</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+<!-- /wp:list -->
+
 <!-- wp:paragraph -->
 <p>${c.desc}</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2>Как реализовать: ${c.howto.name}</h2>
+<!-- wp:heading {"id":"howto"} -->
+<h2 id="howto">Как реализовать: ${c.howto.name}</h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"ordered":true} -->
@@ -164,8 +188,8 @@ ${c.howto.steps.map(s => `<li>${s}</li>`).join('\n')}
 </ol>
 <!-- /wp:list -->
 
-<!-- wp:heading -->
-<h2>FAQ</h2>
+<!-- wp:heading {"id":"faq"} -->
+<h2 id="faq">FAQ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group -->
@@ -178,6 +202,13 @@ ${c.faq.map(f => `
 <!-- wp:separator -->
 <hr class="wp-block-separator"/>
 <!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h3>Похожие кейсы</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul>${relatedWp}</ul>
+<!-- /wp:list -->
 
 <p><em>Сгенерировано Google Antigravity Documentation Generator</em></p>
         `;

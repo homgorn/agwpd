@@ -55,37 +55,57 @@ function generateContent(item) {
     const howtoSteps = item.howto.steps.map(s => `<li>${s}</li>`).join('');
     const faqItems = item.faq.map(f => `<h3>${f.q}</h3><p>${f.a}</p>`).join('');
 
+    // Related links logic (we need access to all cases, so we assume 'cases' is available globally or passed)
+    // For simplicity in sync script, we'll just filter the global 'cases' array
+    const related = cases.filter(r => r.cat === item.cat && r.id !== item.id).slice(0, 5);
+    // Note: WP_URL is available in scope
+    const relatedWp = related.map(r => `<li><a href="${WP_URL}/${r.cat}/${r.id}">${r.title}</a></li>`).join('');
+
     return `
 <!-- wp:paragraph -->
 <p>${item.desc}</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2>Как реализовать: ${item.howto.name}</h2>
+<!-- wp:list -->
+<ul>
+<li><a href="#howto">Инструкция</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"id":"howto"} -->
+<h2 id="howto">Как реализовать: \${item.howto.name}</h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"ordered":true} -->
-<ol>${howtoSteps}</ol>
+<ol>\${howtoSteps}</ol>
 <!-- /wp:list -->
 
-<!-- wp:heading -->
-<h2>FAQ</h2>
+<!-- wp:heading {"id":"faq"} -->
+<h2 id="faq">FAQ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:group -->
-${faqItems}
+\${faqItems}
 <!-- /wp:group -->
 
 <!-- wp:separator -->
 <hr class="wp-block-separator"/>
 <!-- /wp:separator -->
 
+<!-- wp:heading -->
+<h3>Похожие кейсы</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul>\${relatedWp}</ul>
+<!-- /wp:list -->
+
 <p><em>Synced via Antigravity GitHub Action</em></p>
-    `;
+    \`;
 }
 
 async function sync() {
-    console.log(`Starting sync for ${cases.length} cases to ${WP_URL}...`);
+    console.log(`Starting sync for ${ cases.length } cases to ${ WP_URL }...`);
     let created = 0;
     let updated = 0;
     let errors = 0;
@@ -95,7 +115,7 @@ async function sync() {
             // 1. Check if post exists by slug
             // Slug: use item.id or sanitize title
             const slug = item.id;
-            const existing = await apiRequest(`/posts?slug=${slug}&status=any`);
+            const existing = await apiRequest(`/ posts ? slug = ${ slug }& status=any`);
 
             const postContent = generateContent(item);
             const postData = {
@@ -108,21 +128,21 @@ async function sync() {
 
             if (existing && existing.length > 0) {
                 const id = existing[0].id;
-                console.log(`[UPDATE] ${item.title} (ID: ${id})`);
-                await apiRequest(`/posts/${id}`, 'POST', postData);
+                console.log(`[UPDATE] ${ item.title } (ID: ${ id })`);
+                await apiRequest(`/ posts / ${ id } `, 'POST', postData);
                 updated++;
             } else {
-                console.log(`[CREATE] ${item.title}`);
-                await apiRequest(`/posts`, 'POST', postData);
+                console.log(`[CREATE] ${ item.title } `);
+                await apiRequest(`/ posts`, 'POST', postData);
                 created++;
             }
         } catch (err) {
-            console.error(`[ERROR] Failed to sync ${item.title}:`, err.message);
+            console.error(`[ERROR] Failed to sync ${ item.title }: `, err.message);
             errors++;
         }
     }
 
-    console.log(`Sync complete. Created: ${created}, Updated: ${updated}, Errors: ${errors}`);
+    console.log(`Sync complete.Created: ${ created }, Updated: ${ updated }, Errors: ${ errors } `);
 }
 
 sync();
