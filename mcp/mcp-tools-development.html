@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Tools Development: Полное руководство и Кейс Google Antigravity</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Пошаговая инструкция (15 шагов) как реализовать MCP Tools Development с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
+    <meta name="keywords" content="MCP Tools Development, Разработка инструментов, Google Antigravity, AI coding, Automation, GenAI">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://antigravity.google/mcp/mcp-tools-development.html">
+    <meta property="og:title" content="MCP Tools Development: Полное руководство и Кейс Google Antigravity">
+    <meta property="og:description" content="Пошаговая инструкция (15 шагов) как реализовать MCP Tools Development с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
+    <meta property="og:image" content="https://antigravity.google/assets/antigravity_manager_dashboard.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://antigravity.google/mcp/mcp-tools-development.html">
+    <meta name="twitter:title" content="MCP Tools Development: Полное руководство и Кейс Google Antigravity">
+    <meta name="twitter:description" content="Пошаговая инструкция (15 шагов) как реализовать MCP Tools Development с помощью ИИ агента Google Antigravity. FAQ, примеры кода и лучшие практики.">
+    <meta name="twitter:image" content="https://antigravity.google/assets/antigravity_manager_dashboard.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://antigravity.google/mcp/mcp-tools-development.html">
+    
+    
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Как Antigravity помогает с MCP Tools Development?","acceptedAnswer":{"@type":"Answer","text":"Antigravity берет на себя рутину: от скаффолдинга проекта до написания конкретной логики MCP Tools Development, позволяя вам сосредоточиться на архитектуре."}},{"@type":"Question","name":"Нужно ли мне знать синтаксис языка досконально?","acceptedAnswer":{"@type":"Answer","text":"Для задачи MCP Tools Development глубокое знание не обязательно, так как агент генерирует синтаксически верный код, но понимание логики поможет при ревью."}},{"@type":"Question","name":"Может ли агент исправить ошибки в MCP Tools Development?","acceptedAnswer":{"@type":"Answer","text":"Да, Antigravity имеет цикл обратной связи: он читает ошибки из терминала и автоматически предлагает исправления."}},{"@type":"Question","name":"Как интегрировать это в существующий проект?","acceptedAnswer":{"@type":"Answer","text":"Агент умеет работать с контекстом. Просто откройте ваш проект и попросите добавить функционал MCP Tools Development в существующую структуру."}},{"@type":"Question","name":"Какие модели используются?","acceptedAnswer":{"@type":"Answer","text":"По умолчанию Gemini 3, но вы можете переключиться на Claude Sonnet или GPT-OSS в настройках агента."}},{"@type":"Question","name":"Безопасно ли доверять агенту MCP Tools Development?","acceptedAnswer":{"@type":"Answer","text":"Код выполняется в песочнице, и вы всегда должны подтверждать критические действия (удаление файлов, API запросы)."}},{"@type":"Question","name":"Сколько времени занимает генерация?","acceptedAnswer":{"@type":"Answer","text":"Простые задачи типа MCP Tools Development решаются за 1-3 минуты. Сложные архитектурные изменения могут занять до 10-15 минут."}},{"@type":"Question","name":"Генерируются ли тесты?","acceptedAnswer":{"@type":"Answer","text":"Да, мы рекомендуем всегда просить агента генерировать тесты для MCP Tools Development для гарантии качества."}},{"@type":"Question","name":"Можно ли экспортировать результат?","acceptedAnswer":{"@type":"Answer","text":"Конечно, результат — это обычные файлы в вашей файловой системе, которые можно залить в Git."}},{"@type":"Question","name":"Поддерживается ли командная работа?","acceptedAnswer":{"@type":"Answer","text":"Да, через Manager Surface вы можете видеть, над чем работают агенты ваших коллег в реальном времени."}},{"@type":"Question","name":"Нужен ли доступ в интернет?","acceptedAnswer":{"@type":"Answer","text":"Для работы модели нужен интернет, но локальный код остается на вашей машине (если не включена облачная синхронизация)."}},{"@type":"Question","name":"Как улучшить качество генерации для MCP Tools Development?","acceptedAnswer":{"@type":"Answer","text":"Чем детальнее ваш промпт и контекст (открытые файлы), тем лучше результат. Используйте @-упоминания файлов."}},{"@type":"Question","name":"Есть ли плагины для MCP Tools Development?","acceptedAnswer":{"@type":"Answer","text":"Antigravity поддерживает расширения VS Code, поэтому вы можете использовать привычные инструменты."}},{"@type":"Question","name":"Что делать, если агент завис?","acceptedAnswer":{"@type":"Answer","text":"Вы можете перезапустить задачу или уточнить промпт. Состояние агента сохраняется."}},{"@type":"Question","name":"Где найти документацию?","acceptedAnswer":{"@type":"Answer","text":"Вся документация доступна на официальном сайте antigravity.google и в этом справочнике."}}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"HowTo","name":"Инструкция: Реализация MCP Tools Development","step":[{"@type":"HowToStep","position":1,"name":"Шаг 1","text":"Откройте Google Antigravity IDE и перейдите в рабочее пространство проекта."},{"@type":"HowToStep","position":2,"name":"Шаг 2","text":"Убедитесь, что у вас выбрана модель Gemini 3 Pro для максимальной точности генерации кода."},{"@type":"HowToStep","position":3,"name":"Шаг 3","text":"Откройте панель \"Manager Surface\" для визуализации задач агента."},{"@type":"HowToStep","position":4,"name":"Шаг 4","text":"В чате с агентом введите промпт: \"Создай решение для задачи: MCP Tools Development\"."},{"@type":"HowToStep","position":5,"name":"Шаг 5","text":"Уточните требования: \"Используй современные практики и паттерны проектирования для undefined\"."},{"@type":"HowToStep","position":6,"name":"Шаг 6","text":"Агент начнет планирование. Дождитесь появления плана действий (Implementation Plan) в артефактах."},{"@type":"HowToStep","position":7,"name":"Шаг 7","text":"Проверьте предложенный план. Если нужно, добавьте комментарий: \"Учти обработку ошибок и логирование\"."},{"@type":"HowToStep","position":8,"name":"Шаг 8","text":"Подтвердите выполнение плана. Агент начнет писать код в реальном времени."},{"@type":"HowToStep","position":9,"name":"Шаг 9","text":"Следите за прогрессом через терминал, встроенный в интерфейс Antigravity."},{"@type":"HowToStep","position":10,"name":"Шаг 10","text":"Агент автоматически создаст необходимые файлы и папки для MCP Tools Development."},{"@type":"HowToStep","position":11,"name":"Шаг 11","text":"После генерации кода агент запустит тесты. Если тестов нет, попросите: \"Напиши unit-тесты для этого функционала\"."},{"@type":"HowToStep","position":12,"name":"Шаг 12","text":"Если возникли ошибки при запуске, агент попытается исправить их самостоятельно (Self-healing)."},{"@type":"HowToStep","position":13,"name":"Шаг 13","text":"Используйте встроенный браузер для предпросмотра результата (если это веб-интерфейс)."},{"@type":"HowToStep","position":14,"name":"Шаг 14","text":"Попросите агента создать документацию: \"Сгенерируй README.md с инструкцией по запуску\"."},{"@type":"HowToStep","position":15,"name":"Шаг 15","text":"Проведите финальное ревью кода (Code Review) в диффе изменений."},{"@type":"HowToStep","position":16,"name":"Шаг 16","text":"Если все устраивает, подтвердите коммит изменений в git."},{"@type":"HowToStep","position":17,"name":"Шаг 17","text":"Выполните деплой или сборку проекта, используя команды, предложенные агентом."}]}
+    </script>
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная","item":"https://antigravity.google"},{"@type":"ListItem","position":2,"name":"MCP (Model Context Protocol)","item":"https://antigravity.google/#mcp"},{"@type":"ListItem","position":3,"name":"MCP Tools Development"}]}
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; color: #202124; background: #f8f9fa; }
+        .page-wrapper { display: flex; max-width: 1400px; margin: 0 auto; background: white; }
+        .sidebar { width: 280px; background: #f8f9fa; border-right: 1px solid #e8eaed; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+        .main-content { flex: 1; min-width: 0; }
+        .breadcrumbs { padding: 16px 40px; background: #f8f9fa; font-size: 14px; border-bottom: 1px solid #e8eaed; }
+        .breadcrumbs a { color: #1a73e8; text-decoration: none; }
+        .breadcrumbs span { margin: 0 8px; color: #5f6368; }
+        .hero { padding: 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 16px; font-weight: 600; }
+        .hero-meta { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+        .meta-item { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 14px; }
+        .cta-button { display: inline-block; background: #34a853; color: white; padding: 14px 32px; border-radius: 24px; text-decoration: none; font-weight: 600; margin-top: 24px; transition: transform 0.2s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(52,168,83,0.4); }
+        .content { padding: 40px; }
+        .toc { padding: 24px; border-bottom: 1px solid #e8eaed; }
+        .toc h3 { color: #202124; margin-bottom: 20px; font-size: 1em; font-weight: 600; }
+        .toc ul { list-style: none; }
+        .toc li { margin: 0; }
+        .toc a { display: block; color: #5f6368; text-decoration: none; padding: 10px 16px; border-radius: 4px; font-size: 14px; transition: all 0.2s; }
+        .toc a:hover, .toc a.active { background: #e8f0fe; color: #1a73e8; }
+        .categories { padding: 24px; }
+        .categories h3 { color: #202124; margin-bottom: 16px; font-size: 1em; font-weight: 600; }
+        .category-group { margin-bottom: 8px; }
+        .category-header { padding: 10px 12px; background: #fff; border-radius: 4px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-size: 14px; font-weight: 500; }
+        .category-header:hover { background: #e8eaed; }
+        .category-items { padding-left: 12px; margin-top: 4px; }
+        .category-items a { display: block; padding: 8px 12px; color: #5f6368; text-decoration: none; font-size: 13px; border-radius: 4px; }
+        .category-items a:hover { background: #e8f0fe; color: #1a73e8; }
+        .category-items a.active { background: #e8f0fe; color: #1a73e8; font-weight: 500; }
+        .prompts-accordion { margin: 24px 0; }
+        .prompt-item { margin: 16px 0; border: 1px solid #e8eaed; border-radius: 8px; overflow: hidden; }
+        .prompt-header { background: #f8f9fa; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 500; color: #202124; }
+        .prompt-header:hover { background: #e8eaed; }
+        .prompt-content { padding: 20px; background: #263238; color: #aed581; position: relative; font-family: 'Courier New', monospace; font-size: 14px; display: none; }
+        .prompt-item .prompt-content.active { display: block; }
+        .copy-btn { position: absolute; top: 12px; right: 12px; background: #34a853; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+        .copy-btn:hover { background: #2d8e47; }
+        .copy-btn.copied { background: #1a73e8; }
+        .steps { counter-reset: step-counter; }
+        .step { margin: 32px 0; padding: 24px; background: #f8f9fa; border-radius: 8px; position: relative; padding-left: 80px; }
+        .step::before { counter-increment: step-counter; content: counter(step-counter); position: absolute; left: 24px; top: 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 18px; }
+        .step h4 { color: #202124; margin-bottom: 12px; }
+        .faq-item { margin: 16px 0; border: 1px solid #e8eaed; border-radius: 8px; overflow: hidden; }
+        .faq-question { background: #f8f9fa; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 500; color: #202124; }
+        .faq-question:hover { background: #e8eaed; }
+        .faq-answer { padding: 16px 20px; display: none; color: #5f6368; }
+        .faq-item.active .faq-answer { display: block; }
+        .related { margin-top: 60px; padding: 32px; background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); border-radius: 12px; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+        .related-card { background: white; padding: 16px; border-radius: 8px; text-decoration: none; color: #202124; border: 1px solid #e8eaed; transition: box-shadow 0.2s; }
+        .related-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h2 { color: #202124; font-size: 1.8em; margin: 40px 0 20px; padding-bottom: 12px; border-bottom: 2px solid #e8eaed; }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/TechArticle">
+    <div class="page-wrapper">
+        <aside class="sidebar">
+            <div class="toc">
+                <h3>📋 Содержание</h3>
+                <ul>
+                    <li><a href="#overview">📖 Обзор</a></li>
+                    <li><a href="#prompts">📝 Промпты (3)</a></li>
+                    <li><a href="#guide">🔧 Инструкция</a></li>
+                    <li><a href="#faq">❓ FAQ (15)</a></li>
+                    <li><a href="#related">🔗 Похожие</a></li>
+                </ul>
+            </div>
+            <div class="categories">
+                <h3>🗂️ Категории</h3>
+                
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Antigravity Core Features</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../core/agent-first-ide-workflow.html" class="">Agent-First IDE Workflow</a>
+                
+                    <a href="../core/manager-surface-dashboard.html" class="">Manager Surface Dashboard</a>
+                
+                    <a href="../core/browser-subagent-automation.html" class="">Browser Subagent Automation</a>
+                
+                    <a href="../core/generating-artifacts.html" class="">Generating Artifacts</a>
+                
+                    <a href="../core/multi-agent-collaboration.html" class="">Multi-Agent Collaboration</a>
+                
+                    <a href="../core/feedback-loops-learning.html" class="">Feedback Loops & Learning</a>
+                
+                    <a href="../core/model-selection-gemini-claude.html" class="">Model Selection (Gemini/Claude)</a>
+                
+                    <a href="../core/context-management.html" class="">Context Management</a>
+                
+                    <a href="../core/terminal-integration.html" class="">Terminal Integration</a>
+                
+                    <a href="../core/visual-regression-with-artifacts.html" class="">Visual Regression with Artifacts</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Web Development</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../web/react-component-generation.html" class="">React Component Generation</a>
+                
+                    <a href="../web/tailwind-css-conversion.html" class="">Tailwind CSS Conversion</a>
+                
+                    <a href="../web/next-js-app-router-setup.html" class="">Next.js App Router Setup</a>
+                
+                    <a href="../web/form-validation-zod-rhf.html" class="">Form Validation (Zod/RHF)</a>
+                
+                    <a href="../web/responsive-design-implementation.html" class="">Responsive Design Implementation</a>
+                
+                    <a href="../web/dark-mode-integration.html" class="">Dark Mode Integration</a>
+                
+                    <a href="../web/framer-motion-animations.html" class="">Framer Motion Animations</a>
+                
+                    <a href="../web/web-performance-optimization.html" class="">Web Performance Optimization</a>
+                
+                    <a href="../web/pwa-configuration.html" class="">PWA Configuration</a>
+                
+                    <a href="../web/accessibility-a11y-audit.html" class="">Accessibility (a11y) Audit</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Backend Systems</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../backend/go-rest-api-boilerplate.html" class="">Go REST API Boilerplate</a>
+                
+                    <a href="../backend/graphql-schema-generation.html" class="">GraphQL Schema Generation</a>
+                
+                    <a href="../backend/postgresql-migrations.html" class="">PostgreSQL Migrations</a>
+                
+                    <a href="../backend/jwt-auth-implementation.html" class="">JWT Auth Implementation</a>
+                
+                    <a href="../backend/redis-caching-layer.html" class="">Redis Caching Layer</a>
+                
+                    <a href="../backend/grpc-microservices.html" class="">gRPC Microservices</a>
+                
+                    <a href="../backend/websocket-real-time-server.html" class="">WebSocket Real-time Server</a>
+                
+                    <a href="../backend/message-queue-consumers.html" class="">Message Queue Consumers</a>
+                
+                    <a href="../backend/serverless-functions-aws.html" class="">Serverless Functions (AWS)</a>
+                
+                    <a href="../backend/logging-telemetry.html" class="">Logging & Telemetry</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Data Science & ML</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../ds/eda-report-generation.html" class="">EDA Report Generation</a>
+                
+                    <a href="../ds/scikit-learn-model-training.html" class="">Scikit-learn Model Training</a>
+                
+                    <a href="../ds/advanced-matplotlib-plots.html" class="">Advanced Matplotlib Plots</a>
+                
+                    <a href="../ds/pytorch-cnn-architecture.html" class="">PyTorch CNN Architecture</a>
+                
+                    <a href="../ds/nlp-text-preprocessing.html" class="">NLP Text Preprocessing</a>
+                
+                    <a href="../ds/jupyter-notebook-refactoring.html" class="">Jupyter Notebook Refactoring</a>
+                
+                    <a href="../ds/data-cleaning-scripts.html" class="">Data Cleaning Scripts</a>
+                
+                    <a href="../ds/airflow-dag-creation.html" class="">Airflow DAG Creation</a>
+                
+                    <a href="../ds/fastapi-model-serving.html" class="">FastAPI Model Serving</a>
+                
+                    <a href="../ds/a-b-test-analysis.html" class="">A/B Test Analysis</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>DevOps & Cloud</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../devops/docker-compose-setup.html" class="">Docker Compose Setup</a>
+                
+                    <a href="../devops/k8s-manifest-generation.html" class="">K8s Manifest Generation</a>
+                
+                    <a href="../devops/terraform-aws-infrastructure.html" class="">Terraform AWS Infrastructure</a>
+                
+                    <a href="../devops/github-actions-ci-cd.html" class="">GitHub Actions CI/CD</a>
+                
+                    <a href="../devops/nginx-reverse-proxy.html" class="">Nginx Reverse Proxy</a>
+                
+                    <a href="../devops/ansible-playbooks.html" class="">Ansible Playbooks</a>
+                
+                    <a href="../devops/prometheus-alerting.html" class="">Prometheus Alerting</a>
+                
+                    <a href="../devops/bash-maintenance-scripts.html" class="">Bash Maintenance Scripts</a>
+                
+                    <a href="../devops/ssl-certificate-auto-renewal.html" class="">SSL Certificate Auto-renewal</a>
+                
+                    <a href="../devops/cloudflare-workers-deploy.html" class="">Cloudflare Workers Deploy</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>QA & Testing</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../qa/jest-unit-testing.html" class="">Jest Unit Testing</a>
+                
+                    <a href="../qa/cypress-e2e-scenarios.html" class="">Cypress E2E Scenarios</a>
+                
+                    <a href="../qa/playwright-cross-browser.html" class="">Playwright Cross-browser</a>
+                
+                    <a href="../qa/postman-collection-gen.html" class="">Postman Collection Gen</a>
+                
+                    <a href="../qa/k6-load-testing.html" class="">k6 Load Testing</a>
+                
+                    <a href="../qa/faker-js-mock-data.html" class="">Faker.js Mock Data</a>
+                
+                    <a href="../qa/storybook-visual-tests.html" class="">Storybook Visual Tests</a>
+                
+                    <a href="../qa/owasp-zap-security-scan.html" class="">OWASP ZAP Security Scan</a>
+                
+                    <a href="../qa/appium-mobile-tests.html" class="">Appium Mobile Tests</a>
+                
+                    <a href="../qa/coverage-reports-setup.html" class="">Coverage Reports Setup</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Refactoring</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../refactor/legacy-js-to-modern.html" class="">Legacy JS to Modern</a>
+                
+                    <a href="../refactor/extract-react-component.html" class="">Extract React Component</a>
+                
+                    <a href="../refactor/optimize-imports.html" class="">Optimize Imports</a>
+                
+                    <a href="../refactor/variable-renaming.html" class="">Variable Renaming</a>
+                
+                    <a href="../refactor/class-to-function.html" class="">Class to Function</a>
+                
+                    <a href="../refactor/logic-simplification.html" class="">Logic Simplification</a>
+                
+                    <a href="../refactor/typescript-migration.html" class="">TypeScript Migration</a>
+                
+                    <a href="../refactor/css-cleanup.html" class="">CSS Cleanup</a>
+                
+                    <a href="../refactor/design-patterns-impl.html" class="">Design Patterns Impl</a>
+                
+                    <a href="../refactor/dead-code-elimination.html" class="">Dead Code Elimination</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Debugging</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../debug/stack-trace-analysis.html" class="">Stack Trace Analysis</a>
+                
+                    <a href="../debug/memory-leak-hunt.html" class="">Memory Leak Hunt</a>
+                
+                    <a href="../debug/network-request-debug.html" class="">Network Request Debug</a>
+                
+                    <a href="../debug/react-render-optimization.html" class="">React Render Optimization</a>
+                
+                    <a href="../debug/slow-sql-query-fix.html" class="">Slow SQL Query Fix</a>
+                
+                    <a href="../debug/server-log-parsing.html" class="">Server Log Parsing</a>
+                
+                    <a href="../debug/css-layout-fixes.html" class="">CSS Layout Fixes</a>
+                
+                    <a href="../debug/async-race-conditions.html" class="">Async Race Conditions</a>
+                
+                    <a href="../debug/env-config-validation.html" class="">Env Config Validation</a>
+                
+                    <a href="../debug/dependency-hell-fix.html" class="">Dependency Hell Fix</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Documentation</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../docs/readme-md-generation.html" class="">README.md Generation</a>
+                
+                    <a href="../docs/openapi-swagger-specs.html" class="">OpenAPI/Swagger Specs</a>
+                
+                    <a href="../docs/jsdoc-docstrings.html" class="">JSDoc/DocStrings</a>
+                
+                    <a href="../docs/changelog-automation.html" class="">Changelog Automation</a>
+                
+                    <a href="../docs/user-manuals.html" class="">User Manuals</a>
+                
+                    <a href="../docs/mermaid-architecture-maps.html" class="">Mermaid Architecture Maps</a>
+                
+                    <a href="../docs/i18n-documentation.html" class="">i18n Documentation</a>
+                
+                    <a href="../docs/code-tutorials.html" class="">Code Tutorials</a>
+                
+                    <a href="../docs/contributing-md.html" class="">CONTRIBUTING.md</a>
+                
+                    <a href="../docs/license-management.html" class="">License Management</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>API Integrations</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../api/stripe-integration.html" class="">Stripe Integration</a>
+                
+                    <a href="../api/google-maps-api.html" class="">Google Maps API</a>
+                
+                    <a href="../api/openai-gemini-api.html" class="">OpenAI/Gemini API</a>
+                
+                    <a href="../api/firebase-services.html" class="">Firebase Services</a>
+                
+                    <a href="../api/sendgrid-mailgun.html" class="">SendGrid/Mailgun</a>
+                
+                    <a href="../api/twilio-sms-voice.html" class="">Twilio SMS/Voice</a>
+                
+                    <a href="../api/slack-discord-bots.html" class="">Slack/Discord Bots</a>
+                
+                    <a href="../api/notion-api-sync.html" class="">Notion API Sync</a>
+                
+                    <a href="../api/github-rest-api.html" class="">GitHub REST API</a>
+                
+                    <a href="../api/oauth2-providers.html" class="">OAuth2 Providers</a>
+                
+            </div>
+        </div>
+        <div class="category-group ">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>Automation</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: none">
+                
+                    <a href="../auto/batch-file-renaming.html" class="">Batch File Renaming</a>
+                
+                    <a href="../auto/image-processing.html" class="">Image Processing</a>
+                
+                    <a href="../auto/web-scraping-puppeteer.html" class="">Web Scraping (Puppeteer)</a>
+                
+                    <a href="../auto/pdf-generation.html" class="">PDF Generation</a>
+                
+                    <a href="../auto/excel-csv-parsing.html" class="">Excel/CSV Parsing</a>
+                
+                    <a href="../auto/cron-job-scheduling.html" class="">Cron Job Scheduling</a>
+                
+                    <a href="../auto/database-backups.html" class="">Database Backups</a>
+                
+                    <a href="../auto/health-check-scripts.html" class="">Health Check Scripts</a>
+                
+                    <a href="../auto/git-hooks-husky.html" class="">Git Hooks (Husky)</a>
+                
+                    <a href="../auto/release-versioning.html" class="">Release Versioning</a>
+                
+            </div>
+        </div>
+        <div class="category-group active">
+            <div class="category-header" onclick="toggleCategory(this)">
+                <span>MCP (Model Context Protocol)</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="category-items" style="display: block">
+                
+                    <a href="../mcp/mcp-server-creation.html" class="">MCP Server Creation</a>
+                
+                    <a href="../mcp/file-system-mcp-server.html" class="">File System MCP Server</a>
+                
+                    <a href="../mcp/database-mcp-integration.html" class="">Database MCP Integration</a>
+                
+                    <a href="../mcp/web-search-mcp-tool.html" class="">Web Search MCP Tool</a>
+                
+                    <a href="../mcp/github-mcp-server.html" class="">GitHub MCP Server</a>
+                
+                    <a href="../mcp/slack-mcp-integration.html" class="">Slack MCP Integration</a>
+                
+                    <a href="../mcp/custom-mcp-resources.html" class="">Custom MCP Resources</a>
+                
+                    <a href="../mcp/mcp-prompts-library.html" class="">MCP Prompts Library</a>
+                
+                    <a href="../mcp/mcp-tools-development.html" class="active">MCP Tools Development</a>
+                
+                    <a href="../mcp/memory-mcp-server.html" class="">Memory MCP Server</a>
+                
+                    <a href="../mcp/puppeteer-mcp-automation.html" class="">Puppeteer MCP Automation</a>
+                
+                    <a href="../mcp/google-drive-mcp.html" class="">Google Drive MCP</a>
+                
+                    <a href="../mcp/sequential-thinking-mcp.html" class="">Sequential Thinking MCP</a>
+                
+                    <a href="../mcp/time-calendar-mcp.html" class="">Time & Calendar MCP</a>
+                
+                    <a href="../mcp/fetch-mcp-server.html" class="">Fetch MCP Server</a>
+                
+                    <a href="../mcp/notion-mcp-integration.html" class="">Notion MCP Integration</a>
+                
+                    <a href="../mcp/mcp-server-security.html" class="">MCP Server Security</a>
+                
+                    <a href="../mcp/mcp-logging-monitoring.html" class="">MCP Logging & Monitoring</a>
+                
+                    <a href="../mcp/multi-server-mcp-setup.html" class="">Multi-Server MCP Setup</a>
+                
+                    <a href="../mcp/mcp-typescript-sdk.html" class="">MCP TypeScript SDK</a>
+                
+            </div>
+        </div>
+            </div>
+        </aside>
+        
+        <div class="main-content">
+            <div class="breadcrumbs">
+                <a href="../index.html">Главная</a>
+                <span>›</span>
+                <a href="../index.html#mcp">MCP (Model Context Protocol)</a>
+                <span>›</span>
+                <span>MCP Tools Development</span>
+            </div>
+            
+            <div class="hero">
+                <h1>MCP Tools Development</h1>
+                <p style="font-size: 1.1em; opacity: 0.95; margin-top: 12px;">Разработка инструментов (Tools) для расширения функционала.</p>
+                <div class="hero-meta">
+                    <div class="meta-item"><span>⏱️</span><span>2-5 минут</span></div>
+                    <div class="meta-item"><span>📊</span><span>Средняя сложность</span></div>
+                    <div class="meta-item"><span>🤖</span><span>Gemini 3 Pro</span></div>
+                </div>
+                <a href="https://antigravity.google" class="cta-button">🚀 Попробовать в Antigravity</a>
+            </div>
+            
+            <div class="content">
+                <h2 id="overview">📖 Обзор</h2>
+                
+<h3>Обзор технологии</h3>
+<p>MCP Tools Development — это важный аспект современной разработки в области undefined. Разработка инструментов (Tools) для расширения функционала. Данный подход позволяет значительно ускорить процесс разработки и повысить качество кода благодаря использованию ИИ-агента Google Antigravity.</p>
+
+<h3>Ключевые преимущества</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Преимущество</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Описание</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Экономия времени</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Автоматизация</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Агент генерирует код автоматически</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">До 80%</td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Качество</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Следование best practices</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">-</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;"><strong>Тестирование</strong></td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Автогенерация тестов</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">До 70%</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Требования к проекту</h3>
+<ul style="margin: 15px 0; padding-left: 25px;">
+    <li><strong>Технические:</strong> Современная версия языка/фреймворка, доступ к интернету для агента</li>
+    <li><strong>Навыки:</strong> Базовое понимание undefined, умение формулировать задачи</li>
+    <li><strong>Инструменты:</strong> Google Antigravity IDE, Git для версионирования</li>
+    <li><strong>Время:</strong> 2-10 минут в зависимости от сложности задачи</li>
+</ul>
+
+<h3>Сценарии применения</h3>
+<p>Технология MCP Tools Development особенно полезна в следующих случаях:</p>
+<ol style="margin: 15px 0; padding-left: 25px;">
+    <li><strong>Быстрое прототипирование:</strong> Когда нужно быстро проверить идею или создать MVP</li>
+    <li><strong>Рутинные задачи:</strong> Автоматизация повторяющихся паттернов кода</li>
+    <li><strong>Обучение:</strong> Изучение новых технологий через примеры от агента</li>
+    <li><strong>Рефакторинг:</strong> Улучшение существующего кода с сохранением функциональности</li>
+    <li><strong>Документация:</strong> Автоматическая генерация README и комментариев</li>
+</ol>
+
+<h3>Сравнение подходов</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Критерий</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Ручная разработка</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">С Antigravity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Время разработки</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">2-4 часа</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>5-15 минут</strong></td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Покрытие тестами</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">30-50%</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>70-90%</strong></td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Документация</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Часто отсутствует</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed; background: #e8f5e9;"><strong>Автоматически</strong></td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Лучшие практики</h3>
+<div style="background: #e8f5e9; padding: 20px; border-left: 4px solid #34a853; margin: 20px 0; border-radius: 4px;">
+    <p><strong>💡 Совет эксперта:</strong> Для достижения наилучших результатов с MCP Tools Development:</p>
+    <ul style="margin: 10px 0; padding-left: 25px;">
+        <li>Формулируйте промпты максимально конкретно</li>
+        <li>Указывайте желаемые технологии и паттерны</li>
+        <li>Проверяйте сгенерированный код перед использованием</li>
+        <li>Используйте итеративный подход: уточняйте и дополняйте</li>
+        <li>Сохраняйте успешные промпты для повторного использования</li>
+    </ul>
+</div>
+
+<h3>Типичные ошибки и решения</h3>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+    <thead>
+        <tr style="background: #f8f9fa;">
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Проблема</th>
+            <th style="padding: 12px; text-align: left; border: 1px solid #e8eaed;">Решение</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Агент не понимает контекст</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Откройте нужные файлы в редакторе, используйте @-упоминания</td>
+        </tr>
+        <tr style="background: #f8f9fa;">
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Код не соответствует стилю проекта</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Укажите в промпте конкретные требования к стилю</td>
+        </tr>
+        <tr>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Генерация занимает слишком долго</td>
+            <td style="padding: 12px; border: 1px solid #e8eaed;">Разбейте задачу на более мелкие подзадачи</td>
+        </tr>
+    </tbody>
+</table>
+
+                
+                <h2 id="prompts">📝 Готовые промпты для копирования</h2>
+                <p>Выберите подходящий промпт в зависимости от ваших требований:</p>
+                <div class="prompts-accordion">
+                    
+        <div class="prompt-item">
+            <div class="prompt-header" onclick="togglePrompt(this)">
+                <span>Базовый промпт</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="prompt-content" style="display: block">
+                <button class="copy-btn" onclick="copyPrompt(this)">📋 Копировать</button>
+                <pre>Создай решение для задачи: MCP Tools Development
+
+Требования:
+- Разработка инструментов (Tools) для расширения функционала.
+- Используй современные практики и паттерны
+- Добавь комментарии к коду
+- Следуй best practices для undefined</pre>
+            </div>
+        </div>
+    
+        <div class="prompt-item">
+            <div class="prompt-header" onclick="togglePrompt(this)">
+                <span>Продвинутый промпт с деталями</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="prompt-content" style="display: none">
+                <button class="copy-btn" onclick="copyPrompt(this)">📋 Копировать</button>
+                <pre>Реализуй MCP Tools Development с учетом следующих требований:
+
+Функциональность:
+- Разработка инструментов (Tools) для расширения функционала.
+- Обработка ошибок и граничных случаев
+- Логирование всех важных операций
+- Валидация входных данных
+
+Качество кода:
+- Следуй принципам SOLID
+- Используй TypeScript для типобезопасности
+- Добавь JSDoc комментарии
+- Оптимизируй производительность
+
+Дополнительно:
+- Создай README.md с инструкцией
+- Добавь примеры использования</pre>
+            </div>
+        </div>
+    
+        <div class="prompt-item">
+            <div class="prompt-header" onclick="togglePrompt(this)">
+                <span>С тестами и документацией</span>
+                <span class="arrow">▼</span>
+            </div>
+            <div class="prompt-content" style="display: none">
+                <button class="copy-btn" onclick="copyPrompt(this)">📋 Копировать</button>
+                <pre>Полная реализация: MCP Tools Development
+
+Основная задача:
+Разработка инструментов (Tools) для расширения функционала.
+
+Обязательные компоненты:
+1. Рабочий код с обработкой ошибок
+2. Unit-тесты (покрытие >80%)
+3. Integration тесты для критичных путей
+4. README.md с:
+   - Описанием функционала
+   - Инструкцией по установке
+   - Примерами использования
+   - API документацией
+5. CHANGELOG.md для отслеживания изменений
+
+Технические требования:
+- Современный стек технологий
+- Чистая архитектура
+- Производительность и масштабируемость</pre>
+            </div>
+        </div>
+    
+                </div>
+                
+                <h2 id="guide">🔧 Пошаговая инструкция</h2>
+                <div class="steps">
+                    <div class="step"><h4>Откройте Google Antigravity IDE и перейдите в рабочее пространство проекта</h4><p>Откройте Google Antigravity IDE и перейдите в рабочее пространство проекта.</p></div><div class="step"><h4>Убедитесь, что у вас выбрана модель Gemini 3 Pro для максимальной точности генерации кода</h4><p>Убедитесь, что у вас выбрана модель Gemini 3 Pro для максимальной точности генерации кода.</p></div><div class="step"><h4>Откройте панель "Manager Surface" для визуализации задач агента</h4><p>Откройте панель "Manager Surface" для визуализации задач агента.</p></div><div class="step"><h4>В чате с агентом введите промпт: "Создай решение для задачи: MCP Tools Development"</h4><p>В чате с агентом введите промпт: "Создай решение для задачи: MCP Tools Development".</p></div><div class="step"><h4>Уточните требования: "Используй современные практики и паттерны проектирования для undefined"</h4><p>Уточните требования: "Используй современные практики и паттерны проектирования для undefined".</p></div><div class="step"><h4>Агент начнет планирование</h4><p>Агент начнет планирование. Дождитесь появления плана действий (Implementation Plan) в артефактах.</p></div><div class="step"><h4>Проверьте предложенный план</h4><p>Проверьте предложенный план. Если нужно, добавьте комментарий: "Учти обработку ошибок и логирование".</p></div><div class="step"><h4>Подтвердите выполнение плана</h4><p>Подтвердите выполнение плана. Агент начнет писать код в реальном времени.</p></div><div class="step"><h4>Следите за прогрессом через терминал, встроенный в интерфейс Antigravity</h4><p>Следите за прогрессом через терминал, встроенный в интерфейс Antigravity.</p></div><div class="step"><h4>Агент автоматически создаст необходимые файлы и папки для MCP Tools Development</h4><p>Агент автоматически создаст необходимые файлы и папки для MCP Tools Development.</p></div><div class="step"><h4>После генерации кода агент запустит тесты</h4><p>После генерации кода агент запустит тесты. Если тестов нет, попросите: "Напиши unit-тесты для этого функционала".</p></div><div class="step"><h4>Если возникли ошибки при запуске, агент попытается исправить их самостоятельно (Self-healing)</h4><p>Если возникли ошибки при запуске, агент попытается исправить их самостоятельно (Self-healing).</p></div><div class="step"><h4>Используйте встроенный браузер для предпросмотра результата (если это веб-интерфейс)</h4><p>Используйте встроенный браузер для предпросмотра результата (если это веб-интерфейс).</p></div><div class="step"><h4>Попросите агента создать документацию: "Сгенерируй README</h4><p>Попросите агента создать документацию: "Сгенерируй README.md с инструкцией по запуску".</p></div><div class="step"><h4>Проведите финальное ревью кода (Code Review) в диффе изменений</h4><p>Проведите финальное ревью кода (Code Review) в диффе изменений.</p></div><div class="step"><h4>Если все устраивает, подтвердите коммит изменений в git</h4><p>Если все устраивает, подтвердите коммит изменений в git.</p></div><div class="step"><h4>Выполните деплой или сборку проекта, используя команды, предложенные агентом</h4><p>Выполните деплой или сборку проекта, используя команды, предложенные агентом.</p></div>
+                </div>
+                
+                <h2 id="faq">❓ Часто задаваемые вопросы</h2>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Как Antigravity помогает с MCP Tools Development?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Antigravity берет на себя рутину: от скаффолдинга проекта до написания конкретной логики MCP Tools Development, позволяя вам сосредоточиться на архитектуре.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Нужно ли мне знать синтаксис языка досконально?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Для задачи MCP Tools Development глубокое знание не обязательно, так как агент генерирует синтаксически верный код, но понимание логики поможет при ревью.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Может ли агент исправить ошибки в MCP Tools Development?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Да, Antigravity имеет цикл обратной связи: он читает ошибки из терминала и автоматически предлагает исправления.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Как интегрировать это в существующий проект?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Агент умеет работать с контекстом. Просто откройте ваш проект и попросите добавить функционал MCP Tools Development в существующую структуру.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Какие модели используются?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">По умолчанию Gemini 3, но вы можете переключиться на Claude Sonnet или GPT-OSS в настройках агента.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Безопасно ли доверять агенту MCP Tools Development?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Код выполняется в песочнице, и вы всегда должны подтверждать критические действия (удаление файлов, API запросы).</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Сколько времени занимает генерация?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Простые задачи типа MCP Tools Development решаются за 1-3 минуты. Сложные архитектурные изменения могут занять до 10-15 минут.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Генерируются ли тесты?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Да, мы рекомендуем всегда просить агента генерировать тесты для MCP Tools Development для гарантии качества.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Можно ли экспортировать результат?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Конечно, результат — это обычные файлы в вашей файловой системе, которые можно залить в Git.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Поддерживается ли командная работа?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Да, через Manager Surface вы можете видеть, над чем работают агенты ваших коллег в реальном времени.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Нужен ли доступ в интернет?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Для работы модели нужен интернет, но локальный код остается на вашей машине (если не включена облачная синхронизация).</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Как улучшить качество генерации для MCP Tools Development?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Чем детальнее ваш промпт и контекст (открытые файлы), тем лучше результат. Используйте @-упоминания файлов.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Есть ли плагины для MCP Tools Development?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Antigravity поддерживает расширения VS Code, поэтому вы можете использовать привычные инструменты.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Что делать, если агент завис?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Вы можете перезапустить задачу или уточнить промпт. Состояние агента сохраняется.</div>
+                    </div>
+                
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            Где найти документацию?
+                            <span>▼</span>
+                        </div>
+                        <div class="faq-answer">Вся документация доступна на официальном сайте antigravity.google и в этом справочнике.</div>
+                    </div>
+                
+                
+                <div class="related" id="related">
+                    <h3>Смотрите также</h3>
+                    <div class="related-grid">
+                        
+            <a href="../mcp/mcp-server-creation.html" class="related-card">
+                <strong>MCP Server Creation</strong>
+                <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">Создание собственного MCP сервера для расширения возможностей LLM....</p>
+            </a>
+        
+            <a href="../mcp/file-system-mcp-server.html" class="related-card">
+                <strong>File System MCP Server</strong>
+                <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">Сервер для безопасного доступа к файловой системе через MCP....</p>
+            </a>
+        
+            <a href="../mcp/database-mcp-integration.html" class="related-card">
+                <strong>Database MCP Integration</strong>
+                <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">Подключение баз данных (PostgreSQL, MySQL) через MCP протокол....</p>
+            </a>
+        
+            <a href="../mcp/web-search-mcp-tool.html" class="related-card">
+                <strong>Web Search MCP Tool</strong>
+                <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">Интеграция поисковых API (Google, Brave) как MCP инструмент....</p>
+            </a>
+        
+            <a href="../mcp/github-mcp-server.html" class="related-card">
+                <strong>GitHub MCP Server</strong>
+                <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">Управление репозиториями и issues через MCP....</p>
+            </a>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function copyPrompt(btn) {
+            const promptText = btn.parentElement.querySelector('pre').textContent;
+            navigator.clipboard.writeText(promptText).then(() => {
+                btn.textContent = '✅ Скопировано!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = '📋 Копировать';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+        
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            faqItem.classList.toggle('active');
+            const arrow = element.querySelector('span');
+            arrow.textContent = faqItem.classList.contains('active') ? '▲' : '▼';
+        }
+        
+        function togglePrompt(element) {
+            const promptItem = element.parentElement;
+            const content = promptItem.querySelector('.prompt-content');
+            const arrow = element.querySelector('.arrow');
+            
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                arrow.textContent = '▲';
+            } else {
+                content.style.display = 'none';
+                arrow.textContent = '▼';
+            }
+        }
+        
+        function toggleCategory(element) {
+            const group = element.parentElement;
+            const items = group.querySelector('.category-items');
+            const arrow = element.querySelector('.arrow');
+            
+            if (items.style.display === 'none') {
+                items.style.display = 'block';
+                arrow.textContent = '▲';
+            } else {
+                items.style.display = 'none';
+                arrow.textContent = '▼';
+            }
+        }
+    </script>
+</body>
+</html>

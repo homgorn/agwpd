@@ -13,781 +13,781 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-1.html</loc>
+        <loc>https://antigravity.google/core/agent-first-ide-workflow.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-2.html</loc>
+        <loc>https://antigravity.google/core/manager-surface-dashboard.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-3.html</loc>
+        <loc>https://antigravity.google/core/browser-subagent-automation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-4.html</loc>
+        <loc>https://antigravity.google/core/generating-artifacts.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-5.html</loc>
+        <loc>https://antigravity.google/core/multi-agent-collaboration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-6.html</loc>
+        <loc>https://antigravity.google/core/feedback-loops-learning.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-7.html</loc>
+        <loc>https://antigravity.google/core/model-selection-gemini-claude.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-8.html</loc>
+        <loc>https://antigravity.google/core/context-management.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-9.html</loc>
+        <loc>https://antigravity.google/core/terminal-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/core/core-10.html</loc>
+        <loc>https://antigravity.google/core/visual-regression-with-artifacts.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-1.html</loc>
+        <loc>https://antigravity.google/web/react-component-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-2.html</loc>
+        <loc>https://antigravity.google/web/tailwind-css-conversion.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-3.html</loc>
+        <loc>https://antigravity.google/web/next-js-app-router-setup.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-4.html</loc>
+        <loc>https://antigravity.google/web/form-validation-zod-rhf.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-5.html</loc>
+        <loc>https://antigravity.google/web/responsive-design-implementation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-6.html</loc>
+        <loc>https://antigravity.google/web/dark-mode-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-7.html</loc>
+        <loc>https://antigravity.google/web/framer-motion-animations.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-8.html</loc>
+        <loc>https://antigravity.google/web/web-performance-optimization.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-9.html</loc>
+        <loc>https://antigravity.google/web/pwa-configuration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/web/web-10.html</loc>
+        <loc>https://antigravity.google/web/accessibility-a11y-audit.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-1.html</loc>
+        <loc>https://antigravity.google/backend/go-rest-api-boilerplate.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-2.html</loc>
+        <loc>https://antigravity.google/backend/graphql-schema-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-3.html</loc>
+        <loc>https://antigravity.google/backend/postgresql-migrations.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-4.html</loc>
+        <loc>https://antigravity.google/backend/jwt-auth-implementation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-5.html</loc>
+        <loc>https://antigravity.google/backend/redis-caching-layer.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-6.html</loc>
+        <loc>https://antigravity.google/backend/grpc-microservices.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-7.html</loc>
+        <loc>https://antigravity.google/backend/websocket-real-time-server.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-8.html</loc>
+        <loc>https://antigravity.google/backend/message-queue-consumers.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-9.html</loc>
+        <loc>https://antigravity.google/backend/serverless-functions-aws.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/backend/be-10.html</loc>
+        <loc>https://antigravity.google/backend/logging-telemetry.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-1.html</loc>
+        <loc>https://antigravity.google/ds/eda-report-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-2.html</loc>
+        <loc>https://antigravity.google/ds/scikit-learn-model-training.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-3.html</loc>
+        <loc>https://antigravity.google/ds/advanced-matplotlib-plots.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-4.html</loc>
+        <loc>https://antigravity.google/ds/pytorch-cnn-architecture.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-5.html</loc>
+        <loc>https://antigravity.google/ds/nlp-text-preprocessing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-6.html</loc>
+        <loc>https://antigravity.google/ds/jupyter-notebook-refactoring.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-7.html</loc>
+        <loc>https://antigravity.google/ds/data-cleaning-scripts.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-8.html</loc>
+        <loc>https://antigravity.google/ds/airflow-dag-creation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-9.html</loc>
+        <loc>https://antigravity.google/ds/fastapi-model-serving.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/ds/ds-10.html</loc>
+        <loc>https://antigravity.google/ds/a-b-test-analysis.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-1.html</loc>
+        <loc>https://antigravity.google/devops/docker-compose-setup.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-2.html</loc>
+        <loc>https://antigravity.google/devops/k8s-manifest-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-3.html</loc>
+        <loc>https://antigravity.google/devops/terraform-aws-infrastructure.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-4.html</loc>
+        <loc>https://antigravity.google/devops/github-actions-ci-cd.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-5.html</loc>
+        <loc>https://antigravity.google/devops/nginx-reverse-proxy.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-6.html</loc>
+        <loc>https://antigravity.google/devops/ansible-playbooks.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-7.html</loc>
+        <loc>https://antigravity.google/devops/prometheus-alerting.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-8.html</loc>
+        <loc>https://antigravity.google/devops/bash-maintenance-scripts.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-9.html</loc>
+        <loc>https://antigravity.google/devops/ssl-certificate-auto-renewal.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/devops/ops-10.html</loc>
+        <loc>https://antigravity.google/devops/cloudflare-workers-deploy.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-1.html</loc>
+        <loc>https://antigravity.google/qa/jest-unit-testing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-2.html</loc>
+        <loc>https://antigravity.google/qa/cypress-e2e-scenarios.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-3.html</loc>
+        <loc>https://antigravity.google/qa/playwright-cross-browser.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-4.html</loc>
+        <loc>https://antigravity.google/qa/postman-collection-gen.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-5.html</loc>
+        <loc>https://antigravity.google/qa/k6-load-testing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-6.html</loc>
+        <loc>https://antigravity.google/qa/faker-js-mock-data.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-7.html</loc>
+        <loc>https://antigravity.google/qa/storybook-visual-tests.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-8.html</loc>
+        <loc>https://antigravity.google/qa/owasp-zap-security-scan.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-9.html</loc>
+        <loc>https://antigravity.google/qa/appium-mobile-tests.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/qa/qa-10.html</loc>
+        <loc>https://antigravity.google/qa/coverage-reports-setup.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-1.html</loc>
+        <loc>https://antigravity.google/refactor/legacy-js-to-modern.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-2.html</loc>
+        <loc>https://antigravity.google/refactor/extract-react-component.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-3.html</loc>
+        <loc>https://antigravity.google/refactor/optimize-imports.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-4.html</loc>
+        <loc>https://antigravity.google/refactor/variable-renaming.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-5.html</loc>
+        <loc>https://antigravity.google/refactor/class-to-function.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-6.html</loc>
+        <loc>https://antigravity.google/refactor/logic-simplification.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-7.html</loc>
+        <loc>https://antigravity.google/refactor/typescript-migration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-8.html</loc>
+        <loc>https://antigravity.google/refactor/css-cleanup.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-9.html</loc>
+        <loc>https://antigravity.google/refactor/design-patterns-impl.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/refactor/ref-10.html</loc>
+        <loc>https://antigravity.google/refactor/dead-code-elimination.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-1.html</loc>
+        <loc>https://antigravity.google/debug/stack-trace-analysis.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-2.html</loc>
+        <loc>https://antigravity.google/debug/memory-leak-hunt.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-3.html</loc>
+        <loc>https://antigravity.google/debug/network-request-debug.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-4.html</loc>
+        <loc>https://antigravity.google/debug/react-render-optimization.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-5.html</loc>
+        <loc>https://antigravity.google/debug/slow-sql-query-fix.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-6.html</loc>
+        <loc>https://antigravity.google/debug/server-log-parsing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-7.html</loc>
+        <loc>https://antigravity.google/debug/css-layout-fixes.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-8.html</loc>
+        <loc>https://antigravity.google/debug/async-race-conditions.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-9.html</loc>
+        <loc>https://antigravity.google/debug/env-config-validation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/debug/dbg-10.html</loc>
+        <loc>https://antigravity.google/debug/dependency-hell-fix.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-1.html</loc>
+        <loc>https://antigravity.google/docs/readme-md-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-2.html</loc>
+        <loc>https://antigravity.google/docs/openapi-swagger-specs.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-3.html</loc>
+        <loc>https://antigravity.google/docs/jsdoc-docstrings.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-4.html</loc>
+        <loc>https://antigravity.google/docs/changelog-automation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-5.html</loc>
+        <loc>https://antigravity.google/docs/user-manuals.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-6.html</loc>
+        <loc>https://antigravity.google/docs/mermaid-architecture-maps.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-7.html</loc>
+        <loc>https://antigravity.google/docs/i18n-documentation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-8.html</loc>
+        <loc>https://antigravity.google/docs/code-tutorials.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-9.html</loc>
+        <loc>https://antigravity.google/docs/contributing-md.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/docs/doc-10.html</loc>
+        <loc>https://antigravity.google/docs/license-management.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-1.html</loc>
+        <loc>https://antigravity.google/api/stripe-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-2.html</loc>
+        <loc>https://antigravity.google/api/google-maps-api.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-3.html</loc>
+        <loc>https://antigravity.google/api/openai-gemini-api.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-4.html</loc>
+        <loc>https://antigravity.google/api/firebase-services.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-5.html</loc>
+        <loc>https://antigravity.google/api/sendgrid-mailgun.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-6.html</loc>
+        <loc>https://antigravity.google/api/twilio-sms-voice.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-7.html</loc>
+        <loc>https://antigravity.google/api/slack-discord-bots.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-8.html</loc>
+        <loc>https://antigravity.google/api/notion-api-sync.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-9.html</loc>
+        <loc>https://antigravity.google/api/github-rest-api.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/api/api-10.html</loc>
+        <loc>https://antigravity.google/api/oauth2-providers.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-1.html</loc>
+        <loc>https://antigravity.google/auto/batch-file-renaming.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-2.html</loc>
+        <loc>https://antigravity.google/auto/image-processing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-3.html</loc>
+        <loc>https://antigravity.google/auto/web-scraping-puppeteer.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-4.html</loc>
+        <loc>https://antigravity.google/auto/pdf-generation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-5.html</loc>
+        <loc>https://antigravity.google/auto/excel-csv-parsing.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-6.html</loc>
+        <loc>https://antigravity.google/auto/cron-job-scheduling.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-7.html</loc>
+        <loc>https://antigravity.google/auto/database-backups.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-8.html</loc>
+        <loc>https://antigravity.google/auto/health-check-scripts.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-9.html</loc>
+        <loc>https://antigravity.google/auto/git-hooks-husky.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/auto/auto-10.html</loc>
+        <loc>https://antigravity.google/auto/release-versioning.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-1.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-server-creation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-2.html</loc>
+        <loc>https://antigravity.google/mcp/file-system-mcp-server.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-3.html</loc>
+        <loc>https://antigravity.google/mcp/database-mcp-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-4.html</loc>
+        <loc>https://antigravity.google/mcp/web-search-mcp-tool.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-5.html</loc>
+        <loc>https://antigravity.google/mcp/github-mcp-server.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-6.html</loc>
+        <loc>https://antigravity.google/mcp/slack-mcp-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-7.html</loc>
+        <loc>https://antigravity.google/mcp/custom-mcp-resources.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-8.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-prompts-library.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-9.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-tools-development.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-10.html</loc>
+        <loc>https://antigravity.google/mcp/memory-mcp-server.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-11.html</loc>
+        <loc>https://antigravity.google/mcp/puppeteer-mcp-automation.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-12.html</loc>
+        <loc>https://antigravity.google/mcp/google-drive-mcp.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-13.html</loc>
+        <loc>https://antigravity.google/mcp/sequential-thinking-mcp.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-14.html</loc>
+        <loc>https://antigravity.google/mcp/time-calendar-mcp.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-15.html</loc>
+        <loc>https://antigravity.google/mcp/fetch-mcp-server.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-16.html</loc>
+        <loc>https://antigravity.google/mcp/notion-mcp-integration.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-17.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-server-security.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-18.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-logging-monitoring.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-19.html</loc>
+        <loc>https://antigravity.google/mcp/multi-server-mcp-setup.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://antigravity.google/mcp/mcp-20.html</loc>
+        <loc>https://antigravity.google/mcp/mcp-typescript-sdk.html</loc>
         <lastmod>2025-11-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
