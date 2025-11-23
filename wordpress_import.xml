@@ -7,7 +7,7 @@
     <item>
         <title>Agent-First IDE Workflow</title>
         <link>https://antigravity.google/core/agent-first-ide-workflow</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Как использовать агент-ориентированный подход вместо традиционного редактора.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Agent-First IDE Workflow</h2>
@@ -24,7 +24,7 @@
     <item>
         <title>Manager Surface Dashboard</title>
         <link>https://antigravity.google/core/manager-surface-dashboard</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Управление несколькими агентами через Mission Control интерфейс.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Manager Surface Dashboard</h2>
@@ -41,7 +41,7 @@
     <item>
         <title>Browser Subagent Automation</title>
         <link>https://antigravity.google/core/browser-subagent-automation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Использование встроенного браузерного агента для E2E тестов и веб-скрапинга.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Browser Subagent Automation</h2>
@@ -58,7 +58,7 @@
     <item>
         <title>Generating Artifacts</title>
         <link>https://antigravity.google/core/generating-artifacts</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание и экспорт артефактов: планы, диаграммы, видео-отчеты.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Generating Artifacts</h2>
@@ -75,7 +75,7 @@
     <item>
         <title>Multi-Agent Collaboration</title>
         <link>https://antigravity.google/core/multi-agent-collaboration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Запуск параллельных агентов для фронтенда и бэкенда одновременно.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Multi-Agent Collaboration</h2>
@@ -92,7 +92,7 @@
     <item>
         <title>Feedback Loops & Learning</title>
         <link>https://antigravity.google/core/feedback-loops-learning</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Как обучать агента через комментарии в стиле Google Docs.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Feedback Loops & Learning</h2>
@@ -109,7 +109,7 @@
     <item>
         <title>Model Selection (Gemini/Claude)</title>
         <link>https://antigravity.google/core/model-selection-gemini-claude</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Переключение между Gemini 3, Claude Sonnet 4.5 и GPT-OSS.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Model Selection (Gemini/Claude)</h2>
@@ -126,7 +126,7 @@
     <item>
         <title>Context Management</title>
         <link>https://antigravity.google/core/context-management</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Управление контекстом и базой знаний агента.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Context Management</h2>
@@ -143,7 +143,7 @@
     <item>
         <title>Terminal Integration</title>
         <link>https://antigravity.google/core/terminal-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Безопасное выполнение терминальных команд агентом.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Terminal Integration</h2>
@@ -160,7 +160,7 @@
     <item>
         <title>Visual Regression with Artifacts</title>
         <link>https://antigravity.google/core/visual-regression-with-artifacts</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Использование скриншотов-артефактов для визуальной проверки.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Visual Regression with Artifacts</h2>
@@ -177,7 +177,7 @@
     <item>
         <title>React Component Generation</title>
         <link>https://antigravity.google/web/react-component-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание функциональных компонентов с пропсами и типами.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация React Component Generation</h2>
@@ -194,7 +194,7 @@
     <item>
         <title>Tailwind CSS Conversion</title>
         <link>https://antigravity.google/web/tailwind-css-conversion</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Миграция с CSS/SASS на Tailwind Utility Classes.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Tailwind CSS Conversion</h2>
@@ -211,7 +211,7 @@
     <item>
         <title>Next.js App Router Setup</title>
         <link>https://antigravity.google/web/next-js-app-router-setup</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Скаффолдинг структуры папок для Next.js 14+.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Next.js App Router Setup</h2>
@@ -228,7 +228,7 @@
     <item>
         <title>Form Validation (Zod/RHF)</title>
         <link>https://antigravity.google/web/form-validation-zod-rhf</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация форм с клиентской и серверной валидацией.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Form Validation (Zod/RHF)</h2>
@@ -245,7 +245,7 @@
     <item>
         <title>Responsive Design Implementation</title>
         <link>https://antigravity.google/web/responsive-design-implementation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Адаптация верстки под мобильные устройства.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Responsive Design Implementation</h2>
@@ -262,7 +262,7 @@
     <item>
         <title>Dark Mode Integration</title>
         <link>https://antigravity.google/web/dark-mode-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Реализация темизации с системными настройками.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Dark Mode Integration</h2>
@@ -279,7 +279,7 @@
     <item>
         <title>Framer Motion Animations</title>
         <link>https://antigravity.google/web/framer-motion-animations</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Добавление декларативных анимаций интерфейса.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Framer Motion Animations</h2>
@@ -296,7 +296,7 @@
     <item>
         <title>Web Performance Optimization</title>
         <link>https://antigravity.google/web/web-performance-optimization</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Lazy loading, оптимизация шрифтов и изображений.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Web Performance Optimization</h2>
@@ -313,7 +313,7 @@
     <item>
         <title>PWA Configuration</title>
         <link>https://antigravity.google/web/pwa-configuration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Настройка Service Workers и манифеста.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация PWA Configuration</h2>
@@ -330,7 +330,7 @@
     <item>
         <title>Accessibility (a11y) Audit</title>
         <link>https://antigravity.google/web/accessibility-a11y-audit</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматическое исправление ARIA-атрибутов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Accessibility (a11y) Audit</h2>
@@ -347,7 +347,7 @@
     <item>
         <title>Go REST API Boilerplate</title>
         <link>https://antigravity.google/backend/go-rest-api-boilerplate</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация сервиса на Gin/Echo с чистой архитектурой.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Go REST API Boilerplate</h2>
@@ -364,7 +364,7 @@
     <item>
         <title>GraphQL Schema Generation</title>
         <link>https://antigravity.google/backend/graphql-schema-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание схемы и резолверов из SQL моделей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация GraphQL Schema Generation</h2>
@@ -381,7 +381,7 @@
     <item>
         <title>PostgreSQL Migrations</title>
         <link>https://antigravity.google/backend/postgresql-migrations</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Написание SQL миграций для изменения схемы БД.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация PostgreSQL Migrations</h2>
@@ -398,7 +398,7 @@
     <item>
         <title>JWT Auth Implementation</title>
         <link>https://antigravity.google/backend/jwt-auth-implementation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Полный цикл аутентификации и авторизации.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация JWT Auth Implementation</h2>
@@ -415,7 +415,7 @@
     <item>
         <title>Redis Caching Layer</title>
         <link>https://antigravity.google/backend/redis-caching-layer</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Интеграция кэширования для высоконагруженных API.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Redis Caching Layer</h2>
@@ -432,7 +432,7 @@
     <item>
         <title>gRPC Microservices</title>
         <link>https://antigravity.google/backend/grpc-microservices</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание .proto файлов и генерация кода сервисов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация gRPC Microservices</h2>
@@ -449,7 +449,7 @@
     <item>
         <title>WebSocket Real-time Server</title>
         <link>https://antigravity.google/backend/websocket-real-time-server</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Чат-сервер на Node.js или Go.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация WebSocket Real-time Server</h2>
@@ -466,7 +466,7 @@
     <item>
         <title>Message Queue Consumers</title>
         <link>https://antigravity.google/backend/message-queue-consumers</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Обработка сообщений RabbitMQ/Kafka.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Message Queue Consumers</h2>
@@ -483,7 +483,7 @@
     <item>
         <title>Serverless Functions (AWS)</title>
         <link>https://antigravity.google/backend/serverless-functions-aws</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Деплой Lambda функций через SAM или Terraform.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Serverless Functions (AWS)</h2>
@@ -500,7 +500,7 @@
     <item>
         <title>Logging & Telemetry</title>
         <link>https://antigravity.google/backend/logging-telemetry</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Настройка OpenTelemetry и ELK стека.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Logging & Telemetry</h2>
@@ -517,7 +517,7 @@
     <item>
         <title>EDA Report Generation</title>
         <link>https://antigravity.google/ds/eda-report-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматический разведочный анализ данных (Pandas).</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация EDA Report Generation</h2>
@@ -534,7 +534,7 @@
     <item>
         <title>Scikit-learn Model Training</title>
         <link>https://antigravity.google/ds/scikit-learn-model-training</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Пайплайн обучения и валидации классификатора.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Scikit-learn Model Training</h2>
@@ -551,7 +551,7 @@
     <item>
         <title>Advanced Matplotlib Plots</title>
         <link>https://antigravity.google/ds/advanced-matplotlib-plots</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация сложных визуализаций для публикаций.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Advanced Matplotlib Plots</h2>
@@ -568,7 +568,7 @@
     <item>
         <title>PyTorch CNN Architecture</title>
         <link>https://antigravity.google/ds/pytorch-cnn-architecture</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание нейросети для компьютерного зрения.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация PyTorch CNN Architecture</h2>
@@ -585,7 +585,7 @@
     <item>
         <title>NLP Text Preprocessing</title>
         <link>https://antigravity.google/ds/nlp-text-preprocessing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Токенизация и лемматизация с NLTK/Spacy.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация NLP Text Preprocessing</h2>
@@ -602,7 +602,7 @@
     <item>
         <title>Jupyter Notebook Refactoring</title>
         <link>https://antigravity.google/ds/jupyter-notebook-refactoring</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Очистка ноутбуков для продакшена.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Jupyter Notebook Refactoring</h2>
@@ -619,7 +619,7 @@
     <item>
         <title>Data Cleaning Scripts</title>
         <link>https://antigravity.google/ds/data-cleaning-scripts</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Обработка пропусков и выбросов в датасетах.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Data Cleaning Scripts</h2>
@@ -636,7 +636,7 @@
     <item>
         <title>Airflow DAG Creation</title>
         <link>https://antigravity.google/ds/airflow-dag-creation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Написание ETL процессов для Apache Airflow.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Airflow DAG Creation</h2>
@@ -653,7 +653,7 @@
     <item>
         <title>FastAPI Model Serving</title>
         <link>https://antigravity.google/ds/fastapi-model-serving</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Обертка ML модели в REST API.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация FastAPI Model Serving</h2>
@@ -670,7 +670,7 @@
     <item>
         <title>A/B Test Analysis</title>
         <link>https://antigravity.google/ds/a-b-test-analysis</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Статистический анализ результатов экспериментов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация A/B Test Analysis</h2>
@@ -687,7 +687,7 @@
     <item>
         <title>Docker Compose Setup</title>
         <link>https://antigravity.google/devops/docker-compose-setup</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Мульти-контейнерная среда для разработки.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Docker Compose Setup</h2>
@@ -704,7 +704,7 @@
     <item>
         <title>K8s Manifest Generation</title>
         <link>https://antigravity.google/devops/k8s-manifest-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Deployment, Service и Ingress для Kubernetes.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация K8s Manifest Generation</h2>
@@ -721,7 +721,7 @@
     <item>
         <title>Terraform AWS Infrastructure</title>
         <link>https://antigravity.google/devops/terraform-aws-infrastructure</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>IaC для VPC, EC2 и RDS.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Terraform AWS Infrastructure</h2>
@@ -738,7 +738,7 @@
     <item>
         <title>GitHub Actions CI/CD</title>
         <link>https://antigravity.google/devops/github-actions-ci-cd</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Пайплайн сборки, тестов и деплоя.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация GitHub Actions CI/CD</h2>
@@ -755,7 +755,7 @@
     <item>
         <title>Nginx Reverse Proxy</title>
         <link>https://antigravity.google/devops/nginx-reverse-proxy</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Конфигурация проксирования и SSL.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Nginx Reverse Proxy</h2>
@@ -772,7 +772,7 @@
     <item>
         <title>Ansible Playbooks</title>
         <link>https://antigravity.google/devops/ansible-playbooks</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Управление конфигурацией серверов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Ansible Playbooks</h2>
@@ -789,7 +789,7 @@
     <item>
         <title>Prometheus Alerting</title>
         <link>https://antigravity.google/devops/prometheus-alerting</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Настройка правил для Alertmanager.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Prometheus Alerting</h2>
@@ -806,7 +806,7 @@
     <item>
         <title>Bash Maintenance Scripts</title>
         <link>https://antigravity.google/devops/bash-maintenance-scripts</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Скрипты бэкапов и ротации логов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Bash Maintenance Scripts</h2>
@@ -823,7 +823,7 @@
     <item>
         <title>SSL Certificate Auto-renewal</title>
         <link>https://antigravity.google/devops/ssl-certificate-auto-renewal</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Настройка Certbot и Let's Encrypt.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация SSL Certificate Auto-renewal</h2>
@@ -840,7 +840,7 @@
     <item>
         <title>Cloudflare Workers Deploy</title>
         <link>https://antigravity.google/devops/cloudflare-workers-deploy</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Развертывание Edge-функций.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Cloudflare Workers Deploy</h2>
@@ -857,7 +857,7 @@
     <item>
         <title>Jest Unit Testing</title>
         <link>https://antigravity.google/qa/jest-unit-testing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация тестов для JS/TS функций.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Jest Unit Testing</h2>
@@ -874,7 +874,7 @@
     <item>
         <title>Cypress E2E Scenarios</title>
         <link>https://antigravity.google/qa/cypress-e2e-scenarios</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Сквозное тестирование пользовательских путей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Cypress E2E Scenarios</h2>
@@ -891,7 +891,7 @@
     <item>
         <title>Playwright Cross-browser</title>
         <link>https://antigravity.google/qa/playwright-cross-browser</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматизация браузерных тестов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Playwright Cross-browser</h2>
@@ -908,7 +908,7 @@
     <item>
         <title>Postman Collection Gen</title>
         <link>https://antigravity.google/qa/postman-collection-gen</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание коллекции тестов для API.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Postman Collection Gen</h2>
@@ -925,7 +925,7 @@
     <item>
         <title>k6 Load Testing</title>
         <link>https://antigravity.google/qa/k6-load-testing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Нагрузочное тестирование производительности.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация k6 Load Testing</h2>
@@ -942,7 +942,7 @@
     <item>
         <title>Faker.js Mock Data</title>
         <link>https://antigravity.google/qa/faker-js-mock-data</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация реалистичных тестовых данных.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Faker.js Mock Data</h2>
@@ -959,7 +959,7 @@
     <item>
         <title>Storybook Visual Tests</title>
         <link>https://antigravity.google/qa/storybook-visual-tests</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Тестирование компонентов в изоляции.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Storybook Visual Tests</h2>
@@ -976,7 +976,7 @@
     <item>
         <title>OWASP ZAP Security Scan</title>
         <link>https://antigravity.google/qa/owasp-zap-security-scan</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматизированный поиск уязвимостей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация OWASP ZAP Security Scan</h2>
@@ -993,7 +993,7 @@
     <item>
         <title>Appium Mobile Tests</title>
         <link>https://antigravity.google/qa/appium-mobile-tests</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Тесты для iOS и Android приложений.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Appium Mobile Tests</h2>
@@ -1010,7 +1010,7 @@
     <item>
         <title>Coverage Reports Setup</title>
         <link>https://antigravity.google/qa/coverage-reports-setup</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Интеграция Codecov или Istanbul.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Coverage Reports Setup</h2>
@@ -1027,7 +1027,7 @@
     <item>
         <title>Legacy JS to Modern</title>
         <link>https://antigravity.google/refactor/legacy-js-to-modern</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Обновление синтаксиса (ES6+).</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Legacy JS to Modern</h2>
@@ -1044,7 +1044,7 @@
     <item>
         <title>Extract React Component</title>
         <link>https://antigravity.google/refactor/extract-react-component</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Декомпозиция больших компонентов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Extract React Component</h2>
@@ -1061,7 +1061,7 @@
     <item>
         <title>Optimize Imports</title>
         <link>https://antigravity.google/refactor/optimize-imports</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Удаление неиспользуемых зависимостей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Optimize Imports</h2>
@@ -1078,7 +1078,7 @@
     <item>
         <title>Variable Renaming</title>
         <link>https://antigravity.google/refactor/variable-renaming</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Улучшение читаемости кода.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Variable Renaming</h2>
@@ -1095,7 +1095,7 @@
     <item>
         <title>Class to Function</title>
         <link>https://antigravity.google/refactor/class-to-function</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Миграция на React Hooks.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Class to Function</h2>
@@ -1112,7 +1112,7 @@
     <item>
         <title>Logic Simplification</title>
         <link>https://antigravity.google/refactor/logic-simplification</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Устранение вложенности (Guard Clauses).</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Logic Simplification</h2>
@@ -1129,7 +1129,7 @@
     <item>
         <title>TypeScript Migration</title>
         <link>https://antigravity.google/refactor/typescript-migration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Добавление строгой типизации в JS проект.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация TypeScript Migration</h2>
@@ -1146,7 +1146,7 @@
     <item>
         <title>CSS Cleanup</title>
         <link>https://antigravity.google/refactor/css-cleanup</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Удаление мертвого CSS кода.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация CSS Cleanup</h2>
@@ -1163,7 +1163,7 @@
     <item>
         <title>Design Patterns Impl</title>
         <link>https://antigravity.google/refactor/design-patterns-impl</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Внедрение Singleton, Factory, Observer.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Design Patterns Impl</h2>
@@ -1180,7 +1180,7 @@
     <item>
         <title>Dead Code Elimination</title>
         <link>https://antigravity.google/refactor/dead-code-elimination</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Анализ и удаление неиспользуемого кода.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Dead Code Elimination</h2>
@@ -1197,7 +1197,7 @@
     <item>
         <title>Stack Trace Analysis</title>
         <link>https://antigravity.google/debug/stack-trace-analysis</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Расшифровка и исправление ошибок.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Stack Trace Analysis</h2>
@@ -1214,7 +1214,7 @@
     <item>
         <title>Memory Leak Hunt</title>
         <link>https://antigravity.google/debug/memory-leak-hunt</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Поиск утечек в Node.js/Browser.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Memory Leak Hunt</h2>
@@ -1231,7 +1231,7 @@
     <item>
         <title>Network Request Debug</title>
         <link>https://antigravity.google/debug/network-request-debug</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Анализ заголовков и тел запросов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Network Request Debug</h2>
@@ -1248,7 +1248,7 @@
     <item>
         <title>React Render Optimization</title>
         <link>https://antigravity.google/debug/react-render-optimization</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Поиск лишних ре-рендеров.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация React Render Optimization</h2>
@@ -1265,7 +1265,7 @@
     <item>
         <title>Slow SQL Query Fix</title>
         <link>https://antigravity.google/debug/slow-sql-query-fix</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Оптимизация индексов и запросов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Slow SQL Query Fix</h2>
@@ -1282,7 +1282,7 @@
     <item>
         <title>Server Log Parsing</title>
         <link>https://antigravity.google/debug/server-log-parsing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Анализ логов доступа и ошибок.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Server Log Parsing</h2>
@@ -1299,7 +1299,7 @@
     <item>
         <title>CSS Layout Fixes</title>
         <link>https://antigravity.google/debug/css-layout-fixes</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Решение проблем с z-index и flexbox.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация CSS Layout Fixes</h2>
@@ -1316,7 +1316,7 @@
     <item>
         <title>Async Race Conditions</title>
         <link>https://antigravity.google/debug/async-race-conditions</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Отладка проблем асинхронности.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Async Race Conditions</h2>
@@ -1333,7 +1333,7 @@
     <item>
         <title>Env Config Validation</title>
         <link>https://antigravity.google/debug/env-config-validation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Проверка переменных окружения.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Env Config Validation</h2>
@@ -1350,7 +1350,7 @@
     <item>
         <title>Dependency Hell Fix</title>
         <link>https://antigravity.google/debug/dependency-hell-fix</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Разрешение конфликтов версий npm.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Dependency Hell Fix</h2>
@@ -1367,7 +1367,7 @@
     <item>
         <title>README.md Generation</title>
         <link>https://antigravity.google/docs/readme-md-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание продающего описания проекта.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация README.md Generation</h2>
@@ -1384,7 +1384,7 @@
     <item>
         <title>OpenAPI/Swagger Specs</title>
         <link>https://antigravity.google/docs/openapi-swagger-specs</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Авто-генерация документации API.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация OpenAPI/Swagger Specs</h2>
@@ -1401,7 +1401,7 @@
     <item>
         <title>JSDoc/DocStrings</title>
         <link>https://antigravity.google/docs/jsdoc-docstrings</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Документирование функций и классов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация JSDoc/DocStrings</h2>
@@ -1418,7 +1418,7 @@
     <item>
         <title>Changelog Automation</title>
         <link>https://antigravity.google/docs/changelog-automation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Генерация списка изменений из git.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Changelog Automation</h2>
@@ -1435,7 +1435,7 @@
     <item>
         <title>User Manuals</title>
         <link>https://antigravity.google/docs/user-manuals</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Написание инструкций для пользователей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация User Manuals</h2>
@@ -1452,7 +1452,7 @@
     <item>
         <title>Mermaid Architecture Maps</title>
         <link>https://antigravity.google/docs/mermaid-architecture-maps</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Визуализация архитектуры в коде.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Mermaid Architecture Maps</h2>
@@ -1469,7 +1469,7 @@
     <item>
         <title>i18n Documentation</title>
         <link>https://antigravity.google/docs/i18n-documentation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Перевод документации на языки мира.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация i18n Documentation</h2>
@@ -1486,7 +1486,7 @@
     <item>
         <title>Code Tutorials</title>
         <link>https://antigravity.google/docs/code-tutorials</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание обучающих материалов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Code Tutorials</h2>
@@ -1503,7 +1503,7 @@
     <item>
         <title>CONTRIBUTING.md</title>
         <link>https://antigravity.google/docs/contributing-md</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Гайдлайны для контрибьюторов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация CONTRIBUTING.md</h2>
@@ -1520,7 +1520,7 @@
     <item>
         <title>License Management</title>
         <link>https://antigravity.google/docs/license-management</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Добавление и проверка лицензий.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация License Management</h2>
@@ -1537,7 +1537,7 @@
     <item>
         <title>Stripe Integration</title>
         <link>https://antigravity.google/api/stripe-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Прием платежей и подписки.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Stripe Integration</h2>
@@ -1554,7 +1554,7 @@
     <item>
         <title>Google Maps API</title>
         <link>https://antigravity.google/api/google-maps-api</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Геолокация и карты.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Google Maps API</h2>
@@ -1571,7 +1571,7 @@
     <item>
         <title>OpenAI/Gemini API</title>
         <link>https://antigravity.google/api/openai-gemini-api</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Внедрение ИИ возможностей.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация OpenAI/Gemini API</h2>
@@ -1588,7 +1588,7 @@
     <item>
         <title>Firebase Services</title>
         <link>https://antigravity.google/api/firebase-services</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Auth, Firestore, Storage.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Firebase Services</h2>
@@ -1605,7 +1605,7 @@
     <item>
         <title>SendGrid/Mailgun</title>
         <link>https://antigravity.google/api/sendgrid-mailgun</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Транзакционные email рассылки.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация SendGrid/Mailgun</h2>
@@ -1622,7 +1622,7 @@
     <item>
         <title>Twilio SMS/Voice</title>
         <link>https://antigravity.google/api/twilio-sms-voice</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Коммуникации и уведомления.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Twilio SMS/Voice</h2>
@@ -1639,7 +1639,7 @@
     <item>
         <title>Slack/Discord Bots</title>
         <link>https://antigravity.google/api/slack-discord-bots</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Интеграция с мессенджерами.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Slack/Discord Bots</h2>
@@ -1656,7 +1656,7 @@
     <item>
         <title>Notion API Sync</title>
         <link>https://antigravity.google/api/notion-api-sync</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Управление базами знаний.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Notion API Sync</h2>
@@ -1673,7 +1673,7 @@
     <item>
         <title>GitHub REST API</title>
         <link>https://antigravity.google/api/github-rest-api</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматизация работы с кодом.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация GitHub REST API</h2>
@@ -1690,7 +1690,7 @@
     <item>
         <title>OAuth2 Providers</title>
         <link>https://antigravity.google/api/oauth2-providers</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Вход через Google/Facebook/GitHub.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация OAuth2 Providers</h2>
@@ -1707,7 +1707,7 @@
     <item>
         <title>Batch File Renaming</title>
         <link>https://antigravity.google/auto/batch-file-renaming</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Массовая обработка файлов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Batch File Renaming</h2>
@@ -1724,7 +1724,7 @@
     <item>
         <title>Image Processing</title>
         <link>https://antigravity.google/auto/image-processing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Ресайз и конвертация форматов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Image Processing</h2>
@@ -1741,7 +1741,7 @@
     <item>
         <title>Web Scraping (Puppeteer)</title>
         <link>https://antigravity.google/auto/web-scraping-puppeteer</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Сбор данных с сайтов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Web Scraping (Puppeteer)</h2>
@@ -1758,7 +1758,7 @@
     <item>
         <title>PDF Generation</title>
         <link>https://antigravity.google/auto/pdf-generation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание отчетов из HTML/Markdown.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация PDF Generation</h2>
@@ -1775,7 +1775,7 @@
     <item>
         <title>Excel/CSV Parsing</title>
         <link>https://antigravity.google/auto/excel-csv-parsing</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Обработка табличных данных.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Excel/CSV Parsing</h2>
@@ -1792,7 +1792,7 @@
     <item>
         <title>Cron Job Scheduling</title>
         <link>https://antigravity.google/auto/cron-job-scheduling</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Планирование периодических задач.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Cron Job Scheduling</h2>
@@ -1809,7 +1809,7 @@
     <item>
         <title>Database Backups</title>
         <link>https://antigravity.google/auto/database-backups</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Автоматизация дампов БД.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Database Backups</h2>
@@ -1826,7 +1826,7 @@
     <item>
         <title>Health Check Scripts</title>
         <link>https://antigravity.google/auto/health-check-scripts</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Мониторинг доступности сервисов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Health Check Scripts</h2>
@@ -1843,7 +1843,7 @@
     <item>
         <title>Git Hooks (Husky)</title>
         <link>https://antigravity.google/auto/git-hooks-husky</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Проверки перед коммитом.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Git Hooks (Husky)</h2>
@@ -1860,7 +1860,7 @@
     <item>
         <title>Release Versioning</title>
         <link>https://antigravity.google/auto/release-versioning</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>SemVer и генерация тегов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Release Versioning</h2>
@@ -1877,7 +1877,7 @@
     <item>
         <title>MCP Server Creation</title>
         <link>https://antigravity.google/mcp/mcp-server-creation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание собственного MCP сервера для расширения возможностей LLM.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP Server Creation</h2>
@@ -1894,7 +1894,7 @@
     <item>
         <title>File System MCP Server</title>
         <link>https://antigravity.google/mcp/file-system-mcp-server</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Сервер для безопасного доступа к файловой системе через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация File System MCP Server</h2>
@@ -1911,7 +1911,7 @@
     <item>
         <title>Database MCP Integration</title>
         <link>https://antigravity.google/mcp/database-mcp-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Подключение баз данных (PostgreSQL, MySQL) через MCP протокол.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Database MCP Integration</h2>
@@ -1928,7 +1928,7 @@
     <item>
         <title>Web Search MCP Tool</title>
         <link>https://antigravity.google/mcp/web-search-mcp-tool</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Интеграция поисковых API (Google, Brave) как MCP инструмент.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Web Search MCP Tool</h2>
@@ -1945,7 +1945,7 @@
     <item>
         <title>GitHub MCP Server</title>
         <link>https://antigravity.google/mcp/github-mcp-server</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Управление репозиториями и issues через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация GitHub MCP Server</h2>
@@ -1962,7 +1962,7 @@
     <item>
         <title>Slack MCP Integration</title>
         <link>https://antigravity.google/mcp/slack-mcp-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Отправка сообщений и чтение каналов через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Slack MCP Integration</h2>
@@ -1979,7 +1979,7 @@
     <item>
         <title>Custom MCP Resources</title>
         <link>https://antigravity.google/mcp/custom-mcp-resources</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Создание кастомных ресурсов для контекста модели.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Custom MCP Resources</h2>
@@ -1996,7 +1996,7 @@
     <item>
         <title>MCP Prompts Library</title>
         <link>https://antigravity.google/mcp/mcp-prompts-library</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Библиотека переиспользуемых промптов через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP Prompts Library</h2>
@@ -2013,7 +2013,7 @@
     <item>
         <title>MCP Tools Development</title>
         <link>https://antigravity.google/mcp/mcp-tools-development</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Разработка инструментов (Tools) для расширения функционала.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP Tools Development</h2>
@@ -2030,7 +2030,7 @@
     <item>
         <title>Memory MCP Server</title>
         <link>https://antigravity.google/mcp/memory-mcp-server</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Долгосрочная память для агента через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Memory MCP Server</h2>
@@ -2047,7 +2047,7 @@
     <item>
         <title>Puppeteer MCP Automation</title>
         <link>https://antigravity.google/mcp/puppeteer-mcp-automation</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Браузерная автоматизация через MCP протокол.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Puppeteer MCP Automation</h2>
@@ -2064,7 +2064,7 @@
     <item>
         <title>Google Drive MCP</title>
         <link>https://antigravity.google/mcp/google-drive-mcp</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Доступ к Google Drive документам через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Google Drive MCP</h2>
@@ -2081,7 +2081,7 @@
     <item>
         <title>Sequential Thinking MCP</title>
         <link>https://antigravity.google/mcp/sequential-thinking-mcp</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Улучшение рассуждений модели через MCP промпты.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Sequential Thinking MCP</h2>
@@ -2098,7 +2098,7 @@
     <item>
         <title>Time & Calendar MCP</title>
         <link>https://antigravity.google/mcp/time-calendar-mcp</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Работа с датами, временем и календарями через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Time & Calendar MCP</h2>
@@ -2115,7 +2115,7 @@
     <item>
         <title>Fetch MCP Server</title>
         <link>https://antigravity.google/mcp/fetch-mcp-server</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>HTTP запросы к внешним API через MCP.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Fetch MCP Server</h2>
@@ -2132,7 +2132,7 @@
     <item>
         <title>Notion MCP Integration</title>
         <link>https://antigravity.google/mcp/notion-mcp-integration</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Синхронизация с Notion базами знаний.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Notion MCP Integration</h2>
@@ -2149,7 +2149,7 @@
     <item>
         <title>MCP Server Security</title>
         <link>https://antigravity.google/mcp/mcp-server-security</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Настройка аутентификации и авторизации для MCP серверов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP Server Security</h2>
@@ -2166,7 +2166,7 @@
     <item>
         <title>MCP Logging & Monitoring</title>
         <link>https://antigravity.google/mcp/mcp-logging-monitoring</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Отслеживание использования и ошибок MCP серверов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP Logging & Monitoring</h2>
@@ -2183,7 +2183,7 @@
     <item>
         <title>Multi-Server MCP Setup</title>
         <link>https://antigravity.google/mcp/multi-server-mcp-setup</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Конфигурация нескольких MCP серверов одновременно.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация Multi-Server MCP Setup</h2>
@@ -2200,7 +2200,7 @@
     <item>
         <title>MCP TypeScript SDK</title>
         <link>https://antigravity.google/mcp/mcp-typescript-sdk</link>
-        <pubDate>Sun, 23 Nov 2025 16:12:15 GMT</pubDate>
+        <pubDate>Sun, 23 Nov 2025 16:19:11 GMT</pubDate>
         <content:encoded><![CDATA[
 <p>Использование официального SDK для разработки MCP серверов.</p>
 <h2 id="howto">Как реализовать: Инструкция: Реализация MCP TypeScript SDK</h2>
