@@ -64,6 +64,7 @@ function generateHtml() {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${c.seo.title}</title>
+    <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="${c.seo.description}">
     <meta name="keywords" content="${c.seo.keywords}">
     <meta property="og:title" content="${c.seo.title}">
