@@ -1,0 +1,14 @@
+{
+  "name": "antigravity-docs",
+  "version": "1.0.0",
+  "description": "Documentation generator for Google Antigravity",
+  "main": "generator/build.js",
+  "scripts": {
+    "build": "node generator/build.js",
+    "sync": "node generator/wp_sync.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

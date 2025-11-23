@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Antigravity - Документация</title>
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --text-color: #e0e6ed;
+            --accent-color: #4285f4;
+            --secondary-bg: #161b22;
+            --border-color: #30363d;
+            --code-bg: #0d1117;
+            --link-color: #58a6ff;
+            --nav-width: 300px;
+        }
+
+        body {
+            font-family: 'Google Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar Navigation */
+        .sidebar {
+            width: var(--nav-width);
+            background-color: var(--secondary-bg);
+            border-right: 1px solid var(--border-color);
+            padding: 20px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            top: 0;
+            left: 0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+        }
+
+        .nav-section {
+            margin-bottom: 20px;
+        }
+
+        .nav-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: #8b949e;
+            margin-bottom: 10px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            margin-bottom: 5px;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 8px 12px;
+            color: var(--text-color);
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+            color: var(--accent-color);
+        }
+
+        .nav-link.active {
+            background-color: rgba(66, 133, 244, 0.15);
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: var(--nav-width);
+            padding: 40px 60px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+            margin-top: 1.5em;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            color: #c9d1d9;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #c9d1d9;
+            margin-bottom: 16px;
+        }
+
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        code {
+            background-color: rgba(110, 118, 129, 0.4);
+            padding: 0.2em 0.4em;
+            border-radius: 6px;
+            font-family: 'Google Sans Code', 'Roboto Mono', monospace;
+            font-size: 0.9em;
+        }
+
+        pre {
+            background-color: var(--secondary-bg);
+            padding: 16px;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+        }
+
+        .alert {
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid;
+            background-color: rgba(56, 139, 253, 0.1);
+        }
+
+        .alert-info {
+            border-color: var(--accent-color);
+        }
+
+        .alert-warning {
+            border-color: #e3b341;
+            background-color: rgba(227, 179, 65, 0.1);
+        }
+
+        /* Use Case Cards */
+        .use-case-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .use-case-card {
+            background-color: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .use-case-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-color);
+        }
+
+        .use-case-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .use-case-tag {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #8b949e;
+        }
+
+        .use-case-desc {
+            font-size: 0.9rem;
+            color: #8b949e;
+            margin-bottom: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: var(--accent-color);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #3367d6;
+            text-decoration: none;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-color);
+        }
+
+        .btn-outline:hover {
+            border-color: var(--text-color);
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <div class="logo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#4285F4" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M2 17L12 22L22 17" stroke="#4285F4" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M2 12L12 17L22 12" stroke="#4285F4" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            Antigravity
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-title">Начало работы</div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#intro" class="nav-link active">Введение</a></li>
+                <li class="nav-item"><a href="#download" class="nav-link">Скачать и Установить</a></li>
+                <li class="nav-item"><a href="#requirements" class="nav-link">Системные требования</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-title">Кейсы Применения (100+)</div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#web-dev" class="nav-link">Web Development</a></li>
+                <li class="nav-item"><a href="#backend" class="nav-link">Backend Systems</a></li>
+                <li class="nav-item"><a href="#datascience" class="nav-link">Data Science & ML</a></li>
+                <li class="nav-item"><a href="#devops" class="nav-link">DevOps & Cloud</a></li>
+                <li class="nav-item"><a href="#testing" class="nav-link">QA & Testing</a></li>
+                <li class="nav-item"><a href="#refactoring" class="nav-link">Refactoring</a></li>
+                <li class="nav-item"><a href="#debugging" class="nav-link">Debugging</a></li>
+                <li class="nav-item"><a href="#docs" class="nav-link">Documentation</a></li>
+                <li class="nav-item"><a href="#api" class="nav-link">API Integrations</a></li>
+                <li class="nav-item"><a href="#automation" class="nav-link">Automation</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-section">
+            <div class="nav-title">Ресурсы</div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#opensource" class="nav-link">Open Source</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Платные Сервисы</a></li>
+                <li class="nav-item"><a href="#api-ref" class="nav-link">API Reference</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="intro">
+            <h1>Google Antigravity</h1>
+            <p class="lead">Создавайте новое. Быстрее. Умнее.</p>
+            <p>Google Antigravity — это агент нового поколения для разработки программного обеспечения, который
+                позволяет инженерам сосредоточиться на архитектуре и дизайне, беря на себя рутинные задачи по написанию
+                кода, тестированию и развертыванию.</p>
+
+            <div class="alert alert-info">
+                <strong>Новинка:</strong> Теперь доступна поддержка мульти-агентных рабочих процессов и интеграция с VCP
+                серверами.
+            </div>
+        </section>
+
+        <section id="download">
+            <h2>Скачать и Установить</h2>
+            <p>Пожалуйста, посетите официальную страницу загрузки для получения последней версии клиента.</p>
+            <a href="https://antigravity.google/download" class="btn">Перейти к загрузке</a>
+        </section>
+
+        <section id="requirements">
+            <h2>Системные требования</h2>
+            <div class="requirements-grid">
+                <h3>macOS</h3>
+                <p>Версии macOS с поддержкой обновлений безопасности Apple. Обычно это текущая и две предыдущие версии.
+                </p>
+                <ul>
+                    <li>Минимальная версия: 12 (Monterey)</li>
+                    <li>Архитектура: Apple Silicon (M1/M2/M3). <strong>X86 не поддерживается.</strong></li>
+                </ul>
+
+                <h3>Windows</h3>
+                <p>Windows 10 (64 bit) или новее.</p>
+
+                <h3>Linux</h3>
+                <p>Требуется glibc >= 2.28, glibcxx >= 3.4.25.</p>
+                <ul>
+                    <li>Ubuntu 20+</li>
+                    <li>Debian 10+</li>
+                    <li>Fedora 36+</li>
+                    <li>RHEL 8+</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 40px 0;">
+
+        <section id="use-cases-container">
+            <h2>100+ Кейсов Применения</h2>
+            <p>Подробные инструкции и сценарии использования Google Antigravity в реальных проектах.</p>
+
+            <!-- Content will be injected here via JS or added in next steps -->
+            <div id="web-dev">
+                <h3>Web Development</h3>
+                <div class="use-case-grid" id="grid-web-dev">
+                    <!-- Items will go here -->
+                </div>
+            </div>
+
+            <!-- Placeholders for other sections -->
+            <div id="backend" style="margin-top: 40px;">
+                <h3>Backend Systems</h3>
+                <div class="use-case-grid" id="grid-backend"></div>
+            </div>
+            <div id="datascience" style="margin-top: 40px;">
+                <h3>Data Science & ML</h3>
+                <div class="use-case-grid" id="grid-datascience"></div>
+            </div>
+            <div id="devops" style="margin-top: 40px;">
+                <h3>DevOps & Cloud</h3>
+                <div class="use-case-grid" id="grid-devops"></div>
+            </div>
+            <div id="testing" style="margin-top: 40px;">
+                <h3>QA & Testing</h3>
+                <div class="use-case-grid" id="grid-testing"></div>
+            </div>
+            <div id="refactoring" style="margin-top: 40px;">
+                <h3>Refactoring</h3>
+                <div class="use-case-grid" id="grid-refactoring"></div>
+            </div>
+            <div id="debugging" style="margin-top: 40px;">
+                <h3>Debugging</h3>
+                <div class="use-case-grid" id="grid-debugging"></div>
+            </div>
+            <div id="docs" style="margin-top: 40px;">
+                <h3>Documentation</h3>
+                <div class="use-case-grid" id="grid-docs"></div>
+            </div>
+            <div id="api" style="margin-top: 40px;">
+                <h3>API Integrations</h3>
+                <div class="use-case-grid" id="grid-api"></div>
+            </div>
+            <div id="automation" style="margin-top: 40px;">
+                <h3>Automation</h3>
+                <div class="use-case-grid" id="grid-automation"></div>
+            </div>
+
+        </section>
+
+        <section id="resources" style="margin-top: 60px;">
+            <h2>Полезные Ресурсы</h2>
+            <p>Ссылки на инструменты, библиотеки и сервисы.</p>
+            <ul>
+                <li><a href="https://github.com/google/antigravity">GitHub Repository</a> - Официальный репозиторий</li>
+                <li><a href="https://console.cloud.google.com/">Google Cloud Console</a> - Для настройки VCP</li>
+                <li><a href="https://pypi.org/project/antigravity/">PyPI Package</a> - Python SDK</li>
+                <li><a href="https://www.npmjs.com/package/@google/antigravity">NPM Package</a> - Node.js SDK</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script>
+        // Helper to create use case cards
+        function createCard(title, description, link, tag) {
+            return `
+        <div class="use-case-card">
+            <div class="use-case-title">
+                ${title}
+                <span class="use-case-tag">${tag}</span>
+            </div>
+            <div class="use-case-desc">${description}</div>
+            <a href="${link}" class="btn-outline" style="font-size: 0.8rem; padding: 4px 8px; border-radius: 4px;">Подробнее</a>
+        </div>
+        `;
+        }
+
+        // We will populate this via a separate script file or injection to keep HTML clean
+    </script>
+    <script src="use_cases.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const categories = [
+                'web-dev', 'backend', 'datascience', 'devops', 'testing',
+                'refactoring', 'debugging', 'docs', 'api', 'automation'
+            ];
+
+            categories.forEach(cat => {
+                const container = document.getElementById(`grid-${cat}`);
+                if (!container) return;
+
+                const items = useCases.filter(item => item.category === cat);
+                items.forEach(item => {
+                    container.innerHTML += createCard(item.title, item.desc, item.link, item.tag);
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

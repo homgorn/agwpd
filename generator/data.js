@@ -1,0 +1,215 @@
+const categories = {
+    core: "Antigravity Core Features",
+    web: "Web Development",
+    backend: "Backend Systems",
+    ds: "Data Science & ML",
+    devops: "DevOps & Cloud",
+    qa: "QA & Testing",
+    refactor: "Refactoring",
+    debug: "Debugging",
+    docs: "Documentation",
+    api: "API Integrations",
+    auto: "Automation"
+};
+
+const rawCases = [
+    // --- CORE FEATURES ---
+    { id: 'core-1', cat: 'core', title: 'Agent-First IDE Workflow', desc: 'Как использовать агент-ориентированный подход вместо традиционного редактора.' },
+    { id: 'core-2', cat: 'core', title: 'Manager Surface Dashboard', desc: 'Управление несколькими агентами через Mission Control интерфейс.' },
+    { id: 'core-3', cat: 'core', title: 'Browser Subagent Automation', desc: 'Использование встроенного браузерного агента для E2E тестов и веб-скрапинга.' },
+    { id: 'core-4', cat: 'core', title: 'Generating Artifacts', desc: 'Создание и экспорт артефактов: планы, диаграммы, видео-отчеты.' },
+    { id: 'core-5', cat: 'core', title: 'Multi-Agent Collaboration', desc: 'Запуск параллельных агентов для фронтенда и бэкенда одновременно.' },
+    { id: 'core-6', cat: 'core', title: 'Feedback Loops & Learning', desc: 'Как обучать агента через комментарии в стиле Google Docs.' },
+    { id: 'core-7', cat: 'core', title: 'Model Selection (Gemini/Claude)', desc: 'Переключение между Gemini 3, Claude Sonnet 4.5 и GPT-OSS.' },
+    { id: 'core-8', cat: 'core', title: 'Context Management', desc: 'Управление контекстом и базой знаний агента.' },
+    { id: 'core-9', cat: 'core', title: 'Terminal Integration', desc: 'Безопасное выполнение терминальных команд агентом.' },
+    { id: 'core-10', cat: 'core', title: 'Visual Regression with Artifacts', desc: 'Использование скриншотов-артефактов для визуальной проверки.' },
+
+    // --- WEB DEV ---
+    { id: 'web-1', cat: 'web', title: 'React Component Generation', desc: 'Создание функциональных компонентов с пропсами и типами.' },
+    { id: 'web-2', cat: 'web', title: 'Tailwind CSS Conversion', desc: 'Миграция с CSS/SASS на Tailwind Utility Classes.' },
+    { id: 'web-3', cat: 'web', title: 'Next.js App Router Setup', desc: 'Скаффолдинг структуры папок для Next.js 14+.' },
+    { id: 'web-4', cat: 'web', title: 'Form Validation (Zod/RHF)', desc: 'Генерация форм с клиентской и серверной валидацией.' },
+    { id: 'web-5', cat: 'web', title: 'Responsive Design Implementation', desc: 'Адаптация верстки под мобильные устройства.' },
+    { id: 'web-6', cat: 'web', title: 'Dark Mode Integration', desc: 'Реализация темизации с системными настройками.' },
+    { id: 'web-7', cat: 'web', title: 'Framer Motion Animations', desc: 'Добавление декларативных анимаций интерфейса.' },
+    { id: 'web-8', cat: 'web', title: 'Web Performance Optimization', desc: 'Lazy loading, оптимизация шрифтов и изображений.' },
+    { id: 'web-9', cat: 'web', title: 'PWA Configuration', desc: 'Настройка Service Workers и манифеста.' },
+    { id: 'web-10', cat: 'web', title: 'Accessibility (a11y) Audit', desc: 'Автоматическое исправление ARIA-атрибутов.' },
+
+    // --- BACKEND ---
+    { id: 'be-1', cat: 'backend', title: 'Go REST API Boilerplate', desc: 'Генерация сервиса на Gin/Echo с чистой архитектурой.' },
+    { id: 'be-2', cat: 'backend', title: 'GraphQL Schema Generation', desc: 'Создание схемы и резолверов из SQL моделей.' },
+    { id: 'be-3', cat: 'backend', title: 'PostgreSQL Migrations', desc: 'Написание SQL миграций для изменения схемы БД.' },
+    { id: 'be-4', cat: 'backend', title: 'JWT Auth Implementation', desc: 'Полный цикл аутентификации и авторизации.' },
+    { id: 'be-5', cat: 'backend', title: 'Redis Caching Layer', desc: 'Интеграция кэширования для высоконагруженных API.' },
+    { id: 'be-6', cat: 'backend', title: 'gRPC Microservices', desc: 'Создание .proto файлов и генерация кода сервисов.' },
+    { id: 'be-7', cat: 'backend', title: 'WebSocket Real-time Server', desc: 'Чат-сервер на Node.js или Go.' },
+    { id: 'be-8', cat: 'backend', title: 'Message Queue Consumers', desc: 'Обработка сообщений RabbitMQ/Kafka.' },
+    { id: 'be-9', cat: 'backend', title: 'Serverless Functions (AWS)', desc: 'Деплой Lambda функций через SAM или Terraform.' },
+    { id: 'be-10', cat: 'backend', title: 'Logging & Telemetry', desc: 'Настройка OpenTelemetry и ELK стека.' },
+
+    // --- DATA SCIENCE ---
+    { id: 'ds-1', cat: 'ds', title: 'EDA Report Generation', desc: 'Автоматический разведочный анализ данных (Pandas).' },
+    { id: 'ds-2', cat: 'ds', title: 'Scikit-learn Model Training', desc: 'Пайплайн обучения и валидации классификатора.' },
+    { id: 'ds-3', cat: 'ds', title: 'Advanced Matplotlib Plots', desc: 'Генерация сложных визуализаций для публикаций.' },
+    { id: 'ds-4', cat: 'ds', title: 'PyTorch CNN Architecture', desc: 'Создание нейросети для компьютерного зрения.' },
+    { id: 'ds-5', cat: 'ds', title: 'NLP Text Preprocessing', desc: 'Токенизация и лемматизация с NLTK/Spacy.' },
+    { id: 'ds-6', cat: 'ds', title: 'Jupyter Notebook Refactoring', desc: 'Очистка ноутбуков для продакшена.' },
+    { id: 'ds-7', cat: 'ds', title: 'Data Cleaning Scripts', desc: 'Обработка пропусков и выбросов в датасетах.' },
+    { id: 'ds-8', cat: 'ds', title: 'Airflow DAG Creation', desc: 'Написание ETL процессов для Apache Airflow.' },
+    { id: 'ds-9', cat: 'ds', title: 'FastAPI Model Serving', desc: 'Обертка ML модели в REST API.' },
+    { id: 'ds-10', cat: 'ds', title: 'A/B Test Analysis', desc: 'Статистический анализ результатов экспериментов.' },
+
+    // --- DEVOPS ---
+    { id: 'ops-1', cat: 'devops', title: 'Docker Compose Setup', desc: 'Мульти-контейнерная среда для разработки.' },
+    { id: 'ops-2', cat: 'devops', title: 'K8s Manifest Generation', desc: 'Deployment, Service и Ingress для Kubernetes.' },
+    { id: 'ops-3', cat: 'devops', title: 'Terraform AWS Infrastructure', desc: 'IaC для VPC, EC2 и RDS.' },
+    { id: 'ops-4', cat: 'devops', title: 'GitHub Actions CI/CD', desc: 'Пайплайн сборки, тестов и деплоя.' },
+    { id: 'ops-5', cat: 'devops', title: 'Nginx Reverse Proxy', desc: 'Конфигурация проксирования и SSL.' },
+    { id: 'ops-6', cat: 'devops', title: 'Ansible Playbooks', desc: 'Управление конфигурацией серверов.' },
+    { id: 'ops-7', cat: 'devops', title: 'Prometheus Alerting', desc: 'Настройка правил для Alertmanager.' },
+    { id: 'ops-8', cat: 'devops', title: 'Bash Maintenance Scripts', desc: 'Скрипты бэкапов и ротации логов.' },
+    { id: 'ops-9', cat: 'devops', title: 'SSL Certificate Auto-renewal', desc: 'Настройка Certbot и Let\'s Encrypt.' },
+    { id: 'ops-10', cat: 'devops', title: 'Cloudflare Workers Deploy', desc: 'Развертывание Edge-функций.' },
+
+    // --- QA ---
+    { id: 'qa-1', cat: 'qa', title: 'Jest Unit Testing', desc: 'Генерация тестов для JS/TS функций.' },
+    { id: 'qa-2', cat: 'qa', title: 'Cypress E2E Scenarios', desc: 'Сквозное тестирование пользовательских путей.' },
+    { id: 'qa-3', cat: 'qa', title: 'Playwright Cross-browser', desc: 'Автоматизация браузерных тестов.' },
+    { id: 'qa-4', cat: 'qa', title: 'Postman Collection Gen', desc: 'Создание коллекции тестов для API.' },
+    { id: 'qa-5', cat: 'qa', title: 'k6 Load Testing', desc: 'Нагрузочное тестирование производительности.' },
+    { id: 'qa-6', cat: 'qa', title: 'Faker.js Mock Data', desc: 'Генерация реалистичных тестовых данных.' },
+    { id: 'qa-7', cat: 'qa', title: 'Storybook Visual Tests', desc: 'Тестирование компонентов в изоляции.' },
+    { id: 'qa-8', cat: 'qa', title: 'OWASP ZAP Security Scan', desc: 'Автоматизированный поиск уязвимостей.' },
+    { id: 'qa-9', cat: 'qa', title: 'Appium Mobile Tests', desc: 'Тесты для iOS и Android приложений.' },
+    { id: 'qa-10', cat: 'qa', title: 'Coverage Reports Setup', desc: 'Интеграция Codecov или Istanbul.' },
+
+    // --- REFACTORING ---
+    { id: 'ref-1', cat: 'refactor', title: 'Legacy JS to Modern', desc: 'Обновление синтаксиса (ES6+).' },
+    { id: 'ref-2', cat: 'refactor', title: 'Extract React Component', desc: 'Декомпозиция больших компонентов.' },
+    { id: 'ref-3', cat: 'refactor', title: 'Optimize Imports', desc: 'Удаление неиспользуемых зависимостей.' },
+    { id: 'ref-4', cat: 'refactor', title: 'Variable Renaming', desc: 'Улучшение читаемости кода.' },
+    { id: 'ref-5', cat: 'refactor', title: 'Class to Function', desc: 'Миграция на React Hooks.' },
+    { id: 'ref-6', cat: 'refactor', title: 'Logic Simplification', desc: 'Устранение вложенности (Guard Clauses).' },
+    { id: 'ref-7', cat: 'refactor', title: 'TypeScript Migration', desc: 'Добавление строгой типизации в JS проект.' },
+    { id: 'ref-8', cat: 'refactor', title: 'CSS Cleanup', desc: 'Удаление мертвого CSS кода.' },
+    { id: 'ref-9', cat: 'refactor', title: 'Design Patterns Impl', desc: 'Внедрение Singleton, Factory, Observer.' },
+    { id: 'ref-10', cat: 'refactor', title: 'Dead Code Elimination', desc: 'Анализ и удаление неиспользуемого кода.' },
+
+    // --- DEBUGGING ---
+    { id: 'dbg-1', cat: 'debug', title: 'Stack Trace Analysis', desc: 'Расшифровка и исправление ошибок.' },
+    { id: 'dbg-2', cat: 'debug', title: 'Memory Leak Hunt', desc: 'Поиск утечек в Node.js/Browser.' },
+    { id: 'dbg-3', cat: 'debug', title: 'Network Request Debug', desc: 'Анализ заголовков и тел запросов.' },
+    { id: 'dbg-4', cat: 'debug', title: 'React Render Optimization', desc: 'Поиск лишних ре-рендеров.' },
+    { id: 'dbg-5', cat: 'debug', title: 'Slow SQL Query Fix', desc: 'Оптимизация индексов и запросов.' },
+    { id: 'dbg-6', cat: 'debug', title: 'Server Log Parsing', desc: 'Анализ логов доступа и ошибок.' },
+    { id: 'dbg-7', cat: 'debug', title: 'CSS Layout Fixes', desc: 'Решение проблем с z-index и flexbox.' },
+    { id: 'dbg-8', cat: 'debug', title: 'Async Race Conditions', desc: 'Отладка проблем асинхронности.' },
+    { id: 'dbg-9', cat: 'debug', title: 'Env Config Validation', desc: 'Проверка переменных окружения.' },
+    { id: 'dbg-10', cat: 'debug', title: 'Dependency Hell Fix', desc: 'Разрешение конфликтов версий npm.' },
+
+    // --- DOCS ---
+    { id: 'doc-1', cat: 'docs', title: 'README.md Generation', desc: 'Создание продающего описания проекта.' },
+    { id: 'doc-2', cat: 'docs', title: 'OpenAPI/Swagger Specs', desc: 'Авто-генерация документации API.' },
+    { id: 'doc-3', cat: 'docs', title: 'JSDoc/DocStrings', desc: 'Документирование функций и классов.' },
+    { id: 'doc-4', cat: 'docs', title: 'Changelog Automation', desc: 'Генерация списка изменений из git.' },
+    { id: 'doc-5', cat: 'docs', title: 'User Manuals', desc: 'Написание инструкций для пользователей.' },
+    { id: 'doc-6', cat: 'docs', title: 'Mermaid Architecture Maps', desc: 'Визуализация архитектуры в коде.' },
+    { id: 'doc-7', cat: 'docs', title: 'i18n Documentation', desc: 'Перевод документации на языки мира.' },
+    { id: 'doc-8', cat: 'docs', title: 'Code Tutorials', desc: 'Создание обучающих материалов.' },
+    { id: 'doc-9', cat: 'docs', title: 'CONTRIBUTING.md', desc: 'Гайдлайны для контрибьюторов.' },
+    { id: 'doc-10', cat: 'docs', title: 'License Management', desc: 'Добавление и проверка лицензий.' },
+
+    // --- API ---
+    { id: 'api-1', cat: 'api', title: 'Stripe Integration', desc: 'Прием платежей и подписки.' },
+    { id: 'api-2', cat: 'api', title: 'Google Maps API', desc: 'Геолокация и карты.' },
+    { id: 'api-3', cat: 'api', title: 'OpenAI/Gemini API', desc: 'Внедрение ИИ возможностей.' },
+    { id: 'api-4', cat: 'api', title: 'Firebase Services', desc: 'Auth, Firestore, Storage.' },
+    { id: 'api-5', cat: 'api', title: 'SendGrid/Mailgun', desc: 'Транзакционные email рассылки.' },
+    { id: 'api-6', cat: 'api', title: 'Twilio SMS/Voice', desc: 'Коммуникации и уведомления.' },
+    { id: 'api-7', cat: 'api', title: 'Slack/Discord Bots', desc: 'Интеграция с мессенджерами.' },
+    { id: 'api-8', cat: 'api', title: 'Notion API Sync', desc: 'Управление базами знаний.' },
+    { id: 'api-9', cat: 'api', title: 'GitHub REST API', desc: 'Автоматизация работы с кодом.' },
+    { id: 'api-10', cat: 'api', title: 'OAuth2 Providers', desc: 'Вход через Google/Facebook/GitHub.' },
+
+    // --- AUTOMATION ---
+    { id: 'auto-1', cat: 'auto', title: 'Batch File Renaming', desc: 'Массовая обработка файлов.' },
+    { id: 'auto-2', cat: 'auto', title: 'Image Processing', desc: 'Ресайз и конвертация форматов.' },
+    { id: 'auto-3', cat: 'auto', title: 'Web Scraping (Puppeteer)', desc: 'Сбор данных с сайтов.' },
+    { id: 'auto-4', cat: 'auto', title: 'PDF Generation', desc: 'Создание отчетов из HTML/Markdown.' },
+    { id: 'auto-5', cat: 'auto', title: 'Excel/CSV Parsing', desc: 'Обработка табличных данных.' },
+    { id: 'auto-6', cat: 'auto', title: 'Cron Job Scheduling', desc: 'Планирование периодических задач.' },
+    { id: 'auto-7', cat: 'auto', title: 'Database Backups', desc: 'Автоматизация дампов БД.' },
+    { id: 'auto-8', cat: 'auto', title: 'Health Check Scripts', desc: 'Мониторинг доступности сервисов.' },
+    { id: 'auto-9', cat: 'auto', title: 'Git Hooks (Husky)', desc: 'Проверки перед коммитом.' },
+    { id: 'auto-10', cat: 'auto', title: 'Release Versioning', desc: 'SemVer и генерация тегов.' }
+];
+
+// Image mapping
+const categoryImages = {
+    core: 'antigravity_manager_dashboard.png',
+    web: 'ag_web_dev.png',
+    refactor: 'ag_web_dev.png',
+    docs: 'ag_web_dev.png',
+    backend: 'ag_backend.png',
+    api: 'ag_backend.png',
+    ds: 'ag_datascience.png',
+    auto: 'ag_datascience.png',
+    devops: 'ag_devops.png',
+    qa: 'ag_testing.png',
+    debug: 'ag_devops.png'
+};
+
+// Helper to enrich data with SEO, FAQ, HowTo, Images
+function enrichData(cases) {
+    return cases.map(c => {
+        const keywords = [c.title, c.desc.split(' ')[0] + ' ' + c.desc.split(' ')[1], 'Google Antigravity', 'AI coding'];
+
+        let imageName = categoryImages[c.cat] || 'ag_web_dev.png';
+
+        // Smart image override based on keywords
+        const lowerTitle = c.title.toLowerCase();
+        const lowerDesc = c.desc.toLowerCase();
+        if (lowerTitle.includes('mobile') || lowerTitle.includes('ios') || lowerTitle.includes('android') || lowerDesc.includes('mobile')) {
+            imageName = 'ag_mobile.png';
+        } else if (lowerTitle.includes('test') || lowerTitle.includes('qa') || lowerTitle.includes('cypress') || lowerTitle.includes('jest')) {
+            imageName = 'ag_testing.png';
+        }
+
+        return {
+            ...c,
+            categoryName: categories[c.cat],
+            image: {
+                url: `https://antigravity.google/assets/${imageName}`, // Placeholder URL for production
+                localPath: `../assets/${imageName}`, // For local preview
+                alt: `Иллюстрация для кейса: ${c.title} - ${c.desc}`
+            },
+            seo: {
+                title: `${c.title} с помощью Google Antigravity - Гайд и Примеры`,
+                description: `Узнайте, как использовать Google Antigravity для задачи "${c.title}". ${c.desc} Пошаговое руководство, код и примеры.`,
+                keywords: keywords.join(', ')
+            },
+            faq: [
+                { q: `Как Antigravity помогает с ${c.title}?`, a: `Antigravity использует агентов Gemini 3 для автоматизации процесса ${c.title}, создавая код, тесты и документацию.` },
+                { q: `Нужно ли знать код для ${c.title}?`, a: `Базовое понимание полезно, но Antigravity берет на себя рутинную работу по написанию кода для ${c.title}.` },
+                { q: `Можно ли кастомизировать результат?`, a: `Да, вы можете давать обратную связь агенту и редактировать созданные артефакты.` }
+            ],
+            howto: {
+                name: `Как реализовать ${c.title} в Antigravity`,
+                steps: [
+                    `Откройте Antigravity IDE.`,
+                    `Ведите промпт: "Создай ${c.title}..."`,
+                    `Дождитесь, пока агент спланирует и выполнит задачу.`,
+                    `Проверьте созданные артефакты и код.`,
+                    `Примите изменения или попросите доработки.`
+                ]
+            }
+        };
+    });
+}
+
+module.exports = {
+    categories,
+    cases: enrichData(rawCases)
+};

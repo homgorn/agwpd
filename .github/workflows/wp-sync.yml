@@ -1,0 +1,27 @@
+name: Sync to WordPress
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'generator/data.js'
+      - 'generator/wp_sync.js'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      
+      - run: npm install
+      
+      - name: Run Sync Script
+        run: node generator/wp_sync.js
+        env:
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
