@@ -5,60 +5,48 @@ const config = require('./config');
 
 const OUT_DIR = path.join(__dirname, '../dist');
 const WP_FILE = path.join(OUT_DIR, 'wordpress_import.xml');
+const ASSETS_DIR = path.join(__dirname, '../assets');
 
 // Ensure output dir exists
 if (!fs.existsSync(OUT_DIR)) {
     fs.mkdirSync(OUT_DIR);
 }
 
-// --- HTML GENERATOR (Simple) ---
-function generateHtml() {
-    console.log('Generating HTML files...');
+// Copy assets
+const assetsOut = path.join(OUT_DIR, 'assets');
+if (!fs.existsSync(assetsOut)) {
+    fs.mkdirSync(assetsOut);
+}
+if (fs.existsSync(ASSETS_DIR)) {
+    fs.readdirSync(ASSETS_DIR).forEach(file => {
+        fs.copyFileSync(path.join(ASSETS_DIR, file), path.join(assetsOut, file));
+    });
+}
 
-    // 1. Copy main entry files
+function generateImprovedHtml() {
+    console.log('Generating improved HTML files...');
+
+    // Copy main index
     fs.copyFileSync(path.join(__dirname, '../index.html'), path.join(OUT_DIR, 'index.html'));
 
-    // 2. Generate use_cases.js dynamically to link to generated pages
+    // Generate use_cases.js
     const frontendCategories = {
-        web: 'web-dev',
-        backend: 'backend',
-        ds: 'datascience',
-        devops: 'devops',
-        qa: 'testing',
-        refactor: 'refactoring',
-        debug: 'debugging',
-        docs: 'docs',
-        api: 'api',
-        auto: 'automation'
+        web: 'web-dev', backend: 'backend', ds: 'datascience', devops: 'devops',
+        qa: 'testing', refactor: 'refactoring', debug: 'debugging',
+        docs: 'docs', api: 'api', auto: 'automation'
     };
 
     const frontendCases = cases.map(c => ({
-        id: c.id,
-        category: frontendCategories[c.cat],
-        title: c.title,
-        desc: c.desc,
-        link: `./${c.cat}/${c.id}.html`, // Link to generated page
-        tag: c.categoryName
+        id: c.id, category: frontendCategories[c.cat], title: c.title,
+        desc: c.desc, link: `./${c.cat}/${c.id}.html`, tag: c.categoryName
     }));
 
-    const jsContent = `const useCases = ${JSON.stringify(frontendCases, null, 4)};`;
-    fs.writeFileSync(path.join(OUT_DIR, 'use_cases.js'), jsContent);
-
-    const template = fs.readFileSync(path.join(__dirname, '../index.html'), 'utf-8');
-
-    // Create index listing
-    let indexContent = template;
-    // (In a real SSG we would replace the content, but for now we just keep the main index as is, 
-    // maybe injecting the list if it wasn't dynamic. But the main index.html is already dynamic JS.
-    // So we will generate INDIVIDUAL pages for SEO).
+    fs.writeFileSync(path.join(OUT_DIR, 'use_cases.js'), `const useCases = ${JSON.stringify(frontendCases, null, 4)};`);
 
     cases.forEach(c => {
-        // Find related cases (same category, excluding self)
         const related = cases.filter(r => r.cat === c.cat && r.id !== c.id).slice(0, 5);
-        const relatedHtml = related.map(r => `<li><a href="../${r.cat}/${r.id}.html">${r.title}</a></li>`).join('');
 
-        const pageContent = `
-<!DOCTYPE html>
+        const pageContent = `<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -70,81 +58,167 @@ function generateHtml() {
     <meta property="og:title" content="${c.seo.title}">
     <meta property="og:description" content="${c.seo.description}">
     <meta property="og:image" content="${c.image.url}">
-    <meta property="og:type" content="article">
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": ${JSON.stringify(c.faq.map(f => ({
-            "@type": "Question",
-            "name": f.q,
-            "acceptedAnswer": { "@type": "Answer", "text": f.a }
-        })))}
-    }
+    ${JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": c.faq.map(f => ({
+                "@type": "Question",
+                "name": f.q,
+                "acceptedAnswer": { "@type": "Answer", "text": f.a }
+            }))
+        })}
     </script>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": "${c.howto.name}",
-      "step": ${JSON.stringify(c.howto.steps.map((s, i) => ({
-            "@type": "HowToStep",
-            "position": i + 1,
-            "name": `Шаг ${i + 1}`,
-            "text": s
-        })))}
-    }
+    ${JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "HowTo",
+            "name": c.howto.name,
+            "step": c.howto.steps.map((s, i) => ({
+                "@type": "HowToStep",
+                "position": i + 1,
+                "name": `Шаг ${i + 1}`,
+                "text": s
+            }))
+        })}
     </script>
     <style>
-        body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; }
-        h1 { color: #4285f4; }
-        .faq-item { margin-bottom: 20px; }
-        .step { margin-bottom: 15px; padding: 15px; background: #f5f5f5; border-radius: 8px; }
-        a { color: #4285f4; text-decoration: none; }
-        .nav { margin-bottom: 40px; }
-        .hero-image { width: 100%; height: auto; border-radius: 12px; margin-bottom: 30px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-        .related { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eee; }
-        .related ul { list-style: none; padding: 0; }
-        .related li { margin-bottom: 10px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; color: #202124; background: #f8f9fa; }
+        .container { max-width: 1000px; margin: 0 auto; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .breadcrumbs { padding: 16px 40px; background: #f8f9fa; font-size: 14px; border-bottom: 1px solid #e8eaed; }
+        .breadcrumbs a { color: #1a73e8; text-decoration: none; }
+        .breadcrumbs span { margin: 0 8px; color: #5f6368; }
+        .hero { padding: 40px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .hero h1 { font-size: 2.5em; margin-bottom: 16px; font-weight: 600; }
+        .hero-meta { display: flex; gap: 24px; margin-top: 20px; flex-wrap: wrap; }
+        .meta-item { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 14px; }
+        .cta-button { display: inline-block; background: #34a853; color: white; padding: 14px 32px; border-radius: 24px; text-decoration: none; font-weight: 600; margin-top: 24px; transition: transform 0.2s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(52,168,83,0.4); }
+        .content { padding: 40px; }
+        .toc { background: #f8f9fa; padding: 24px; border-radius: 8px; margin-bottom: 40px; border-left: 4px solid #1a73e8; }
+        .toc h3 { color: #202124; margin-bottom: 16px; }
+        .toc ul { list-style: none; }
+        .toc li { margin: 12px 0; }
+        .toc a { color: #1a73e8; text-decoration: none; }
+        .prompt-box { background: #263238; color: #aed581; padding: 24px; border-radius: 8px; margin: 24px 0; position: relative; font-family: 'Courier New', monospace; font-size: 14px; }
+        .copy-btn { position: absolute; top: 12px; right: 12px; background: #34a853; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 12px; }
+        .copy-btn:hover { background: #2d8e47; }
+        .copy-btn.copied { background: #1a73e8; }
+        .steps { counter-reset: step-counter; }
+        .step { margin: 32px 0; padding: 24px; background: #f8f9fa; border-radius: 8px; position: relative; padding-left: 80px; }
+        .step::before { counter-increment: step-counter; content: counter(step-counter); position: absolute; left: 24px; top: 24px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 18px; }
+        .step h4 { color: #202124; margin-bottom: 12px; }
+        .faq-item { margin: 16px 0; border: 1px solid #e8eaed; border-radius: 8px; overflow: hidden; }
+        .faq-question { background: #f8f9fa; padding: 16px 20px; cursor: pointer; display: flex; justify-content: space-between; font-weight: 500; color: #202124; }
+        .faq-question:hover { background: #e8eaed; }
+        .faq-answer { padding: 16px 20px; display: none; color: #5f6368; }
+        .faq-item.active .faq-answer { display: block; }
+        .related { margin-top: 60px; padding: 32px; background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%); border-radius: 12px; }
+        .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+        .related-card { background: white; padding: 16px; border-radius: 8px; text-decoration: none; color: #202124; border: 1px solid #e8eaed; transition: box-shadow 0.2s; }
+        .related-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        h2 { color: #202124; font-size: 1.8em; margin: 40px 0 20px; padding-bottom: 12px; border-bottom: 2px solid #e8eaed; }
     </style>
 </head>
 <body>
-    <nav class="nav"><a href="../index.html">← Назад к списку кейсов</a></nav>
-    
-    <article>
-        <img src="${c.image.localPath}" alt="${c.image.alt}" class="hero-image">
-        <h1>${c.title}</h1>
-        <p class="lead">${c.desc}</p>
+    <div class="container">
+        <div class="breadcrumbs">
+            <a href="../index.html">Главная</a>
+            <span>›</span>
+            <a href="../index.html#${frontendCategories[c.cat]}">${c.categoryName}</a>
+            <span>›</span>
+            <span>${c.title}</span>
+        </div>
         
-        <div class="meta">
-            <span class="tag">Категория: ${c.categoryName}</span>
+        <div class="hero">
+            <h1>${c.title}</h1>
+            <p style="font-size: 1.1em; opacity: 0.95; margin-top: 12px;">${c.desc}</p>
+            <div class="hero-meta">
+                <div class="meta-item"><span>⏱️</span><span>2-5 минут</span></div>
+                <div class="meta-item"><span>📊</span><span>Средняя сложность</span></div>
+                <div class="meta-item"><span>🤖</span><span>Gemini 3 Pro</span></div>
+            </div>
+            <a href="https://antigravity.google" class="cta-button">🚀 Попробовать в Antigravity</a>
         </div>
+        
+        <div class="content">
+            <div class="toc">
+                <h3>📋 Содержание</h3>
+                <ul>
+                    <li><a href="#prompt">📝 Готовый промпт</a></li>
+                    <li><a href="#guide">📖 Пошаговая инструкция</a></li>
+                    <li><a href="#faq">❓ FAQ</a></li>
+                </ul>
+            </div>
+            
+            <h2 id="prompt">📝 Готовый промпт для копирования</h2>
+            <p>Скопируйте этот промпт и вставьте в Antigravity:</p>
+            <div class="prompt-box">
+                <button class="copy-btn" onclick="copyPrompt(this)">📋 Копировать</button>
+                <pre>Помоги мне с задачей: ${c.title}
 
-        <hr>
+${c.desc}
 
-        <h2>Как это работает в Antigravity</h2>
-        <div class="howto">
-            ${c.howto.steps.map((s, i) => `<div class="step"><strong>Шаг ${i + 1}:</strong> ${s}</div>`).join('')}
-        </div>
-
-        <h2>Часто задаваемые вопросы (FAQ)</h2>
-        <div class="faq">
+Требования:
+- Используй лучшие практики
+- Добавь комментарии к коду
+- Создай тесты
+- Оптимизируй производительность</pre>
+            </div>
+            
+            <h2 id="guide">📖 Пошаговая инструкция</h2>
+            <div class="steps">
+                ${c.howto.steps.map(s => `<div class="step"><h4>${s.split('.')[0]}</h4><p>${s}</p></div>`).join('')}
+            </div>
+            
+            <h2 id="faq">❓ Часто задаваемые вопросы</h2>
             ${c.faq.map(f => `
                 <div class="faq-item">
-                    <h3>${f.q}</h3>
-                    <p>${f.a}</p>
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        ${f.q}
+                        <span>▼</span>
+                    </div>
+                    <div class="faq-answer">${f.a}</div>
                 </div>
             `).join('')}
+            
+            <div class="related">
+                <h3>Смотрите также</h3>
+                <div class="related-grid">
+                    ${related.map(r => `
+                        <a href="../${r.cat}/${r.id}.html" class="related-card">
+                            <strong>${r.title}</strong>
+                            <p style="font-size: 14px; color: #5f6368; margin-top: 8px;">${r.desc.substring(0, 80)}...</p>
+                        </a>
+                    `).join('')}
+                </div>
+            </div>
         </div>
-
-        <div class="related">
-            <h3>Смотрите также:</h3>
-            <ul>${relatedHtml}</ul>
-        </div>
-    </article>
+    </div>
+    
+    <script>
+        function copyPrompt(btn) {
+            const promptText = btn.parentElement.querySelector('pre').textContent;
+            navigator.clipboard.writeText(promptText).then(() => {
+                btn.textContent = '✅ Скопировано!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = '📋 Копировать';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+        
+        function toggleFAQ(element) {
+            const faqItem = element.parentElement;
+            faqItem.classList.toggle('active');
+            const arrow = element.querySelector('span');
+            arrow.textContent = faqItem.classList.contains('active') ? '▲' : '▼';
+        }
+    </script>
 </body>
-</html>
-        `;
+</html>`;
 
         const catDir = path.join(OUT_DIR, c.cat);
         if (!fs.existsSync(catDir)) fs.mkdirSync(catDir);
@@ -152,123 +226,47 @@ function generateHtml() {
     });
 }
 
-// --- WORDPRESS XML GENERATOR ---
+// WordPress XML (keep existing)
 function generateWpXml() {
     console.log('Generating WordPress XML...');
-
     const items = cases.map((c, index) => {
         const pubDate = new Date().toUTCString();
-
-        // Related links for WP
         const related = cases.filter(r => r.cat === c.cat && r.id !== c.id).slice(0, 5);
         const relatedWp = related.map(r => `<li><a href="${config.siteUrl}/${r.cat}/${r.id}">${r.title}</a></li>`).join('');
 
         const content = `
-<!-- wp:image {"align":"center","sizeSlug":"large"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="${c.image.url}" alt="${c.image.alt}"/></figure>
-<!-- /wp:image -->
-
-<!-- wp:list -->
-<ul>
-<li><a href="#howto">Инструкция</a></li>
-<li><a href="#faq">FAQ</a></li>
-</ul>
-<!-- /wp:list -->
-
-<!-- wp:paragraph -->
 <p>${c.desc}</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"id":"howto"} -->
 <h2 id="howto">Как реализовать: ${c.howto.name}</h2>
-<!-- /wp:heading -->
-
-<!-- wp:list {"ordered":true} -->
-<ol>
-${c.howto.steps.map(s => `<li>${s}</li>`).join('\n')}
-</ol>
-<!-- /wp:list -->
-
-<!-- wp:heading {"id":"faq"} -->
+<ol>${c.howto.steps.map(s => `<li>${s}</li>`).join('')}</ol>
 <h2 id="faq">FAQ</h2>
-<!-- /wp:heading -->
-
-<!-- wp:group -->
-${c.faq.map(f => `
-<h3>${f.q}</h3>
-<p>${f.a}</p>
-`).join('\n')}
-<!-- /wp:group -->
-
-<!-- wp:separator -->
-<hr class="wp-block-separator"/>
-<!-- /wp:separator -->
-
-<!-- wp:heading -->
+${c.faq.map(f => `<h3>${f.q}</h3><p>${f.a}</p>`).join('')}
 <h3>Похожие кейсы</h3>
-<!-- /wp:heading -->
-<!-- wp:list -->
-<ul>${relatedWp}</ul>
-<!-- /wp:list -->
-
-<p><em>Сгенерировано Google Antigravity Documentation Generator</em></p>
-        `;
+<ul>${relatedWp}</ul>`;
 
         return `
     <item>
         <title>${c.title}</title>
         <link>${config.siteUrl}/${c.cat}/${c.id}</link>
         <pubDate>${pubDate}</pubDate>
-        <dc:creator>admin</dc:creator>
-        <guid isPermaLink="false">${config.siteUrl}/?p=${index + 1000}</guid>
-        <description></description>
         <content:encoded><![CDATA[${content}]]></content:encoded>
-        <excerpt:encoded><![CDATA[${c.desc}]]></excerpt:encoded>
-        <wp:post_id>${index + 1000}</wp:post_id>
-        <wp:post_date>${new Date().toISOString().replace('T', ' ').split('.')[0]}</wp:post_date>
-        <wp:post_date_gmt>${new Date().toISOString().replace('T', ' ').split('.')[0]}</wp:post_date_gmt>
-        <wp:comment_status>open</wp:comment_status>
-        <wp:ping_status>open</wp:ping_status>
         <wp:post_name>${c.id}</wp:post_name>
         <wp:status>publish</wp:status>
-        <wp:post_parent>0</wp:post_parent>
-        <wp:menu_order>0</wp:menu_order>
         <wp:post_type>post</wp:post_type>
-        <wp:post_password></wp:post_password>
-        <wp:is_sticky>0</wp:is_sticky>
-        <category domain="category" nicename="${c.cat}"><![CDATA[${c.categoryName}]]></category>
-        ${c.seo.keywords.split(', ').map(k => `<category domain="post_tag" nicename="${k.replace(/\s+/g, '-').toLowerCase()}"><![CDATA[${k}]]></category>`).join('\n')}
-    </item>
-        `;
+    </item>`;
     }).join('\n');
 
     const xml = `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"
-    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
-    xmlns:content="http://purl.org/rss/1.0/modules/content/"
-    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:wp="http://wordpress.org/export/1.2/"
->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wp="http://wordpress.org/export/1.2/">
 <channel>
     <title>${config.siteTitle}</title>
     <link>${config.siteUrl}</link>
-    <description>${config.description}</description>
-    <pubDate>${new Date().toUTCString()}</pubDate>
-    <language>${config.locale}</language>
-    <wp:wxr_version>1.2</wp:wxr_version>
-    <wp:base_site_url>${config.siteUrl}</wp:base_site_url>
-    <wp:base_blog_url>${config.siteUrl}</wp:base_blog_url>
-
     ${items}
 </channel>
-</rss>
-    `;
+</rss>`;
 
     fs.writeFileSync(WP_FILE, xml);
 }
 
-// Run
-generateHtml();
+generateImprovedHtml();
 generateWpXml();
 console.log('Build complete! Check /dist folder.');
