@@ -82,10 +82,37 @@ function generateImprovedHtml() {
             }))
         })}
     </script>
+    <script type="application/ld+json">
+    ${JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Главная",
+                    "item": config.siteUrl
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": c.categoryName,
+                    "item": `${config.siteUrl}/#${frontendCategories[c.cat]}`
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": c.title
+                }
+            ]
+        })}
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; color: #202124; background: #f8f9fa; }
-        .container { max-width: 1000px; margin: 0 auto; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .page-wrapper { display: flex; max-width: 1400px; margin: 0 auto; background: white; }
+        .sidebar { width: 280px; background: #f8f9fa; border-right: 1px solid #e8eaed; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+        .main-content { flex: 1; min-width: 0; }
         .breadcrumbs { padding: 16px 40px; background: #f8f9fa; font-size: 14px; border-bottom: 1px solid #e8eaed; }
         .breadcrumbs a { color: #1a73e8; text-decoration: none; }
         .breadcrumbs span { margin: 0 8px; color: #5f6368; }
@@ -96,11 +123,12 @@ function generateImprovedHtml() {
         .cta-button { display: inline-block; background: #34a853; color: white; padding: 14px 32px; border-radius: 24px; text-decoration: none; font-weight: 600; margin-top: 24px; transition: transform 0.2s; }
         .cta-button:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(52,168,83,0.4); }
         .content { padding: 40px; }
-        .toc { background: #f8f9fa; padding: 24px; border-radius: 8px; margin-bottom: 40px; border-left: 4px solid #1a73e8; }
-        .toc h3 { color: #202124; margin-bottom: 16px; }
+        .toc { padding: 24px; }
+        .toc h3 { color: #202124; margin-bottom: 20px; font-size: 1em; font-weight: 600; }
         .toc ul { list-style: none; }
-        .toc li { margin: 12px 0; }
-        .toc a { color: #1a73e8; text-decoration: none; }
+        .toc li { margin: 0; }
+        .toc a { display: block; color: #5f6368; text-decoration: none; padding: 10px 16px; border-radius: 4px; font-size: 14px; transition: all 0.2s; }
+        .toc a:hover, .toc a.active { background: #e8f0fe; color: #1a73e8; }
         .prompt-box { background: #263238; color: #aed581; padding: 24px; border-radius: 8px; margin: 24px 0; position: relative; font-family: 'Courier New', monospace; font-size: 14px; }
         .copy-btn { position: absolute; top: 12px; right: 12px; background: #34a853; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 12px; }
         .copy-btn:hover { background: #2d8e47; }
@@ -122,35 +150,41 @@ function generateImprovedHtml() {
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="breadcrumbs">
-            <a href="../index.html">Главная</a>
-            <span>›</span>
-            <a href="../index.html#${frontendCategories[c.cat]}">${c.categoryName}</a>
-            <span>›</span>
-            <span>${c.title}</span>
-        </div>
-        
-        <div class="hero">
-            <h1>${c.title}</h1>
-            <p style="font-size: 1.1em; opacity: 0.95; margin-top: 12px;">${c.desc}</p>
-            <div class="hero-meta">
-                <div class="meta-item"><span>⏱️</span><span>2-5 минут</span></div>
-                <div class="meta-item"><span>📊</span><span>Средняя сложность</span></div>
-                <div class="meta-item"><span>🤖</span><span>Gemini 3 Pro</span></div>
-            </div>
-            <a href="https://antigravity.google" class="cta-button">🚀 Попробовать в Antigravity</a>
-        </div>
-        
-        <div class="content">
+    <div class="page-wrapper">
+        <aside class="sidebar">
             <div class="toc">
                 <h3>📋 Содержание</h3>
                 <ul>
                     <li><a href="#prompt">📝 Готовый промпт</a></li>
-                    <li><a href="#guide">📖 Пошаговая инструкция</a></li>
-                    <li><a href="#faq">❓ FAQ</a></li>
+                    <li><a href="#guide">📖 Инструкция</a></li>
+                    <li><a href="#faq">❓ FAQ (${c.faq.length})</a></li>
+                    <li><a href="#related">🔗 Похожие кейсы</a></li>
                 </ul>
             </div>
+        </aside>
+        
+        <div class="main-content">
+            <div class="breadcrumbs">
+                <a href="../index.html">Главная</a>
+                <span>›</span>
+                <a href="../index.html#${frontendCategories[c.cat]}">${c.categoryName}</a>
+                <span>›</span>
+                <span>${c.title}</span>
+            </div>
+            
+            <div class="hero">
+                <h1>${c.title}</h1>
+                <p style="font-size: 1.1em; opacity: 0.95; margin-top: 12px;">${c.desc}</p>
+                <div class="hero-meta">
+                    <div class="meta-item"><span>⏱️</span><span>2-5 минут</span></div>
+                    <div class="meta-item"><span>📊</span><span>Средняя сложность</span></div>
+                    <div class="meta-item"><span>🤖</span><span>Gemini 3 Pro</span></div>
+                </div>
+                <a href="https://antigravity.google" class="cta-button">🚀 Попробовать в Antigravity</a>
+            </div>
+            
+            <div class="content">
+                <div class="toc">
             
             <h2 id="prompt">📝 Готовый промпт для копирования</h2>
             <p>Скопируйте этот промпт и вставьте в Antigravity:</p>
@@ -183,7 +217,7 @@ ${c.desc}
                 </div>
             `).join('')}
             
-            <div class="related">
+            <div class="related" id="related">
                 <h3>Смотрите также</h3>
                 <div class="related-grid">
                     ${related.map(r => `
@@ -193,6 +227,7 @@ ${c.desc}
                         </a>
                     `).join('')}
                 </div>
+            </div>
             </div>
         </div>
     </div>
